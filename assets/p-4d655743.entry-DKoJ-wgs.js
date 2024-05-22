@@ -1,1 +1,0 @@
-import{N as i}from"./atomic-breadbox.new.stories-D03zBEda.js";import"./iframe-DTo5wNcQ.js";import"../sb-preview/runtime.js";const a=class{constructor(t){i(this,t),this.period="past",this.amount=1,this.period="past",this.unit=void 0,this.amount=1,this.label=void 0}};export{a as atomic_timeframe};

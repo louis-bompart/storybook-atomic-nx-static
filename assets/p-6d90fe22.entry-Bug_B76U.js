@@ -1,1 +1,0 @@
-import{N as s,O as t}from"./atomic-breadbox.new.stories-D03zBEda.js";import"./iframe-DTo5wNcQ.js";import"../sb-preview/runtime.js";const a=class{constructor(e){s(this,e),this.endInclusive=!1,this.label=void 0,this.start=void 0,this.end=void 0,this.endInclusive=!1}get host(){return t(this)}};export{a as atomic_numeric_range};
