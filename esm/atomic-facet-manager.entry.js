@@ -1,10 +1,10 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { S as Schema, N as NumberValue } from './bueno.esm-9a075e67.js';
 import { Z as Zk } from './headless.esm-88bad35d.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { g as getFacetsInChildren, s as sortFacetVisibility, a as getAutomaticFacetGenerator, c as collapseFacetsAfter } from './facet-common-0693d706.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -69,7 +69,7 @@ const AtomicFacetManager = class {
         this.bindings.i18n.off('languageChanged', this.sortFacets);
     }
     render() {
-        return h("slot", { key: 'f161d247456b228c51511788ba95f2d841258a43' });
+        return h("slot", { key: '819e77edd04efd80dcd32fc46525388d9ca71045' });
     }
     get host() { return getElement(this); }
 };

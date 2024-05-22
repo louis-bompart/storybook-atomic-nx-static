@@ -5,8 +5,8 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const bueno_esm = require('./bueno.esm-344292d0.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const select = require('./select-9ee6a869.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
@@ -72,8 +72,8 @@ const AtomicSortDropdown = class {
         const { hasError, hasResults, firstSearchExecuted } = this.searchStatusState;
         const { bindings: { i18n }, id, } = this;
         return [
-            index.h(select.SortGuard, { key: 'd5c9cb47becaf629d3efedc29ef58e870a25946d', firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: hasResults }, index.h(select.SortContainer, { key: '12ce9d86f1d869a63633f7ca89d2a41b2ba8065a' }, index.h(select.SortLabel, { key: '340621d440d179ae91264bbff3158b032816fde6', i18n: i18n, id: id }), index.h(select.SortSelect, { key: '64e2e3c9d9aaec73bde05511113dcfaca68494e4', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.options.map(({ label, criteria, expression }) => (index.h(select.SortOption, { i18n: i18n, label: label, selected: this.sort.isSortedBy(criteria), value: expression })))))),
-            index.h("slot", { key: 'a5952f018aeb57376baef65405e9cce46344a01b' }),
+            index.h(select.SortGuard, { key: 'ed5a6f40568263029529b515c23cf961e24fd3b3', firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: hasResults }, index.h(select.SortContainer, { key: '92da6fb672d8998fd64af0bd50812b525b8e5e01' }, index.h(select.SortLabel, { key: 'b106c338bb041fdf3231f8fd03abca76d9233776', i18n: i18n, id: id }), index.h(select.SortSelect, { key: 'ea50cac6e40dfbf58d36c2c7f0d4f99e509c52b7', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.options.map(({ label, criteria, expression }) => (index.h(select.SortOption, { i18n: i18n, label: label, selected: this.sort.isSortedBy(criteria), value: expression })))))),
+            index.h("slot", { key: 'b07a64d2164fa45f65eafee704eab30fa26dc005' }),
         ];
     }
     get host() { return index.getElement(this); }

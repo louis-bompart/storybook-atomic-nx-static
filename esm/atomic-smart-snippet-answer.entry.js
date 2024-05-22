@@ -1,5 +1,5 @@
 import { r as registerInstance, d as createEvent, h, H as Host, g as getElement } from './index-c045ad7c.js';
-import { m as sanitizeStyle, n as purify } from './utils-bc6a079b.js';
+import { m as sanitizeStyle, n as purify } from './utils-af246396.js';
 import { b as bindAnalyticsToLink } from './item-link-e997e301.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './xss-utils-3bfd8d0c.js';
@@ -89,7 +89,7 @@ const AtomicSmartSnippetAnswer = class {
             }), ref: (element) => element && this.bindAnalyticsToLinks(element), part: "answer", class: "margin" })));
     }
     render() {
-        return (h(Host, { key: '9823f18ed5fb92de82194e6dd5256ae5eb261c84' }, this.renderStyle(), this.renderContent()));
+        return (h(Host, { key: '10c4e5165fdd0480414625884d6beb3a7b565531' }, this.renderStyle(), this.renderContent()));
     }
     get host() { return getElement(this); }
 };

@@ -1,12 +1,12 @@
 import { r as registerInstance, h, F as Fragment, g as getElement } from './index-c045ad7c.js';
 import { r as rO, I as jk, a as Fk, K as KO, Z as Zk } from './headless.esm-88bad35d.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { l as sortByDocumentPosition } from './utils-bc6a079b.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { l as sortByDocumentPosition } from './utils-af246396.js';
 import { f as findSection } from './sections-ae00b53a.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { t as triageFacetsByParents, s as sortFacetVisibility, c as collapseFacetsAfter } from './facet-common-0693d706.js';
-import { i as isRefineModalFacet } from './store-bf24650b.js';
-import { R as RefineModalCommon } from './refine-modal-common-f9526610.js';
+import { i as isRefineModalFacet } from './store-fb040773.js';
+import { R as RefineModalCommon } from './refine-modal-common-f237b212.js';
 import { p as popoverClass } from './popover-type-4db2bb7d.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
@@ -155,7 +155,7 @@ const AtomicRefineModal = class {
         return (h("aside", { part: "content", slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderSort(), this.renderFilters()));
     }
     render() {
-        return (h(RefineModalCommon, { key: '7bdddcbaf9dd7acdf7e1d17345db9563886cb2ec', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
+        return (h(RefineModalCommon, { key: 'fec6d54ec4b0506677ccc054d1736814a24a7e62', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
     }
     componentDidLoad() {
         this.host.style.display = '';

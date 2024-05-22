@@ -4,14 +4,14 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const interfaceCommon = require('./interface-common-0728e71b.js');
-const propsUtils = require('./props-utils-d9a5cdae.js');
-const analyticsConfig = require('./analytics-config-093e3b05.js');
-const store = require('./store-8f6b5c17.js');
+const interfaceCommon = require('./interface-common-38ac723a.js');
+const propsUtils = require('./props-utils-e054c946.js');
+const analyticsConfig = require('./analytics-config-73be318e.js');
+const store = require('./store-3e7a313a.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./headless.esm-1a66963a.js');
-require('./dayjs.min-7a187b98.js');
-require('./utils-93ea935e.js');
+require('./dayjs.min-f5fda39e.js');
+require('./utils-b609c39e.js');
 require('./bueno.esm-344292d0.js');
 
 function getAnalyticsConfig(searchEngineConfig, enabled) {
@@ -259,7 +259,7 @@ const AtomicInsightInterface = class {
         this.initialized = true;
     }
     render() {
-        return (this.engine && (index.h("host", { key: 'c08a40d8cabe2cc6daf8fb58c54498f3c7d08984' }, index.h("slot", { key: '861c8094e0c8c5fd0b67d49b0771edb70646e2ad', name: "full-search" }), index.h("slot", { key: '3deb2cba39a5d6be5a0974d00a2dd056891ac947' }))));
+        return (this.engine && (index.h("host", { key: '10a0bbbff93fd5150c6909577f965083611d8bc8' }, index.h("slot", { key: 'bb6d26f97933db26fa8f7d7f82f6bbed39d2f7bf', name: "full-search" }), index.h("slot", { key: '234c5c29ec01811fb41ce58c903927b352420be1' }))));
     }
     get host() { return index.getElement(this); }
     static get watchers() { return {

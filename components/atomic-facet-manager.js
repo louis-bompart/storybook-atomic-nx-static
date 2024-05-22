@@ -68,7 +68,7 @@ const AtomicFacetManager$1 = /*@__PURE__*/ proxyCustomElement(class AtomicFacetM
         this.bindings.i18n.off('languageChanged', this.sortFacets);
     }
     render() {
-        return h("slot", { key: 'f161d247456b228c51511788ba95f2d841258a43' });
+        return h("slot", { key: '819e77edd04efd80dcd32fc46525388d9ca71045' });
     }
     get host() { return this; }
 }, [4, "atomic-facet-manager", {

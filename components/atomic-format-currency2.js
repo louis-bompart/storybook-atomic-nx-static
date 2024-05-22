@@ -26,7 +26,7 @@ const AtomicFormatCurrency = /*@__PURE__*/ proxyCustomElement(class AtomicFormat
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '1c0133dafb59dae6c21d26d83df28dd36f11a150', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: 'eaa8f36e17d6c352522a3720e21d48e3cab8e9db', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

@@ -1,6 +1,6 @@
 import { r as registerInstance, f as forceUpdate, h, H as Host, g as getElement } from './index-c045ad7c.js';
-import { w as parseAssetURL, n as purify } from './utils-bc6a079b.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { w as parseAssetURL, n as purify } from './utils-af246396.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './event-utils-8de63ec3.js';
 

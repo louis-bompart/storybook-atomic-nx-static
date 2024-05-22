@@ -3,9 +3,9 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -24,7 +24,7 @@ const AtomicIPXTabs = class {
         this.error = undefined;
     }
     render() {
-        return (index.h("tab-bar", { key: 'd88ac185c99c249b618ef2fc3896e4b7463bb0a3' }, index.h("slot", { key: 'b123a76ef8ea47b8a85e9774fd2379f72c7b87cf' })));
+        return (index.h("tab-bar", { key: '83d9713eeee47db572c500caaa2f5074057dd48c' }, index.h("slot", { key: '68d35c695335f00dbaee54afbee43bf74c0f2294' })));
     }
 };
 __decorate([

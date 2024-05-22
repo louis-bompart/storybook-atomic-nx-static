@@ -83,7 +83,7 @@ const TabPopover = /*@__PURE__*/ proxyCustomElement(class TabPopover extends HTM
     }
     render() {
         var _a;
-        return (h(Host, { key: '47ee690f172e5106214913380842248f49cfbff3', class: this.show ? '' : 'visibility-hidden', "aria-hidden": !this.show }, h("atomic-focus-trap", { key: 'f0b4eede12c15cdd6a99fa36f1d63981c8945163', source: this.buttonRef, container: this.popupRef, active: this.isOpen, shouldHideSelf: false, scope: (_a = this.bindings) === null || _a === void 0 ? void 0 : _a.interfaceElement }, this.renderPopover()), this.isOpen && this.renderBackdrop()));
+        return (h(Host, { key: 'ccc9cf0f930b7c9a9f334315ae32f03e3f88a350', class: this.show ? '' : 'visibility-hidden', "aria-hidden": !this.show }, h("atomic-focus-trap", { key: 'fe7e99eb5650346b58aab9c09b09e10ff08ce181', source: this.buttonRef, container: this.popupRef, active: this.isOpen, shouldHideSelf: false, scope: (_a = this.bindings) === null || _a === void 0 ? void 0 : _a.interfaceElement }, this.renderPopover()), this.isOpen && this.renderBackdrop()));
     }
     get host() { return this; }
     static get style() { return TabPopoverStyle0; }

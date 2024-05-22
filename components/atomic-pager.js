@@ -64,10 +64,10 @@ const AtomicPager$1 = /*@__PURE__*/ proxyCustomElement(class AtomicPager extends
         });
     }
     render() {
-        return (h(PagerGuard, { key: '3af0226822faab1eb2ad43227ea9267cc926d3ce', ...this.searchStatusState, isAppLoaded: this.bindings.store.isAppLoaded() }, h(PagerNavigation, { key: '9bd99b645ed9201b4710f8976d00ba536711ce18', label: this.bindings.i18n.t('pagination') }, h(PagerPreviousButton, { key: '4499842a1aa5f318018e308652c31ae95fdc165d', icon: this.previousButtonIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
+        return (h(PagerGuard, { key: '0ac9491d55d2562640f4cedb017bf4541c2a850f', ...this.searchStatusState, isAppLoaded: this.bindings.store.isAppLoaded() }, h(PagerNavigation, { key: '28c8dbdfab1398f8cdeb8660baaf9858b31d2398', label: this.bindings.i18n.t('pagination') }, h(PagerPreviousButton, { key: 'a1064a99750299a7cffdb40048d26d8411b364c3', icon: this.previousButtonIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
                 this.pager.previousPage();
                 this.focusOnFirstResultAndScrollToTop();
-            } }), h(PagerPageButtons, { key: 'a8b8031d758a11b66bb074a49b5533865bbf87d7' }, this.pagerState.currentPages.map((pageNumber) => {
+            } }), h(PagerPageButtons, { key: 'c773444d7143bc85b11d41959374571eb34cb00a' }, this.pagerState.currentPages.map((pageNumber) => {
             return (h(PagerPageButton, { isSelected: this.pager.isCurrentPage(pageNumber), ariaLabel: this.bindings.i18n.t('page-number', { pageNumber }), onChecked: () => {
                     this.pager.selectPage(pageNumber);
                     this.focusOnFirstResultAndScrollToTop();
@@ -77,7 +77,7 @@ const AtomicPager$1 = /*@__PURE__*/ proxyCustomElement(class AtomicPager extends
                         this.focusTarget.setTarget(el);
                     }
                 }, text: pageNumber.toLocaleString(this.bindings.i18n.language) }));
-        })), h(PagerNextButton, { key: 'f2c26e25bd04ad459c3cb87a479cf71e2ed5b7af', icon: this.nextButtonIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
+        })), h(PagerNextButton, { key: '980002d05eaa6206ca11f2bf96242e90047c81d1', icon: this.nextButtonIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
                 this.pager.nextPage();
                 this.focusOnFirstResultAndScrollToTop();
             } }))));

@@ -1,6 +1,6 @@
 import { r as registerInstance, g as getElement } from './index-c045ad7c.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { f as findSection, s as sectionSelector } from './sections-ae00b53a.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';

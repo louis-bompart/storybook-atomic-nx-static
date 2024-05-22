@@ -158,7 +158,7 @@ const AtomicRefineModal = /*@__PURE__*/ proxyCustomElement(class AtomicRefineMod
         return (h("aside", { part: "content", slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderSort(), this.renderFilters()));
     }
     render() {
-        return (h(RefineModalCommon, { key: '7bdddcbaf9dd7acdf7e1d17345db9563886cb2ec', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
+        return (h(RefineModalCommon, { key: 'fec6d54ec4b0506677ccc054d1736814a24a7e62', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
     }
     componentDidLoad() {
         this.host.style.display = '';

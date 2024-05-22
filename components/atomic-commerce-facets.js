@@ -59,7 +59,7 @@ const AtomicCommerceFacets$1 = /*@__PURE__*/ proxyCustomElement(class AtomicComm
             : true;
     }
     render() {
-        return (h(Host, { key: 'f61b88f55d64118c4832ba04cc4212f3f159c6f8' }, this.facetGenerator.facets.map((facet, index) => {
+        return (h(Host, { key: '8d6fdc0fe005be5320d4db8effddc58b713af272' }, this.facetGenerator.facets.map((facet, index) => {
             if (facet.state.values.length === 0) {
                 return;
             }

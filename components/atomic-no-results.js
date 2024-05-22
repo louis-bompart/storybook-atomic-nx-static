@@ -47,7 +47,7 @@ const AtomicNoResults$1 = /*@__PURE__*/ proxyCustomElement(class AtomicNoResults
         return (h(Button, { style: "primary", part: "cancel-button", text: this.bindings.i18n.t('cancel-last-action'), onClick: () => this.history.backOnNoResults(), class: "font-bold px-2.5 py-3 my-3" }));
     }
     render() {
-        return (h(NoResultsCommon, { key: 'a7b8f9f924e8458672de17c1020ba76a2be555f0', bindings: this.bindings, querySummaryState: this.querySummaryState, searchStatusState: this.searchStatusState, setAriaLive: (msg) => (this.ariaMessage = msg) }, this.enableCancelLastAction && this.renderCancel()));
+        return (h(NoResultsCommon, { key: '7abdeb5f3816fd3a0fe63b2826b42ea1f7da887b', bindings: this.bindings, querySummaryState: this.querySummaryState, searchStatusState: this.searchStatusState, setAriaLive: (msg) => (this.ariaMessage = msg) }, this.enableCancelLastAction && this.renderCancel()));
     }
     static get style() { return AtomicNoResultsStyle0; }
 }, [1, "atomic-no-results", {

@@ -5,15 +5,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const bueno_esm = require('./bueno.esm-344292d0.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
 const deviceUtils = require('./device-utils-da0ee5bd.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const localStorageUtils = require('./local-storage-utils-f2621dfd.js');
-const replaceBreakpoint = require('./replace-breakpoint-7f1e4575.js');
-const utils = require('./utils-93ea935e.js');
-const searchSuggestion = require('./search-suggestion-576c07bb.js');
-const textAreaSubmitButton = require('./text-area-submit-button-e0edafe1.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
+const replaceBreakpoint = require('./replace-breakpoint-2f99fafc.js');
+const utils = require('./utils-b609c39e.js');
+const searchSuggestion = require('./search-suggestion-f8428c48.js');
+const textAreaSubmitButton = require('./text-area-submit-button-f5f19f1b.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
@@ -382,12 +382,12 @@ const AtomicCommerceSearchBox = class {
         const searchLabel = this.getSearchInputLabel(this.minimumQueryLength);
         const Submit = textAreaSubmitButton.TextAreaSubmitButton;
         const isDisabled = this.isSearchDisabledForEndUser(this.searchBoxState.value);
-        return (index.h(index.Host, { key: '14097c07e9aaeee0593cda910922a30af8d8db28' }, this.renderAbsolutePositionSpacer(), [
-            index.h(searchSuggestion.SearchBoxWrapper, { key: '0e65e80f158f27931ec25f0fc3248390b469f88c', disabled: isDisabled, textArea: true }, index.h("atomic-focus-detector", { key: 'c682182530cfa3d773f831bfc1f7177a640965c4', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), index.h(Submit, { key: '9788f3c98d244fed5e33fd96b4265cf3b16c6eaf', bindings: this.bindings, disabled: isDisabled, onClick: () => {
+        return (index.h(index.Host, { key: '06a75e21d24cefaf344436ee2d041ac1797632ee' }, this.renderAbsolutePositionSpacer(), [
+            index.h(searchSuggestion.SearchBoxWrapper, { key: '83d28453c38a7294eedae40b815041ea289725e7', disabled: isDisabled, textArea: true }, index.h("atomic-focus-detector", { key: '7f493c85352af6b75ce601ebd65b27121126027d', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), index.h(Submit, { key: '5c947f9c7e2da078a9b7d60642d22695645d489c', bindings: this.bindings, disabled: isDisabled, onClick: () => {
                     this.searchBox.submit();
                     this.suggestionManager.clearSuggestions();
                 }, title: searchLabel }), this.renderSuggestions())),
-            !this.suggestionManager.suggestions.length && (index.h("slot", { key: '35d7b92714621796e628be41196e831af4a15115' }, index.h("atomic-commerce-search-box-recent-queries", { key: 'b0847410677bee3a3bb1a7257a731b20c4e70e6e' }), index.h("atomic-commerce-search-box-query-suggestions", { key: '25fb28dd07bcc976591f011d2eea6f36942b5a23' }))),
+            !this.suggestionManager.suggestions.length && (index.h("slot", { key: '36a75e582dc246cb22371b4ef47a90f0631e2d52' }, index.h("atomic-commerce-search-box-recent-queries", { key: '4a7ed086e7beeac723a3ce517dfcecf4c92a1768' }), index.h("atomic-commerce-search-box-query-suggestions", { key: '7213ce38bf556c857b57491d5c695f01c1d5f627' }))),
         ]));
     }
     get host() { return index.getElement(this); }

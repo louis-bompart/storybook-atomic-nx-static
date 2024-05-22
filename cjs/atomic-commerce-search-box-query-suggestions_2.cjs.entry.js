@@ -6,10 +6,10 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
 const search = require('./search-a4774f02.js');
 const querySuggestions = require('./query-suggestions-de42b077.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
 const clock = require('./clock-f03ff827.js');
 const localStorageUtils = require('./local-storage-utils-f2621dfd.js');
-const utils = require('./utils-93ea935e.js');
+const utils = require('./utils-b609c39e.js');
 const recentQueries = require('./recent-queries-627208b4.js');
 require('./string-utils-bdf08f8c.js');
 require('./event-utils-9bfcf3c5.js');
@@ -70,7 +70,7 @@ const AtomicCommerceSearchBoxQuerySuggestions = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '08d9dfa760b2907bc60d2bf175e1c44a2c5a8778', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '2d1032c727dfd928bf0c4b182d03c05e3b53cb92', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }
@@ -174,7 +174,7 @@ const AtomicCommerceSearchBoxRecentQueries = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '019afb85dbf8f488c6773e3c7c32eb870fc4be86', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '57d2db4a5b30a56207d447c406197e6380845694', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

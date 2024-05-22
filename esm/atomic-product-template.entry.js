@@ -1,8 +1,8 @@
 import { h, r as registerInstance, g as getElement } from './index-c045ad7c.js';
-import { M as MapProp } from './props-utils-36d102c2.js';
+import { M as MapProp } from './props-utils-26db487c.js';
 import { V as VA } from './headless.esm-3423086c.js';
-import { e as aggregate, f as isVisualNode, b as isElementNode } from './utils-bc6a079b.js';
-import { i as isResultSectionNode } from './sections-724d765d.js';
+import { e as aggregate, f as isVisualNode, b as isElementNode } from './utils-af246396.js';
+import { i as isResultSectionNode } from './sections-a848dae3.js';
 import { t as tableElementTagName } from './table-element-utils-2fd4b45f.js';
 import './bueno.esm-9a075e67.js';
 import './_commonjsHelpers-c9e3b764.js';

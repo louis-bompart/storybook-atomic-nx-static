@@ -6,11 +6,11 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
 const arrowLeftRounded = require('./arrow-left-rounded-87aa2218.js');
 const arrowRightRounded = require('./arrow-right-rounded-709d83f1.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const pagerNavigation = require('./pager-navigation-47e4c5a7.js');
-const pagerGuard = require('./pager-guard-6bb046d1.js');
+const pagerGuard = require('./pager-guard-62dc2c63.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
@@ -108,10 +108,10 @@ const AtomicCommercePager = class {
     }
     render() {
         const pagesRange = getCurrentPagesRange(this.pagerState.page, this.numberOfPages, this.pagerState.totalPages - 1);
-        return (index.h(pagerGuard.PagerGuard, { key: '279913b6b7fed8a4ac9deb3f3d36abfb2a911675', hasError: false, hasResults: this.pagerState.totalPages > 1, isAppLoaded: this.bindings.store.isAppLoaded() }, index.h(pagerNavigation.PagerNavigation, { key: 'affa9d371bc2e4cccd85be1e5dc6b3cce76421c8', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: '20d7e3a77b105bd46e710220a460664df3be0cec', icon: this.previousButtonIcon, disabled: this.pagerState.page === 0, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
+        return (index.h(pagerGuard.PagerGuard, { key: 'c4ef1b0bd65aca8fe74ff13882fbc39c13e76835', hasError: false, hasResults: this.pagerState.totalPages > 1, isAppLoaded: this.bindings.store.isAppLoaded() }, index.h(pagerNavigation.PagerNavigation, { key: 'ae2b954f413f891412298654e54ce36fe3c37f61', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: 'aafeb8e619935390a9234a66369855de7eaf992c', icon: this.previousButtonIcon, disabled: this.pagerState.page === 0, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
                 this.pager.previousPage();
                 this.focusOnFirstResultAndScrollToTop();
-            } }), index.h(pagerNavigation.PagerPageButtons, { key: '65a686052d2f6c25b789538905d1357e7817218c' }, pagesRange.map((pageNumber) => {
+            } }), index.h(pagerNavigation.PagerPageButtons, { key: '6b4490aeae81bcbee52a8fb2a5f208ea4616d182' }, pagesRange.map((pageNumber) => {
             return (index.h(pagerNavigation.PagerPageButton, { isSelected: pageNumber === this.pagerState.page, ariaLabel: this.bindings.i18n.t('page-number', {
                     pageNumber,
                 }), onChecked: () => {
@@ -123,7 +123,7 @@ const AtomicCommercePager = class {
                         this.focusTarget.setTarget(el);
                     }
                 }, text: (pageNumber + 1).toLocaleString(this.bindings.i18n.language) }));
-        })), index.h(pagerNavigation.PagerNextButton, { key: '98ede4593c74f7cf9b55daa6d02a2fec2dd3c895', icon: this.nextButtonIcon, disabled: this.pagerState.page >= this.pagerState.totalPages, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
+        })), index.h(pagerNavigation.PagerNextButton, { key: '4418ea6fa0d053b1bf855346e0d7d9f92bb70576', icon: this.nextButtonIcon, disabled: this.pagerState.page >= this.pagerState.totalPages, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
                 this.pager.nextPage();
                 this.focusOnFirstResultAndScrollToTop();
             } }))));

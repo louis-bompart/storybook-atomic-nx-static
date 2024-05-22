@@ -4,14 +4,14 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-30732e14.js');
-const interfaceCommon = require('./interface-common-0728e71b.js');
-const propsUtils = require('./props-utils-d9a5cdae.js');
-const analyticsConfig = require('./analytics-config-093e3b05.js');
-const store = require('./store-8f6b5c17.js');
+const interfaceCommon = require('./interface-common-38ac723a.js');
+const propsUtils = require('./props-utils-e054c946.js');
+const analyticsConfig = require('./analytics-config-73be318e.js');
+const store = require('./store-3e7a313a.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./headless.esm-1a66963a.js');
-require('./dayjs.min-7a187b98.js');
-require('./utils-93ea935e.js');
+require('./dayjs.min-f5fda39e.js');
+require('./utils-b609c39e.js');
 require('./bueno.esm-344292d0.js');
 
 function getAnalyticsConfig(recsConfig, enabled) {
@@ -246,7 +246,7 @@ const AtomicRecsInterface = class {
         }
     }
     render() {
-        return this.engine && index.h("slot", { key: 'e57f3ca4a12dff5519647992175d19c5e3e31eb6' });
+        return this.engine && index.h("slot", { key: 'f3683a76d3555fabc6e28f3eb1ee6c2091faa2f2' });
     }
     get host() { return index.getElement(this); }
     static get watchers() { return {

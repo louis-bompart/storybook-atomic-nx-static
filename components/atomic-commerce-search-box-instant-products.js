@@ -153,7 +153,7 @@ const AtomicCommerceSearchBoxInstantProducts$1 = /*@__PURE__*/ proxyCustomElemen
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '66f6eed88fc35b2b84f2109912bb265b93722ca1', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '9e22a6a606f4bb867d64b8ba6f170210c638c9b8', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

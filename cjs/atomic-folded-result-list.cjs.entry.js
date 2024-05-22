@@ -4,20 +4,20 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const placeholders = require('./placeholders-3fdbabb6.js');
 const itemTemplateProvider = require('./item-template-provider-41ec4218.js');
 const itemDisplayGuard = require('./item-display-guard-c58ceb86.js');
-const itemListCommon = require('./item-list-common-c317734c.js');
+const itemListCommon = require('./item-list-common-562cd0ba.js');
 const itemListGuard = require('./item-list-guard-946de6a1.js');
-const displayOptions = require('./display-options-efe6b72f.js');
+const displayOptions = require('./display-options-809f1483.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./template-provider-d0180cd1.js');
-require('./replace-breakpoint-7f1e4575.js');
-require('./sections-923396f6.js');
+require('./replace-breakpoint-2f99fafc.js');
+require('./sections-9d82449e.js');
 
 const atomicFoldedResultListCss = ".list-wrapper.placeholder .result-component{display:none}.list-wrapper.placeholder table.list-root{display:none}.list-wrapper:not(.placeholder) atomic-result-placeholder{display:none}.list-wrapper:not(.placeholder) atomic-result-table-placeholder{display:none}.list-root.loading{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes pulse{0%,100%{opacity:0.6}50%{opacity:0.2}}[part~='divider']:not(:last-child){border-bottom:1px solid var(--atomic-neutral);padding-bottom:1rem}[part~='divider']{margin-bottom:1rem}.list-root.display-list{display:flex;flex-direction:column}.list-root.display-list .result-component,.list-root.display-list atomic-result-placeholder{width:auto}@media (min-width: 1024px){.list-root.display-list.density-comfortable [part~='outline']::before{margin:2rem 0}.list-root.display-list.density-normal [part~='outline']::before{margin:1.5rem 0}@media not all and (min-width: 1024px){.list-root.display-list.density-normal [part~='outline']::before{margin:1.75rem 0}}.list-root.display-list.density-compact [part~='outline']::before{margin:1rem 0}@media not all and (min-width: 1024px){.list-root.display-list.density-compact [part~='outline']::before{margin:1.5rem 0}}.list-root.display-list [part~='outline']::before{display:block;content:' ';height:1px;background-color:var(--atomic-neutral)}.list-root.display-list [part~='outline']:first-of-type::before{display:none}.list-root.display-list atomic-result-placeholder::before{background-color:transparent}}@media not all and (min-width: 1024px){.list-root.display-list.image-large.density-comfortable [part~='outline']::before{margin:2rem 0}.list-root.display-list.image-large.density-normal [part~='outline']::before{margin:1.5rem 0}@media not all and (min-width: 1024px){.list-root.display-list.image-large.density-normal [part~='outline']::before{margin:1.75rem 0}}.list-root.display-list.image-large.density-compact [part~='outline']::before{margin:1rem 0}@media not all and (min-width: 1024px){.list-root.display-list.image-large.density-compact [part~='outline']::before{margin:1.5rem 0}}.list-root.display-list.image-large [part~='outline']::before{display:block;content:' ';height:1px;background-color:var(--atomic-neutral)}.list-root.display-list.image-large [part~='outline']:first-of-type::before{display:none}.list-root.display-list.image-large atomic-result-placeholder::before{background-color:transparent}.list-root.display-list.image-large{display:grid;justify-content:space-evenly;grid-template-columns:minmax(auto, 35rem)}.list-root.display-list.image-small,.list-root.display-list.image-icon,.list-root.display-list.image-none{grid-row-gap:1rem}.list-root.display-list.image-small [part~='outline'],.list-root.display-list.image-icon [part~='outline'],.list-root.display-list.image-none [part~='outline']{border:1px solid var(--atomic-neutral);padding:1rem;border-radius:1rem}.list-root.display-list.image-small atomic-result-placeholder,.list-root.display-list.image-icon atomic-result-placeholder,.list-root.display-list.image-none atomic-result-placeholder{border-color:transparent}}";
 const AtomicFoldedResultListStyle0 = atomicFoldedResultListCss;
@@ -141,7 +141,7 @@ const AtomicFoldedResultList = class {
     render() {
         this.itemListCommon.updateBreakpoints();
         const listClasses = this.computeListDisplayClasses();
-        return (index.h(itemListGuard.ItemListGuard, { key: '377ae17d94b9df97a9b26e7e36b940a95083361d', hasError: this.foldedResultListState.hasError, firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults, hasTemplate: this.resultTemplateRegistered, templateHasError: this.itemTemplateProvider.hasError }, index.h(itemDisplayGuard.DisplayWrapper, { key: 'f126cab07b64c6e6a81be6c253034ead28cbdac8', listClasses: listClasses, display: this.display }, index.h(placeholders.ResultsPlaceholdersGuard, { key: '70d951456239b3045ee6073223249bd2ecc94cc7', density: this.density, imageSize: this.imageSize, display: this.display, displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.resultsPerPageState.numberOfResults }), index.h(itemDisplayGuard.ItemDisplayGuard, { key: '2db66d58267c68626b29eddcb368ba91516aab28', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults }, this.foldedResultListState.results.map((collection, i) => {
+        return (index.h(itemListGuard.ItemListGuard, { key: 'cba7d099d0f6b8b74f78c56fd8976f632bf4a8ca', hasError: this.foldedResultListState.hasError, firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults, hasTemplate: this.resultTemplateRegistered, templateHasError: this.itemTemplateProvider.hasError }, index.h(itemDisplayGuard.DisplayWrapper, { key: '1a8d06d0279469dd3076b3db8e4c9b8a98fb67d7', listClasses: listClasses, display: this.display }, index.h(placeholders.ResultsPlaceholdersGuard, { key: 'dd6e8ff13a01004661acb2695ff7ad82ff8f9a95', density: this.density, imageSize: this.imageSize, display: this.display, displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.resultsPerPageState.numberOfResults }), index.h(itemDisplayGuard.ItemDisplayGuard, { key: '04a1a41afdcf28c43eb8594aa7c2aa6f632e996e', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults }, this.foldedResultListState.results.map((collection, i) => {
             const propsForAtomicResult = this.getPropsForAtomicResult(collection);
             return (index.h("atomic-result", { ...propsForAtomicResult, part: "outline", ref: (element) => element && this.itemListCommon.setNewResultRef(element, i) }));
         })))));

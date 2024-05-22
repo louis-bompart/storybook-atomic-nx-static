@@ -33,7 +33,7 @@ const AtomicInsightNoResults$1 = /*@__PURE__*/ proxyCustomElement(class AtomicIn
         this.querySummary = nP(this.bindings.engine);
     }
     render() {
-        return (h("div", { key: '3772f14c1fadcde54408c460563fce77a95b429c', class: "p-3 text-center" }, h(NoResultsCommon, { key: '991e2d122a58bc88361be07a7c4b2734b1f45bff', bindings: this.bindings, searchStatusState: this.searchStatusState, querySummaryState: this.querySummaryState, setAriaLive: (msg) => (this.ariaMessage = msg) })));
+        return (h("div", { key: '0ac37ea8343d55ef25b5071968202484eb3f9028', class: "p-3 text-center" }, h(NoResultsCommon, { key: '87bdf84257a75eb826aace915f00b5d662bd0a5b', bindings: this.bindings, searchStatusState: this.searchStatusState, querySummaryState: this.querySummaryState, setAriaLive: (msg) => (this.ariaMessage = msg) })));
     }
     static get style() { return AtomicInsightNoResultsStyle0; }
 }, [1, "atomic-insight-no-results", {

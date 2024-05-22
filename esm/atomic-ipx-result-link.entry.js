@@ -2,15 +2,15 @@ import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { c as isUndefined } from './bueno.esm-9a075e67.js';
 import { F as Fye } from './headless.esm-88bad35d.js';
 import { b as buildCustomEvent } from './event-utils-8de63ec3.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { a as buildStringTemplateFromResult } from './result-utils-a899cfd0.js';
 import { g as getDefaultSlotFromHost, a as getAttributesFromLinkSlot } from './attributes-slot-fda20590.js';
 import { L as LinkWithItemAnalytics } from './item-link-e997e301.js';
-import { R as ResultContext, I as InteractiveResultContext } from './result-template-decorators-13a4dae6.js';
-import './utils-bc6a079b.js';
+import { R as ResultContext, I as InteractiveResultContext } from './result-template-decorators-4dbe86bc.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './xss-utils-3bfd8d0c.js';
-import './item-decorators-79369ad9.js';
+import './item-decorators-d183824b.js';
 
 const atomicIpxResultLinkCss = "atomic-ipx-result-link a{color:var(--atomic-on-background)}atomic-ipx-result-link a:hover,atomic-ipx-result-link.js-focus-visible a.focus-visible,.js-focus-visible atomic-ipx-result-link a.focus-visible{text-decoration:underline;color:var(--atomic-primary)}atomic-ipx-result-link a:hover,atomic-ipx-result-link a:focus-visible{text-decoration:underline;color:var(--atomic-primary)}atomic-ipx-result-link a:focus{outline:none}atomic-ipx-result-link a:visited{color:var(--atomic-visited)}";
 const AtomicIpxResultLinkStyle0 = atomicIpxResultLinkCss;
@@ -53,7 +53,7 @@ const AtomicIPXResultLink = class {
         const href = isUndefined(this.hrefTemplate)
             ? this.result.clickUri
             : buildStringTemplateFromResult(this.hrefTemplate, this.result, this.bindings);
-        return (h(LinkWithItemAnalytics, { key: '51d43e03ff26bd847c7ad63666e6b4e0d8e434fe', href: href, onSelect: () => this.onSelect(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
+        return (h(LinkWithItemAnalytics, { key: '8e41114cb308cc3a8642897bc925c5faacf63c8f', href: href, onSelect: () => this.onSelect(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
     }
     get host() { return getElement(this); }
 };

@@ -5,15 +5,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const bueno_esm = require('./bueno.esm-344292d0.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const propsUtils = require('./props-utils-d9a5cdae.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const propsUtils = require('./props-utils-e054c946.js');
+const utils = require('./utils-b609c39e.js');
 const dependsOn = require('./depends-on-653d4ed1.js');
 const facetCommon = require('./facet-common-c74c5abf.js');
-const facetPlaceholder = require('./facet-placeholder-b6292ec6.js');
-const facetGuard = require('./facet-guard-e7592a70.js');
-const valuesContainer = require('./values-container-9e1f9d5c.js');
+const facetPlaceholder = require('./facet-placeholder-0c78ea0e.js');
+const facetGuard = require('./facet-guard-d99f208f.js');
+const valuesContainer = require('./values-container-699d9bd7.js');
 const formatCommon = require('./format-common-8d8e4aef.js');
 const popoverType = require('./popover-type-555a9d8d.js');
 require('./event-utils-9bfcf3c5.js');
@@ -25,8 +25,8 @@ require('./button-90bb3acf.js');
 require('./ripple-dcc2ce08.js');
 require('./button-style-dc30784f.js');
 require('./heading-db5d34c0.js');
-require('./facet-value-checkbox-a15e4807.js');
-require('./checkbox-c1f481a7.js');
+require('./facet-value-checkbox-0dd6b980.js');
+require('./checkbox-d6f828cf.js');
 require('./clear-695fd2c7.js');
 require('./facet-value-label-highlight-e1da136a.js');
 require('./string-utils-bdf08f8c.js');
@@ -256,7 +256,7 @@ const AtomicInsightNumericFacet = class {
     }
     render() {
         const { searchStatusState: { firstSearchExecuted, hasError }, bindings: { i18n }, label, numberOfSelectedValues, isCollapsed, headingLevel, focusTarget, withInput, filter, } = this;
-        return (index.h(facetGuard.FacetGuard, { key: '91a43a4440220e20a436efd9f461cdcec6810cf7', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, index.h(facetPlaceholder.FacetHeader, { i18n: i18n, label: label, onClearFilters: () => {
+        return (index.h(facetGuard.FacetGuard, { key: '51dab34b356466854f02cf7711c0143ec74e999b', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, index.h(facetPlaceholder.FacetHeader, { i18n: i18n, label: label, onClearFilters: () => {
                 var _a, _b, _c;
                 focusTarget.focusAfterSearch();
                 if ((_a = this.filterState) === null || _a === void 0 ? void 0 : _a.range) {

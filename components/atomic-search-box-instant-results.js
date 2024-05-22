@@ -157,7 +157,7 @@ const AtomicSearchBoxInstantResults$1 = /*@__PURE__*/ proxyCustomElement(class A
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '130c4d2a0963dc0a637b77ca63b2ca78feed7059', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '2aa28f637287f77b33d238a9b2b1ff248e06f37d', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

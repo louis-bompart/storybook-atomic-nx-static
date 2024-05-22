@@ -28,7 +28,7 @@ const AtomicFocusDetector = /*@__PURE__*/ proxyCustomElement(class AtomicFocusDe
         containsFocus ? this.focusEnter.emit() : this.focusExit.emit();
     }
     render() {
-        return h(Host, { key: 'ac90a651c69561667a1583662fb2b007f96a2084', style: { display: 'contents' } });
+        return h(Host, { key: '2233c1ff6ced6fbaed93a5dd71b4bf0ee6b186b5', style: { display: 'contents' } });
     }
     get host() { return this; }
 }, [0, "atomic-focus-detector", undefined, [[4, "focusin", "onFocusIn"], [4, "focusout", "onFocusOut"]]]);

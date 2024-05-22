@@ -1,9 +1,9 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { h as hP } from './headless.esm-8f8571fe.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { j as elementHasAncestorTag } from './utils-bc6a079b.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { j as elementHasAncestorTag } from './utils-af246396.js';
 import { I as ItemTemplateProvider, e as extractUnfoldedItem } from './item-template-provider-e4f808aa.js';
-import { C as ChildTemplatesContext, I as ItemContext, b as ItemDisplayConfigContext } from './item-decorators-79369ad9.js';
+import { C as ChildTemplatesContext, I as ItemContext, b as ItemDisplayConfigContext } from './item-decorators-d183824b.js';
 import { F as FoldedItemListContext, a as FoldedItemListStateContext } from './item-list-decorators-5e543f83.js';
 import { R as ResultChildrenCommon } from './result-children-common-aa81ddc9.js';
 import './event-utils-8de63ec3.js';

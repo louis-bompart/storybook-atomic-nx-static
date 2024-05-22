@@ -3,8 +3,8 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const utils = require('./utils-93ea935e.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const utils = require('./utils-b609c39e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./event-utils-9bfcf3c5.js');
 
@@ -35,7 +35,7 @@ const AtomicHtml = class {
         }
     }
     render() {
-        return (index.h("span", { key: 'fda5ec49ed8c449d437bcd731f18447d0fa56277', innerHTML: this.sanitize ? utils.DOMPurify.sanitize(this.value) : this.value }));
+        return (index.h("span", { key: '258220a290bfd439aeac4b754f3115460fc13862', innerHTML: this.sanitize ? utils.DOMPurify.sanitize(this.value) : this.value }));
     }
 };
 __decorate([

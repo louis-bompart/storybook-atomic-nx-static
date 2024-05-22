@@ -32,7 +32,7 @@ const AtomicHtml = /*@__PURE__*/ proxyCustomElement(class AtomicHtml extends HTM
         }
     }
     render() {
-        return (h("span", { key: 'fda5ec49ed8c449d437bcd731f18447d0fa56277', innerHTML: this.sanitize ? DOMPurify.sanitize(this.value) : this.value }));
+        return (h("span", { key: '258220a290bfd439aeac4b754f3115460fc13862', innerHTML: this.sanitize ? DOMPurify.sanitize(this.value) : this.value }));
     }
 }, [1, "atomic-html", {
         "value": [1],

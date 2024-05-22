@@ -1,12 +1,12 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { d as dU, v as vP } from './headless.esm-8f8571fe.js';
-import { a as SuggestionManager, B as ButtonSearchSuggestion, d as SearchSlimIcon, S as SearchTextArea, c as SearchBoxWrapper } from './search-suggestion-8b51beec.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
+import { a as SuggestionManager, B as ButtonSearchSuggestion, d as SearchSlimIcon, S as SearchTextArea, c as SearchBoxWrapper } from './search-suggestion-b428bcd1.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
 import { i as isMacOS, h as hasKeyboard } from './device-utils-265d1d2c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { g as getPartialSearchBoxSuggestionElement, Q as QuerySuggestionText, a as QuerySuggestionIcon, b as QuerySuggestionContainer } from './query-suggestions-c462ddd7.js';
-import { e as elementHasQuery } from './suggestions-common-1d4c0dac.js';
+import { e as elementHasQuery } from './suggestions-common-f37e2d0d.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
 import './event-utils-8de63ec3.js';
@@ -206,7 +206,7 @@ const AtomicInsightSearchBox = class {
             : this.bindings.i18n.t('query-suggestions-unavailable');
     }
     render() {
-        return (h(SearchBoxWrapper, { key: 'd21af905b839fd40cd663215d3e3899ae1a1a4cc', disabled: this.disableSearch, textArea: true }, h("atomic-focus-detector", { key: '68010c798fbacc9fd17d4438401681dc9e9b0424', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, h("atomic-icon", { key: '69c21d10c5dfc32e79458eb37814e529b145c0af', part: "submit-icon", icon: SearchSlimIcon, class: "w-4 h-4 my-auto mr-0 ml-4" }), h(SearchTextArea, { key: 'fa53766d6305d3fd754ea800dbd808ec133fa42b', textAreaRef: this.textAreaRef, loading: this.searchBoxState.isLoading, ref: (el) => el && (this.textAreaRef = el), bindings: this.bindings, value: this.searchBoxState.value, ariaLabel: this.getSearchInputLabel(), placeholder: this.bindings.i18n.t('search-ellipsis'), onFocus: () => this.onFocus(), onKeyDown: (e) => this.onKeyDown(e), onClear: () => {
+        return (h(SearchBoxWrapper, { key: 'b5b5577c4eecd892df646b911a9b8a9e88aea3be', disabled: this.disableSearch, textArea: true }, h("atomic-focus-detector", { key: 'e9b9f291f11135a404a8fd370f3537851b74a99d', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, h("atomic-icon", { key: '8d6ab2b41e3fb8932771506e4680602d78c7837a', part: "submit-icon", icon: SearchSlimIcon, class: "w-4 h-4 my-auto mr-0 ml-4" }), h(SearchTextArea, { key: '4fac98a7cfafaec0236960a956ca3e5a7f9d781e', textAreaRef: this.textAreaRef, loading: this.searchBoxState.isLoading, ref: (el) => el && (this.textAreaRef = el), bindings: this.bindings, value: this.searchBoxState.value, ariaLabel: this.getSearchInputLabel(), placeholder: this.bindings.i18n.t('search-ellipsis'), onFocus: () => this.onFocus(), onKeyDown: (e) => this.onKeyDown(e), onClear: () => {
                 this.searchBox.clear();
                 this.triggerTextAreaChange('');
             }, onInput: (e) => this.onInput(e.target.value) }), this.renderSuggestions())));

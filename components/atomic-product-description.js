@@ -95,7 +95,7 @@ const AtomicProductDescription$1 = /*@__PURE__*/ proxyCustomElement(class Atomic
         return (h(Button, { style: "text-primary", part: "label-button", class: `my-2 p-1 text-xs ${this.isExpanded ? 'hidden' : ''}`, title: this.bindings.i18n.t('show-more'), onClick: () => this.onToggleExpand() }, h("atomic-icon", { icon: PlusIcon, class: "w-2 ml-1 align-baseline" }), ' ', this.bindings.i18n.t('show-more')));
     }
     render() {
-        return (h("div", { key: 'f4844966684060b9d03e9ec53cf41d73627e63ca', class: "flex flex-col items-start" }, this.renderProductDescription(), this.isTruncated &&
+        return (h("div", { key: '4f96a8b5aa1aa62432fd0e998c9c8aa4ab527d49', class: "flex flex-col items-start" }, this.renderProductDescription(), this.isTruncated &&
             this.truncateAfter !== 'none' &&
             this.renderShowMoreButton()));
     }

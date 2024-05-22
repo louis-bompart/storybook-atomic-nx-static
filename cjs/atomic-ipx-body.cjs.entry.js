@@ -3,9 +3,9 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const replaceBreakpoint = require('./replace-breakpoint-7f1e4575.js');
-const utils = require('./utils-93ea935e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const replaceBreakpoint = require('./replace-breakpoint-2f99fafc.js');
+const utils = require('./utils-b609c39e.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
@@ -39,7 +39,7 @@ const AtomicIPXBody = class {
     render() {
         this.updateBreakpoints();
         const isEmbedded = this.isOpen === undefined;
-        return (index.h("article", { key: '19f2017cbbf37fa1e17b1aa4de6f935ef754230b', part: "container", class: `${isEmbedded ? '' : this.isOpen ? 'visible' : 'invisible'}`, onAnimationEnd: () => this.animationEnded.emit() }, index.h("style", { key: '2f3decf568b8518f2e5e724727a5b9d36df3040e' }, `
+        return (index.h("article", { key: '958941a2651e45ec560d117eb3ec87df83e1acce', part: "container", class: `${isEmbedded ? '' : this.isOpen ? 'visible' : 'invisible'}`, onAnimationEnd: () => this.animationEnded.emit() }, index.h("style", { key: '692d98cd012bd1e1513295febeffaacf77646b43' }, `
             /* Chrome, Edge & Safari */
             .scrollbar::-webkit-scrollbar {
               width: 0.8rem;
@@ -64,7 +64,7 @@ const AtomicIPXBody = class {
               scrollbar-color: var(--atomic-primary) var(--atomic-background);
               scrollbar-width: auto;
             }
-          `), index.h("header", { key: 'd4f8c2e3eb01b60d2d848ca4923a99799e9c6b32', part: "header-wrapper", class: "flex flex-col items-center" }, index.h("div", { key: '015b4d85d95f0a626e63ddeaee1f6935bf6f3c98', part: "header" }, index.h("slot", { key: 'ff8cc120bfe2c6951b9971422c34dd523836f5d6', name: "header" }))), index.h("hr", { key: '23e58cdcd3e6d62857543e615f739fcb9f60cfac', part: "header-ruler", class: "border-neutral" }), index.h("div", { key: '2108334e6c183bf6c02a26f6b2a646fc494e98c3', part: "body-wrapper", class: "overflow-auto grow flex flex-col w-full scrollbar" }, index.h("div", { key: 'ef9c074d2ff9f97a240a63f2f3eef8294f21b9a5', part: "body", class: "w-full" }, index.h("slot", { key: 'e6c5edd9d6a3119ab557f3868019a00b050e7770', name: "body" }))), this.displayFooterSlot && (index.h("footer", { key: '2d3d58fe5198ca933fa04154c4396fe06f289658', part: "footer-wrapper", class: "border-neutral border-t bg-background z-10 flex flex-col items-center w-full" }, index.h("div", { key: '679a573ec8738770e1b91e4134d74f9d7692a81b', part: "footer" }, index.h("slot", { key: '573d28683785ce06e5089649e254213215722e65', name: "footer" }))))));
+          `), index.h("header", { key: '527e246feceaeaa66a11a4d591f6e78776e9574a', part: "header-wrapper", class: "flex flex-col items-center" }, index.h("div", { key: '797d366e4fc40a6ceb2d199bd6add282bc550092', part: "header" }, index.h("slot", { key: '228a8a7b604591d5da1d3e965c7b3ea95bbe61e6', name: "header" }))), index.h("hr", { key: 'e919a67c70da3fb432330b889d6b8f15ae9537b4', part: "header-ruler", class: "border-neutral" }), index.h("div", { key: '8731c3cedea516f6d95e1774780d7314126a6a6b', part: "body-wrapper", class: "overflow-auto grow flex flex-col w-full scrollbar" }, index.h("div", { key: 'b0673473793dfecb60e1b39f802dc925ac89e591', part: "body", class: "w-full" }, index.h("slot", { key: '8642175286eec9e35206913a81b3144ea6729db5', name: "body" }))), this.displayFooterSlot && (index.h("footer", { key: 'ddd23bbd341fddbc64a7c973393e5446233a7f59', part: "footer-wrapper", class: "border-neutral border-t bg-background z-10 flex flex-col items-center w-full" }, index.h("div", { key: '181a3b02cf0754c7300482b0fa7f0d8032c1a1d3', part: "footer" }, index.h("slot", { key: 'ca0387f9baac2b99f0c59773241b4e13d4624a98', name: "footer" }))))));
     }
     get host() { return index.getElement(this); }
 };

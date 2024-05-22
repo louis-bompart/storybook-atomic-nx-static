@@ -579,7 +579,7 @@ const AtomicQuickviewModal = /*@__PURE__*/ proxyCustomElement(class AtomicQuickv
         });
     }
     render() {
-        return (h("atomic-modal", { key: '9fd4c61af38a0fa77f6805923467f179e758a1c2', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
+        return (h("atomic-modal", { key: 'dc672f39c3b07e8e2ab16ee30fa4ca197853b3eb', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
     }
     static get watchers() { return {
         "highlightKeywords": ["watchHighlightKeywords"]

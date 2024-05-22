@@ -1,17 +1,17 @@
 import { r as registerInstance, s as setNonce, h, g as getElement } from './index-c045ad7c.js';
 import { u as afe, A as Age, L as Li, v as jfe, B as vw, C as GO, K as KO, D as ZA } from './headless.esm-88bad35d.js';
-import { i as instance, C as CommonAtomicInterfaceHelper, m as mismatchedInterfaceAndEnginePropError } from './interface-common-87b0ee01.js';
+import { i as instance, C as CommonAtomicInterfaceHelper, m as mismatchedInterfaceAndEnginePropError } from './interface-common-ff17f213.js';
 import { S as StorageItems, a as SafeStorage } from './local-storage-utils-e06a332f.js';
-import { A as ArrayProp } from './props-utils-36d102c2.js';
-import { g as getNextAnalyticsConfig, d as augmentAnalyticsConfigWithAtomicVersion, c as augmentAnalyticsConfigWithDocument, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-c970f610.js';
-import { D as DEFAULT_MOBILE_BREAKPOINT } from './replace-breakpoint-f5af14e2.js';
-import { c as createAtomicCommonStore } from './store-bf24650b.js';
-import { m as makeDesktopQuery } from './search-layout-5ea8b10d.js';
+import { A as ArrayProp } from './props-utils-26db487c.js';
+import { g as getNextAnalyticsConfig, d as augmentAnalyticsConfigWithAtomicVersion, c as augmentAnalyticsConfigWithDocument, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-065b7c9c.js';
+import { D as DEFAULT_MOBILE_BREAKPOINT } from './replace-breakpoint-8bfab33b.js';
+import { c as createAtomicCommonStore } from './store-fb040773.js';
+import { m as makeDesktopQuery } from './search-layout-7e0cd352.js';
 import './_commonjsHelpers-c9e3b764.js';
-import './dayjs.min-092a7cc9.js';
-import './utils-bc6a079b.js';
+import './dayjs.min-a2b8725e.js';
+import './utils-af246396.js';
 import './bueno.esm-9a075e67.js';
-import './search-layout-40980b1f.js';
+import './search-layout-a5d30198.js';
 import './sections-ae00b53a.js';
 
 function getAnalyticsConfig(searchEngineConfig, enabled, store) {
@@ -476,8 +476,8 @@ const AtomicSearchInterface = class {
     }
     render() {
         return [
-            this.engine && this.enableRelevanceInspector && (h("atomic-relevance-inspector", { key: '56851c3fa89f41f4b37e31c59700e68b26b99092', open: this.relevanceInspectorIsOpen, bindings: this.bindings })),
-            h("slot", { key: 'c24381af5f467e7feda748eed4c4cd555d5505e1' }),
+            this.engine && this.enableRelevanceInspector && (h("atomic-relevance-inspector", { key: '6f466951e81572643d79f629ab90cef8c9ff748c', open: this.relevanceInspectorIsOpen, bindings: this.bindings })),
+            h("slot", { key: 'a6584a21b461249703a7f15fcc59ed140776d285' }),
         ];
     }
     static get assetsDirs() { return ["lang"]; }

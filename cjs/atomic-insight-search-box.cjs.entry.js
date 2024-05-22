@@ -4,13 +4,13 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const searchSuggestion = require('./search-suggestion-576c07bb.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
+const searchSuggestion = require('./search-suggestion-f8428c48.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
 const deviceUtils = require('./device-utils-da0ee5bd.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const querySuggestions = require('./query-suggestions-de42b077.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
 require('./button-90bb3acf.js');
 require('./ripple-dcc2ce08.js');
 require('./event-utils-9bfcf3c5.js');
@@ -210,7 +210,7 @@ const AtomicInsightSearchBox = class {
             : this.bindings.i18n.t('query-suggestions-unavailable');
     }
     render() {
-        return (index.h(searchSuggestion.SearchBoxWrapper, { key: 'd21af905b839fd40cd663215d3e3899ae1a1a4cc', disabled: this.disableSearch, textArea: true }, index.h("atomic-focus-detector", { key: '68010c798fbacc9fd17d4438401681dc9e9b0424', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, index.h("atomic-icon", { key: '69c21d10c5dfc32e79458eb37814e529b145c0af', part: "submit-icon", icon: searchSuggestion.SearchSlimIcon, class: "w-4 h-4 my-auto mr-0 ml-4" }), index.h(searchSuggestion.SearchTextArea, { key: 'fa53766d6305d3fd754ea800dbd808ec133fa42b', textAreaRef: this.textAreaRef, loading: this.searchBoxState.isLoading, ref: (el) => el && (this.textAreaRef = el), bindings: this.bindings, value: this.searchBoxState.value, ariaLabel: this.getSearchInputLabel(), placeholder: this.bindings.i18n.t('search-ellipsis'), onFocus: () => this.onFocus(), onKeyDown: (e) => this.onKeyDown(e), onClear: () => {
+        return (index.h(searchSuggestion.SearchBoxWrapper, { key: 'b5b5577c4eecd892df646b911a9b8a9e88aea3be', disabled: this.disableSearch, textArea: true }, index.h("atomic-focus-detector", { key: 'e9b9f291f11135a404a8fd370f3537851b74a99d', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, index.h("atomic-icon", { key: '8d6ab2b41e3fb8932771506e4680602d78c7837a', part: "submit-icon", icon: searchSuggestion.SearchSlimIcon, class: "w-4 h-4 my-auto mr-0 ml-4" }), index.h(searchSuggestion.SearchTextArea, { key: '4fac98a7cfafaec0236960a956ca3e5a7f9d781e', textAreaRef: this.textAreaRef, loading: this.searchBoxState.isLoading, ref: (el) => el && (this.textAreaRef = el), bindings: this.bindings, value: this.searchBoxState.value, ariaLabel: this.getSearchInputLabel(), placeholder: this.bindings.i18n.t('search-ellipsis'), onFocus: () => this.onFocus(), onKeyDown: (e) => this.onKeyDown(e), onClear: () => {
                 this.searchBox.clear();
                 this.triggerTextAreaChange('');
             }, onInput: (e) => this.onInput(e.target.value) }), this.renderSuggestions())));

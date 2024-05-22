@@ -10,7 +10,7 @@ const AtomicSortExpression = class {
         const dropdownComponent = 'atomic-sort-dropdown';
         if (!this.host.closest(dropdownComponent)) {
             const error = new Error(`The "${this.host.nodeName.toLowerCase()}" component has to be used inside an ${dropdownComponent} element.`);
-            return (h("atomic-component-error", { key: 'b5b1efef9975af7505fdda9aa6c4d72a714de779', element: this.host, error: error }));
+            return (h("atomic-component-error", { key: '705a2881fcd6dd03798a28cd6f5ad6b395e85330', element: this.host, error: error }));
         }
     }
     get host() { return getElement(this); }

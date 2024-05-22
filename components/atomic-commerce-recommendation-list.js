@@ -273,7 +273,7 @@ const AtomicCommerceRecommendationList$1 = /*@__PURE__*/ proxyCustomElement(clas
         }))));
     }
     render() {
-        return (h(Fragment, { key: 'a413a67d2f4bcdd326846fe33a459ffeb8e0ae38' }, this.renderHeading(), this.shouldRenderPagination ? (h(Carousel, { bindings: this.bindings, currentPage: this.currentPage, nextPage: () => this.nextPage(), previousPage: () => this.previousPage(), numberOfPages: this.numberOfPages }, this.renderRecommendationList())) : (this.renderRecommendationList())));
+        return (h(Fragment, { key: '1edf95fbd7f7e6717305f3b072ec8be6f17b89aa' }, this.renderHeading(), this.shouldRenderPagination ? (h(Carousel, { bindings: this.bindings, currentPage: this.currentPage, nextPage: () => this.nextPage(), previousPage: () => this.previousPage(), numberOfPages: this.numberOfPages }, this.renderRecommendationList())) : (this.renderRecommendationList())));
     }
     get host() { return this; }
     static get watchers() { return {

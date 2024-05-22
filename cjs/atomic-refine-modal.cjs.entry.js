@@ -4,13 +4,13 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const sections = require('./sections-4b4af2f8.js');
 const button = require('./button-90bb3acf.js');
 const facetCommon = require('./facet-common-c74c5abf.js');
-const store = require('./store-8f6b5c17.js');
-const refineModalCommon = require('./refine-modal-common-19489dba.js');
+const store = require('./store-3e7a313a.js');
+const refineModalCommon = require('./refine-modal-common-7e4b7ad1.js');
 const popoverType = require('./popover-type-555a9d8d.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
@@ -159,7 +159,7 @@ const AtomicRefineModal = class {
         return (index.h("aside", { part: "content", slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderSort(), this.renderFilters()));
     }
     render() {
-        return (index.h(refineModalCommon.RefineModalCommon, { key: '7bdddcbaf9dd7acdf7e1d17345db9563886cb2ec', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
+        return (index.h(refineModalCommon.RefineModalCommon, { key: 'fec6d54ec4b0506677ccc054d1736814a24a7e62', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), title: this.bindings.i18n.t('sort-and-filter'), querySummaryState: this.querySummaryState, openButton: this.openButton }, this.renderBody()));
     }
     componentDidLoad() {
         this.host.style.display = '';

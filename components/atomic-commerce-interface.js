@@ -302,7 +302,7 @@ const AtomicCommerceInterface$1 = /*@__PURE__*/ proxyCustomElement(class AtomicC
         return this.i18nClone.addResourceBundle(lng, ns, resources, deep, overwrite);
     }
     render() {
-        return [h("slot", { key: '719ff015ec7279aabebb8eb92c1f72de73e681b8' })];
+        return [h("slot", { key: '58e7cb395a91c3cad3e2eafeaa0632c563adc0dd' })];
     }
     static get assetsDirs() { return ["lang"]; }
     get host() { return this; }

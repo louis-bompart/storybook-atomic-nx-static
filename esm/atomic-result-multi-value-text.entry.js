@@ -1,12 +1,12 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { r as rO, o as ow } from './headless.esm-88bad35d.js';
 import { g as getFieldValueCaption } from './field-utils-f0146383.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { t as titleToKebab } from './utils-bc6a079b.js';
-import { R as ResultContext } from './result-template-decorators-13a4dae6.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { t as titleToKebab } from './utils-af246396.js';
+import { R as ResultContext } from './result-template-decorators-4dbe86bc.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
-import './item-decorators-79369ad9.js';
+import './item-decorators-d183824b.js';
 
 const atomicResultMultiValueTextCss = ":host>ul{display:flex;list-style:none;margin:0;padding:0}:host>ul li{display:inline-block}.separator::before{display:inline;content:',\\00a0'}";
 const AtomicResultMultiValueTextStyle0 = atomicResultMultiValueTextCss;

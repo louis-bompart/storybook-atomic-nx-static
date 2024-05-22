@@ -1,14 +1,14 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { c as isUndefined } from './bueno.esm-9a075e67.js';
 import { b as buildCustomEvent } from './event-utils-8de63ec3.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { g as getDefaultSlotFromHost, a as getAttributesFromLinkSlot } from './attributes-slot-fda20590.js';
 import { L as LinkWithItemAnalytics } from './item-link-e997e301.js';
-import { P as ProductContext, I as InteractiveProductContext } from './product-template-decorators-a99fefcf.js';
-import './utils-bc6a079b.js';
+import { P as ProductContext, I as InteractiveProductContext } from './product-template-decorators-1c948806.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './xss-utils-3bfd8d0c.js';
-import './item-decorators-79369ad9.js';
+import './item-decorators-d183824b.js';
 
 const atomicProductLinkCss = "atomic-result-link a{color:var(--atomic-on-background)}atomic-result-link a:hover,atomic-result-link.js-focus-visible a.focus-visible,.js-focus-visible atomic-result-link a.focus-visible{text-decoration:underline;color:var(--atomic-primary)}atomic-result-link a:hover,atomic-result-link a:focus-visible{text-decoration:underline;color:var(--atomic-primary)}atomic-result-link a:focus{outline:none}atomic-result-link a:visited{color:var(--atomic-visited)}";
 const AtomicProductLinkStyle0 = atomicProductLinkCss;
@@ -42,7 +42,7 @@ const AtomicProductLink = class {
         const href = isUndefined(this.hrefTemplate)
             ? this.product.clickUri
             : 'test';
-        return (h(LinkWithItemAnalytics, { key: '3289e0c09ed40187cb73ed617f1699c279735769', href: href, onSelect: () => this.interactiveProduct.select(), onBeginDelayedSelect: () => this.interactiveProduct.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveProduct.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-product-text", { field: "ec_name", default: "no-title" }))));
+        return (h(LinkWithItemAnalytics, { key: 'be39eca91f097077018583daf1ca7f0302e84010', href: href, onSelect: () => this.interactiveProduct.select(), onBeginDelayedSelect: () => this.interactiveProduct.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveProduct.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-product-text", { field: "ec_name", default: "no-title" }))));
     }
     get host() { return getElement(this); }
 };

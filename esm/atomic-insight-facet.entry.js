@@ -1,18 +1,18 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { D as Dw, I as IP, M as MP } from './headless.esm-8f8571fe.js';
-import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-0877196c.js';
+import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-95c56e98.js';
 import { a as getFieldCaptions } from './field-utils-f0146383.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { p as parseDependsOn } from './depends-on-180fcfb0.js';
-import { a as FacetContainer, F as FacetHeader, b as FacetPlaceholder } from './facet-placeholder-4514ff97.js';
-import { F as FacetGuard } from './facet-guard-efdb0537.js';
-import { F as FacetSearchInput, c as FacetShowMoreLess, b as FacetSearchMatches, a as announceFacetSearchResultsWithAriaLive } from './facet-show-more-less-46380518.js';
-import { F as FacetSearchInputGuard, a as FacetSearchValue, b as FacetValue } from './facet-search-value-39ad7b72.js';
+import { a as FacetContainer, F as FacetHeader, b as FacetPlaceholder } from './facet-placeholder-46604a4b.js';
+import { F as FacetGuard } from './facet-guard-95a5755b.js';
+import { F as FacetSearchInput, c as FacetShowMoreLess, b as FacetSearchMatches, a as announceFacetSearchResultsWithAriaLive } from './facet-show-more-less-e765f457.js';
+import { F as FacetSearchInputGuard, a as FacetSearchValue, b as FacetValue } from './facet-search-value-2d0b514d.js';
 import { a as shouldDisplaySearchResults } from './facet-value-label-highlight-0c70483d.js';
 import { F as FacetValuesGroup } from './facet-values-group-d2313a29.js';
 import { i as initializePopover } from './popover-type-4db2bb7d.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './arrow-bottom-rounded-043572da.js';
 import './arrow-top-rounded-cf1dd47d.js';
@@ -22,10 +22,10 @@ import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
 import './heading-686c01b3.js';
 import './search-64cc84a9.js';
-import './plus-86088e85.js';
+import './plus-103269cf.js';
 import './facet-value-box-bcb2ac12.js';
-import './facet-value-checkbox-7e6a54e2.js';
-import './checkbox-12877bf3.js';
+import './facet-value-checkbox-f072af9c.js';
+import './checkbox-e9153b9d.js';
 import './clear-cacdca9b.js';
 import './facet-value-link-dc9150b3.js';
 import './string-utils-5f5a23a8.js';
@@ -153,7 +153,7 @@ const AtomicInsightFacet = class {
         (_a = this.facetConditionsManager) === null || _a === void 0 ? void 0 : _a.stopWatching();
     }
     render() {
-        return (h(FacetGuard, { key: '00223e3bbc4da9c2b7bad71feca273f3d4136836', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.label, onClearFilters: () => {
+        return (h(FacetGuard, { key: 'f90315cf2cc4144dffebfb2f36a240a200d3a086', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.label, onClearFilters: () => {
                 this.focusTargets.header.focusAfterSearch();
                 this.facet.deselectAll();
             }, numberOfActiveValues: this.activeValues.length, isCollapsed: this.isCollapsed, headingLevel: this.headingLevel, onToggleCollapse: () => (this.isCollapsed = !this.isCollapsed), headerRef: (el) => this.focusTargets.header.setTarget(el) }), h(FacetSearchInputGuard, { canShowMoreValues: this.facetState.canShowMoreValues, numberOfDisplayedValues: this.facetState.values.length, withSearch: this.withSearch }, h(FacetSearchInput, { i18n: this.bindings.i18n, label: this.label, onChange: (value) => {

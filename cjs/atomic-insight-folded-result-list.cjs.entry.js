@@ -4,21 +4,21 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const placeholders = require('./placeholders-3fdbabb6.js');
 const itemTemplateProvider = require('./item-template-provider-41ec4218.js');
 const itemDisplayGuard = require('./item-display-guard-c58ceb86.js');
-const itemListCommon = require('./item-list-common-c317734c.js');
+const itemListCommon = require('./item-list-common-562cd0ba.js');
 const itemListGuard = require('./item-list-guard-946de6a1.js');
-const displayOptions = require('./display-options-efe6b72f.js');
+const displayOptions = require('./display-options-809f1483.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./headless.esm-1a66963a.js');
 require('./template-provider-d0180cd1.js');
-require('./replace-breakpoint-7f1e4575.js');
-require('./sections-923396f6.js');
+require('./replace-breakpoint-2f99fafc.js');
+require('./sections-9d82449e.js');
 
 const atomicInsightFoldedResultListCss = ".list-wrapper.placeholder .result-component{display:none}.list-wrapper.placeholder table.list-root{display:none}.list-wrapper:not(.placeholder) atomic-result-placeholder{display:none}.list-wrapper:not(.placeholder) atomic-result-table-placeholder{display:none}.list-root.loading{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes pulse{0%,100%{opacity:0.6}50%{opacity:0.2}}[part~='divider']:not(:last-child){border-bottom:1px solid var(--atomic-neutral);padding-bottom:1rem}[part~='divider']{margin-bottom:1rem}.list-root.display-list{display:flex;flex-direction:column}.list-root.display-list .result-component,.list-root.display-list atomic-result-placeholder{width:auto}.list-root.display-list.density-comfortable [part~='outline']::before{margin:2rem 0}.list-root.display-list.density-normal [part~='outline']::before{margin:1.5rem 0}@media not all and (min-width: 1024px){.list-root.display-list.density-normal [part~='outline']::before{margin:1.75rem 0}}.list-root.display-list.density-compact [part~='outline']::before{margin:1rem 0}@media not all and (min-width: 1024px){.list-root.display-list.density-compact [part~='outline']::before{margin:1.5rem 0}}.list-root.display-list [part~='outline']::before{display:block;content:' ';height:1px;background-color:var(--atomic-neutral)}.list-root.display-list [part~='outline']:first-of-type::before{display:none}.list-root.display-list atomic-result-placeholder::before{background-color:transparent}.list-root.display-list .result-component[part~='outline']::before{margin-top:0px;margin-bottom:0px;margin-left:1.5rem;margin-right:1.5rem}.list-root.placeholder{padding:0.5rem 1.5rem}";
 const AtomicInsightFoldedResultListStyle0 = atomicInsightFoldedResultListCss;
@@ -130,7 +130,7 @@ const AtomicInsightFoldedResultList = class {
     render() {
         this.itemListCommon.updateBreakpoints();
         const listClasses = this.computeListDisplayClasses();
-        return (index.h(itemListGuard.ItemListGuard, { key: 'e78b5f2d5c9b62b237bd9f91ed5cc351ef9e3e2b', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults, hasTemplate: this.resultTemplateRegistered, templateHasError: this.itemTemplateProvider.hasError, hasError: this.foldedResultListState.hasError }, index.h(itemDisplayGuard.DisplayWrapper, { key: '3ec7598838b40d72071b3e14e5eea6024c838554', listClasses: listClasses, display: this.display }, index.h(placeholders.ResultsPlaceholdersGuard, { key: '9100bafd2e7b885b968bbc1590b4e0e5967be83a', displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.resultsPerPageState.numberOfResults, display: this.display, density: this.density, imageSize: this.imageSize }), index.h(itemDisplayGuard.ItemDisplayGuard, { key: 'e9c86f06a63ad09701ef601296565cf098780f26', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults }, this.foldedResultListState.results.map((collection, i) => {
+        return (index.h(itemListGuard.ItemListGuard, { key: '5a5989a8f4bc5a54a296c2f31cefcf3a7c15240f', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults, hasTemplate: this.resultTemplateRegistered, templateHasError: this.itemTemplateProvider.hasError, hasError: this.foldedResultListState.hasError }, index.h(itemDisplayGuard.DisplayWrapper, { key: '71f81d254665841d8f4f2b830943b670cf0c0151', listClasses: listClasses, display: this.display }, index.h(placeholders.ResultsPlaceholdersGuard, { key: '5b0d44f92761bd8d4682eec9ec17bd910a152bf8', displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.resultsPerPageState.numberOfResults, display: this.display, density: this.density, imageSize: this.imageSize }), index.h(itemDisplayGuard.ItemDisplayGuard, { key: '905eeb0b6d7c95adb46af482a54f2df92a3ac00a', firstRequestExecuted: this.foldedResultListState.firstSearchExecuted, hasItems: this.foldedResultListState.hasResults }, this.foldedResultListState.results.map((collection, i) => {
             const atomicInsightResultProps = this.getPropsForAtomicInsightResult(collection);
             return (index.h("atomic-insight-result", { ...atomicInsightResultProps, part: "outline", ref: (element) => element && this.itemListCommon.setNewResultRef(element, i) }));
         })))));

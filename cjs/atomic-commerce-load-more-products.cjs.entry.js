@@ -4,10 +4,10 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const summary = require('./summary-7fab20d8.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
 require('./ripple-dcc2ce08.js');
@@ -52,7 +52,7 @@ const AtomicLoadMoreProducts = class {
     }
     render() {
         const { i18n } = this.bindings;
-        return (index.h(summary.LoadMoreGuard, { key: 'f4a25fb3c45747af533405f1bfa4ae99710aaa51', hasResults: this.paginationState.totalEntries > 0, isLoaded: this.bindings.store.isAppLoaded() }, index.h(summary.LoadMoreContainer, { key: '9c1d6755e72692f14c3ea8e3021519904deb4dd2' }, index.h(summary.LoadMoreSummary, { key: 'ea9a0be81d04e0c25ea40432119a12c4da103561', from: this.lastProduct, to: this.paginationState.totalEntries, i18n: i18n }), index.h(summary.LoadMoreProgressBar, { key: 'ae40eb9d351060f05475b9ea0ff8e27ee36a674d', from: this.lastProduct, to: this.paginationState.totalEntries }), index.h(summary.LoadMoreButton, { key: '81d98b0cd0ead062145e43753b477f5c06d8e961', i18n: i18n, moreAvailable: this.lastProduct < this.paginationState.totalEntries, onClick: () => this.onClick() }))));
+        return (index.h(summary.LoadMoreGuard, { key: '7ecb2ec934e7932deb0d56bf814f396489ab4a74', hasResults: this.paginationState.totalEntries > 0, isLoaded: this.bindings.store.isAppLoaded() }, index.h(summary.LoadMoreContainer, { key: 'e8b4cf9a6fbe34338dcffb2acdd73a4461870006' }, index.h(summary.LoadMoreSummary, { key: 'aef993592dfc69dcc3dc2beee148ec6079a8c648', from: this.lastProduct, to: this.paginationState.totalEntries, i18n: i18n }), index.h(summary.LoadMoreProgressBar, { key: '17305cb1e2245386c7afdb2b20cab08f58755cee', from: this.lastProduct, to: this.paginationState.totalEntries }), index.h(summary.LoadMoreButton, { key: 'a9570205fee4baa3cc8e7ce289d30e51050c65ae', i18n: i18n, moreAvailable: this.lastProduct < this.paginationState.totalEntries, onClick: () => this.onClick() }))));
     }
 };
 __decorate([

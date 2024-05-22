@@ -17,10 +17,10 @@ const AtomicRelevanceInspector = class {
         this.open = false;
     }
     render() {
-        return (h("atomic-modal", { key: '3d292af1b7a5f6620b66f265d66318378bb8f2a8', exportparts: "footer", isOpen: this.open, close: () => {
+        return (h("atomic-modal", { key: '675830be13d114044861b349f7fdae80e04f89d5', exportparts: "footer", isOpen: this.open, close: () => {
                 var _a;
                 (_a = this.closeRelevanceInspector) === null || _a === void 0 ? void 0 : _a.emit();
-            } }, h("p", { key: '52841a62e698f10ec941d784c2bb85a118fed9e8', slot: "header" }, "Open the relevance inspector"), h("p", { key: '467cfc92ae30da36944d16425d1554d73fb7fb61', slot: "body" }, "The Relevance Inspector will open in the Coveo Administration Console."), h("div", { key: 'ae7374dd2303129a9712b867cd3df46579774ccc', slot: "footer", class: "w-full flex justify-end items-center" }, h(Button, { key: 'd5dc53646c0a489d7756e2a2d99976da441728f9', style: "outline-primary", class: "p-2 mr-2", onClick: () => { var _a; return (_a = this.closeRelevanceInspector) === null || _a === void 0 ? void 0 : _a.emit(); } }, "Ignore"), h("a", { key: '4ed36430b365c3f501378bf615a401fc48ea96bf', class: "btn-primary p-2", target: "_blank", href: this.adminHref, onClick: () => { var _a; return (_a = this.closeRelevanceInspector) === null || _a === void 0 ? void 0 : _a.emit(); } }, "Open"))));
+            } }, h("p", { key: '0fadc8d39027783f2a3c44507863cdfa4fd6af8f', slot: "header" }, "Open the relevance inspector"), h("p", { key: '0c75576f7853de182f6f97aa43395121639962cf', slot: "body" }, "The Relevance Inspector will open in the Coveo Administration Console."), h("div", { key: '6298486de9b84930bf0b7a4956682f5d1f8b8cd2', slot: "footer", class: "w-full flex justify-end items-center" }, h(Button, { key: 'fdce149f6bd46e566ae1dae4fd13198a5fe920a3', style: "outline-primary", class: "p-2 mr-2", onClick: () => { var _a; return (_a = this.closeRelevanceInspector) === null || _a === void 0 ? void 0 : _a.emit(); } }, "Ignore"), h("a", { key: '61def21d0426633f72c87582b8b5d1c03bf7a0e0', class: "btn-primary p-2", target: "_blank", href: this.adminHref, onClick: () => { var _a; return (_a = this.closeRelevanceInspector) === null || _a === void 0 ? void 0 : _a.emit(); } }, "Open"))));
     }
     extractEnvironmentFromPlatformURL() {
         var _a, _b, _c, _d;

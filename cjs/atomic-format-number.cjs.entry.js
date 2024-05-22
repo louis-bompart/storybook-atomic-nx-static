@@ -35,7 +35,7 @@ const AtomicFormatNumber = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '52b7dc825f5f4beb7e6e018bc65b124a7d75783c', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '025eba47cafb014d6c2c7d0ab033558b48bf44fa', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

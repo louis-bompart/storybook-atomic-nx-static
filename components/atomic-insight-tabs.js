@@ -23,7 +23,7 @@ const AtomicInsightTabs$1 = /*@__PURE__*/ proxyCustomElement(class AtomicInsight
         this.error = undefined;
     }
     render() {
-        return (h("tab-bar", { key: '749d53affdd216538df215ef03fdc9915abf6ac3' }, h("slot", { key: '954728b66eca460586fbcec508fc0ca86230a62a' })));
+        return (h("tab-bar", { key: '19cff92f59d5bd1d242ae552f1fcf05c4c9643ca' }, h("slot", { key: '0b9d9a3d8b39be8e66877577d6c2987c6ad20923' })));
     }
 }, [4, "atomic-insight-tabs", {
         "error": [32]

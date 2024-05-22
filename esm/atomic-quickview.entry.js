@@ -1,16 +1,16 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { S as Schema, b as StringValue } from './bueno.esm-9a075e67.js';
 import { X as XO } from './headless.esm-88bad35d.js';
-import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { B as Button } from './button-a9fb1e13.js';
-import { R as ResultContext } from './result-template-decorators-13a4dae6.js';
+import { R as ResultContext } from './result-template-decorators-4dbe86bc.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
-import './item-decorators-79369ad9.js';
+import './item-decorators-d183824b.js';
 
 const QuickviewIcon = `<svg focusable="false" enable-background="new 0 0 20 12" viewBox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quickview"><title>Quickview</title><g fill="currentColor"><path d="m10 4.3c-1 0-1.7.8-1.7 1.7 0 1 .8 1.7 1.7 1.7 1 0 1.7-.8 1.7-1.7 0-1-.7-1.7-1.7-1.7m0 4.7c-1.6 0-3-1.4-3-3s1.4-3 3-3 3 1.4 3 3-1.4 3-3 3"/><path d="m19.8 6.4v-.001c.069-.117.109-.253.109-.399s-.04-.282-.109-.399v-.001c-.005-.008.005.007 0 0-2.203-3.473-5.917-5.6-9.8-5.6-3.884 0-7.655 2.091-9.8 5.602l0 0c-.069.117-.109.253-.109.398s.04.281.109.398c0 0-.001-.002 0 0 2.203 3.475 5.916 5.602 9.8 5.602 3.883 0 7.597-2.127 9.8-5.6.005-.007-.005.008 0 0zm-9.8 4.1c-3.236 0-6.28-1.635-8.189-4.339-.067-.095-.067-.228-.002-.324 1.908-2.797 4.953-4.337 8.191-4.337 3.235 0 6.278 1.634 8.187 4.337.068.096.068.231 0 .327-1.909 2.702-4.952 4.336-8.187 4.336z"/></g></svg>`;
 
@@ -108,7 +108,7 @@ const AtomicQuickview = class {
         this.addQuickviewModalIfNeeded();
         this.updateModalContent();
         if (this.quickviewState.resultHasPreview) {
-            return (h(Button, { key: '813114c76cf9056f503cf47dceaefc88de8f5e82', part: "button", title: this.bindings.i18n.t('quickview'), style: "outline-primary", class: "p-2", onClick: (event) => this.onClick(event), ref: this.focusTarget.setTarget }, h("atomic-icon", { key: '374f6aa7b2b81267293f39f2d555dab403a588a2', part: "icon", class: "w-5 flex justify-center", icon: QuickviewIcon })));
+            return (h(Button, { key: '3762571f3dd020c7ea07a8d100baba28752ff494', part: "button", title: this.bindings.i18n.t('quickview'), style: "outline-primary", class: "p-2", onClick: (event) => this.onClick(event), ref: this.focusTarget.setTarget }, h("atomic-icon", { key: '24986e12d207e89bd9c98a18561cf4725424730a', part: "icon", class: "w-5 flex justify-center", icon: QuickviewIcon })));
         }
     }
 };

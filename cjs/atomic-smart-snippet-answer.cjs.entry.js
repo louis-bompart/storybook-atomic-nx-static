@@ -3,7 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const utils = require('./utils-93ea935e.js');
+const utils = require('./utils-b609c39e.js');
 const itemLink = require('./item-link-96e6faf5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./xss-utils-185a1c77.js');
@@ -93,7 +93,7 @@ const AtomicSmartSnippetAnswer = class {
             }), ref: (element) => element && this.bindAnalyticsToLinks(element), part: "answer", class: "margin" })));
     }
     render() {
-        return (index.h(index.Host, { key: '9823f18ed5fb92de82194e6dd5256ae5eb261c84' }, this.renderStyle(), this.renderContent()));
+        return (index.h(index.Host, { key: '10c4e5165fdd0480414625884d6beb3a7b565531' }, this.renderStyle(), this.renderContent()));
     }
     get host() { return index.getElement(this); }
 };

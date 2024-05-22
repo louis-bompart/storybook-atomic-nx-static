@@ -2,10 +2,10 @@ import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { W as Wge, V as qT } from './headless.esm-88bad35d.js';
 import { S as SearchIcon } from './search-64cc84a9.js';
 import { g as getPartialSearchBoxSuggestionElement, Q as QuerySuggestionText, a as QuerySuggestionIcon, b as QuerySuggestionContainer } from './query-suggestions-c462ddd7.js';
-import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-1d4c0dac.js';
+import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-f37e2d0d.js';
 import { C as Clock } from './clock-add3e9a5.js';
 import { a as SafeStorage, S as StorageItems } from './local-storage-utils-e06a332f.js';
-import { o as once } from './utils-bc6a079b.js';
+import { o as once } from './utils-af246396.js';
 import { g as getPartialRecentQueryClearElement, R as RecentQueryClear, a as getPartialRecentQueryElement, b as RecentQueryText, c as RecentQueryIcon, d as RecentQueriesContainer } from './recent-queries-e2a43224.js';
 import './string-utils-5f5a23a8.js';
 import './event-utils-8de63ec3.js';
@@ -65,7 +65,7 @@ const AtomicSearchBoxQuerySuggestions = class {
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: 'd49f09374cfe7ddb9d66591b7fc1732a8b38a53c', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '4ec61e56d2f712e9fdee38cb448c4d8cbcda5972', element: this.host, error: this.error }));
         }
     }
     get host() { return getElement(this); }
@@ -169,7 +169,7 @@ const AtomicSearchBoxRecentQueries = class {
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: 'e3e8f148ef23dc520931455150df5ba295be136d', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '6ee4cd8d0395136d2b20800984a6312901ed2dd0', element: this.host, error: this.error }));
         }
     }
     get host() { return getElement(this); }

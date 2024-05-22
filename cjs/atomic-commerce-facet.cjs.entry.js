@@ -4,17 +4,17 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const facetPlaceholder = require('./facet-placeholder-b6292ec6.js');
-const facetGuard = require('./facet-guard-e7592a70.js');
-const facetShowMoreLess = require('./facet-show-more-less-42ab87a0.js');
-const facetSearchValue = require('./facet-search-value-63af2c2a.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const facetPlaceholder = require('./facet-placeholder-0c78ea0e.js');
+const facetGuard = require('./facet-guard-d99f208f.js');
+const facetShowMoreLess = require('./facet-show-more-less-d73a4da1.js');
+const facetSearchValue = require('./facet-search-value-dec94bd3.js');
 const facetValueLabelHighlight = require('./facet-value-label-highlight-e1da136a.js');
 const facetValuesGroup = require('./facet-values-group-d3a702ab.js');
 const popoverType = require('./popover-type-555a9d8d.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./arrow-bottom-rounded-705a1b2c.js');
 require('./arrow-top-rounded-e7a05d2f.js');
@@ -24,11 +24,11 @@ require('./ripple-dcc2ce08.js');
 require('./button-style-dc30784f.js');
 require('./heading-db5d34c0.js');
 require('./search-a4774f02.js');
-require('./plus-e4c10c13.js');
+require('./plus-75f587b5.js');
 require('./field-utils-a715deca.js');
 require('./facet-value-box-e442c83e.js');
-require('./facet-value-checkbox-a15e4807.js');
-require('./checkbox-c1f481a7.js');
+require('./facet-value-checkbox-0dd6b980.js');
+require('./checkbox-d6f828cf.js');
 require('./clear-695fd2c7.js');
 require('./facet-value-link-88928cce.js');
 require('./string-utils-bdf08f8c.js');
@@ -70,7 +70,7 @@ const AtomicCommerceFacet = class {
     }
     render() {
         const { hasError, firstSearchExecuted } = this.summary.state;
-        return (index.h(facetGuard.FacetGuard, { key: '0edfe3843989bb99ed3b35e924fe13da1ee11e12', enabled: true, hasError: hasError, firstSearchExecuted: firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, index.h(facetPlaceholder.FacetHeader, { i18n: this.bindings.i18n, label: this.displayName, onClearFilters: () => {
+        return (index.h(facetGuard.FacetGuard, { key: '86a8d58dfee26e0ed814dcaf18c267317fffec7a', enabled: true, hasError: hasError, firstSearchExecuted: firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, index.h(facetPlaceholder.FacetHeader, { i18n: this.bindings.i18n, label: this.displayName, onClearFilters: () => {
                 this.focusTargets.header.focusAfterSearch();
                 this.facet.deselectAll();
             }, numberOfActiveValues: this.activeValues.length, isCollapsed: this.isCollapsed, headingLevel: 0, onToggleCollapse: () => (this.isCollapsed = !this.isCollapsed), headerRef: (el) => this.focusTargets.header.setTarget(el) }), this.renderBody())) : (index.h(facetPlaceholder.FacetPlaceholder, { numberOfValues: 8, isCollapsed: this.isCollapsed }))));

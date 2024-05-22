@@ -1,10 +1,10 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { r as rO, K as KO } from './headless.esm-88bad35d.js';
-import { F as FilterIcon } from './filter-582b47e0.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { F as FilterIcon } from './filter-b40a4b61.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { I as IconButton } from './iconButton-79b234e4.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
@@ -65,7 +65,7 @@ const AtomicIPXRefineToggle = class {
         this.modalRef.collapseFacetsAfter = this.collapseFacetsAfter;
     }
     render() {
-        return (h(IconButton, { key: '9d80c7c48bf71094db96a116434290d977dd0295', partPrefix: "ipx-refine-toggle", class: "icon-button", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
+        return (h(IconButton, { key: '4f89a7a5f9c39b3407a7499286a7c88eded9da23', partPrefix: "ipx-refine-toggle", class: "icon-button", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
                 this.bindings.store.waitUntilAppLoaded(() => {
                     this.enableModal();
                 });

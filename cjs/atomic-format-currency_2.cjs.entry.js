@@ -5,12 +5,12 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const formatCommon = require('./format-common-8d8e4aef.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const productTemplateDecorators = require('./product-template-decorators-1ba94a89.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const productTemplateDecorators = require('./product-template-decorators-7a6b2044.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
-require('./item-decorators-1f104375.js');
+require('./item-decorators-7bbc4b3f.js');
 
 const AtomicFormatCurrency = class {
     constructor(hostRef) {
@@ -34,7 +34,7 @@ const AtomicFormatCurrency = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '1c0133dafb59dae6c21d26d83df28dd36f11a150', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: 'eaa8f36e17d6c352522a3720e21d48e3cab8e9db', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

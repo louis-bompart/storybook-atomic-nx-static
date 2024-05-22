@@ -4,7 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const debounceUtils = require('./debounce-utils-9dd35eb1.js');
-const utils = require('./utils-93ea935e.js');
+const utils = require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
 const AtomicAriaLive = class {
@@ -56,7 +56,7 @@ const AtomicAriaLive = class {
         this.messagesQueue.clear();
     }
     render() {
-        return (index.h(index.Host, { key: '752711bb10cf768942f13cbb41f3af6b21f752cc', style: {
+        return (index.h(index.Host, { key: '23956133a83eabc70062eda40fc758b79ca95ef5', style: {
                 position: 'absolute',
                 display: 'block',
                 height: '0',

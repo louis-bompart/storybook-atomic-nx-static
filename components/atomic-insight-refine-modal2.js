@@ -82,12 +82,12 @@ const AtomicInsightRefineModal = /*@__PURE__*/ proxyCustomElement(class AtomicIn
         return (h("aside", { slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderHeader(), h("slot", { name: "facets" })));
     }
     render() {
-        return (h(Host, { key: '489cb35e2a0ee8fd5ed17a31ee318f33213bf5c4' }, this.interfaceDimensions && (h("style", { key: 'b860a8e44831c802120367a91a58d4867a738a7e' }, `atomic-modal::part(backdrop) {
+        return (h(Host, { key: 'd8b158772da65a959c04c9db9ba89d4c7d4c8b7d' }, this.interfaceDimensions && (h("style", { key: '1c1b859144956a6deeaf0b3e37a578d774e145b6' }, `atomic-modal::part(backdrop) {
             top: ${this.interfaceDimensions.top}px;
             left: ${this.interfaceDimensions.left}px;
             width: ${this.interfaceDimensions.width}px;
             height: ${this.interfaceDimensions.height}px;
-            }`)), h(RefineModalCommon, { key: 'ff0d09c41f1a46e3275e61a120d17fc6a2b64d10', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, scope: this.bindings.interfaceElement }, this.renderBody())));
+            }`)), h(RefineModalCommon, { key: 'f0797879d94467a86664c670650ca783cb1c5a04', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, scope: this.bindings.interfaceElement }, this.renderBody())));
     }
     componentDidLoad() {
         this.host.style.display = '';

@@ -1,10 +1,10 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { F as FI, I as IP } from './headless.esm-8f8571fe.js';
-import { F as FilterIcon } from './filter-582b47e0.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { F as FilterIcon } from './filter-b40a4b61.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { I as IconButton } from './iconButton-79b234e4.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
@@ -56,7 +56,7 @@ const AtomicInsightRefineToggle = class {
         this.modalRef.openButton = this.buttonRef;
     }
     render() {
-        return (h(IconButton, { key: 'ddb8a9e4e753457d27951ad34717606ae6dbaf81', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
+        return (h(IconButton, { key: 'ebff8d1c7df1a1cb543d6868bb882ea8b1a304d2', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
                 this.bindings.store.waitUntilAppLoaded(() => {
                     this.enableModal();
                 });

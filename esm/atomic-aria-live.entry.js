@@ -1,6 +1,6 @@
 import { r as registerInstance, h, H as Host, g as getElement } from './index-c045ad7c.js';
 import { b as buildDebouncedQueue } from './debounce-utils-a2be2932.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { r as randomID } from './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 
 const AtomicAriaLive = class {
@@ -52,7 +52,7 @@ const AtomicAriaLive = class {
         this.messagesQueue.clear();
     }
     render() {
-        return (h(Host, { key: '752711bb10cf768942f13cbb41f3af6b21f752cc', style: {
+        return (h(Host, { key: '23956133a83eabc70062eda40fc758b79ca95ef5', style: {
                 position: 'absolute',
                 display: 'block',
                 height: '0',

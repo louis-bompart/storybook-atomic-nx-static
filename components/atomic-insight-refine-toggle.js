@@ -57,7 +57,7 @@ const AtomicInsightRefineToggle$1 = /*@__PURE__*/ proxyCustomElement(class Atomi
         this.modalRef.openButton = this.buttonRef;
     }
     render() {
-        return (h(IconButton, { key: 'ddb8a9e4e753457d27951ad34717606ae6dbaf81', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
+        return (h(IconButton, { key: 'ebff8d1c7df1a1cb543d6868bb882ea8b1a304d2', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
                 this.bindings.store.waitUntilAppLoaded(() => {
                     this.enableModal();
                 });

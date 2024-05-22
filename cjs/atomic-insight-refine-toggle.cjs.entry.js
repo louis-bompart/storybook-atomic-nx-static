@@ -4,11 +4,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const filter = require('./filter-52d344d2.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const filter = require('./filter-e2676f73.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const iconButton = require('./iconButton-d8c00ac4.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
 require('./ripple-dcc2ce08.js');
@@ -60,7 +60,7 @@ const AtomicInsightRefineToggle = class {
         this.modalRef.openButton = this.buttonRef;
     }
     render() {
-        return (index.h(iconButton.IconButton, { key: 'ddb8a9e4e753457d27951ad34717606ae6dbaf81', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: filter.FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
+        return (index.h(iconButton.IconButton, { key: 'ebff8d1c7df1a1cb543d6868bb882ea8b1a304d2', partPrefix: "insight-refine-toggle", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: filter.FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
                 this.bindings.store.waitUntilAppLoaded(() => {
                     this.enableModal();
                 });

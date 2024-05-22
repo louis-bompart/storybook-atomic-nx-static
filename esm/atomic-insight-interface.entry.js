@@ -1,13 +1,13 @@
 import { r as registerInstance, s as setNonce, h, g as getElement } from './index-c045ad7c.js';
 import { C as CP, b as gW, W as Wa, f as fv } from './headless.esm-8f8571fe.js';
-import { i as instance, C as CommonAtomicInterfaceHelper } from './interface-common-87b0ee01.js';
-import { A as ArrayProp } from './props-utils-36d102c2.js';
-import { g as getNextAnalyticsConfig, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-c970f610.js';
-import { c as createAtomicCommonStore } from './store-bf24650b.js';
+import { i as instance, C as CommonAtomicInterfaceHelper } from './interface-common-ff17f213.js';
+import { A as ArrayProp } from './props-utils-26db487c.js';
+import { g as getNextAnalyticsConfig, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-065b7c9c.js';
+import { c as createAtomicCommonStore } from './store-fb040773.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './headless.esm-88bad35d.js';
-import './dayjs.min-092a7cc9.js';
-import './utils-bc6a079b.js';
+import './dayjs.min-a2b8725e.js';
+import './utils-af246396.js';
 import './bueno.esm-9a075e67.js';
 
 function getAnalyticsConfig(searchEngineConfig, enabled) {
@@ -255,7 +255,7 @@ const AtomicInsightInterface = class {
         this.initialized = true;
     }
     render() {
-        return (this.engine && (h("host", { key: 'c08a40d8cabe2cc6daf8fb58c54498f3c7d08984' }, h("slot", { key: '861c8094e0c8c5fd0b67d49b0771edb70646e2ad', name: "full-search" }), h("slot", { key: '3deb2cba39a5d6be5a0974d00a2dd056891ac947' }))));
+        return (this.engine && (h("host", { key: '10a0bbbff93fd5150c6909577f965083611d8bc8' }, h("slot", { key: 'bb6d26f97933db26fa8f7d7f82f6bbed39d2f7bf', name: "full-search" }), h("slot", { key: '234c5c29ec01811fb41ce58c903927b352420be1' }))));
     }
     get host() { return getElement(this); }
     static get watchers() { return {

@@ -53,7 +53,7 @@ const AtomicIPXResultLink = /*@__PURE__*/ proxyCustomElement(class AtomicIPXResu
         const href = isUndefined(this.hrefTemplate)
             ? this.result.clickUri
             : buildStringTemplateFromResult(this.hrefTemplate, this.result, this.bindings);
-        return (h(LinkWithItemAnalytics, { key: '51d43e03ff26bd847c7ad63666e6b4e0d8e434fe', href: href, onSelect: () => this.onSelect(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
+        return (h(LinkWithItemAnalytics, { key: '8e41114cb308cc3a8642897bc925c5faacf63c8f', href: href, onSelect: () => this.onSelect(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
     }
     get host() { return this; }
     static get style() { return AtomicIpxResultLinkStyle0; }

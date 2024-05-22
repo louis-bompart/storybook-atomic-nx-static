@@ -6,11 +6,11 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
 const arrowLeftRounded = require('./arrow-left-rounded-87aa2218.js');
 const arrowRightRounded = require('./arrow-right-rounded-709d83f1.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const pagerNavigation = require('./pager-navigation-47e4c5a7.js');
-const pagerGuard = require('./pager-guard-6bb046d1.js');
+const pagerGuard = require('./pager-guard-62dc2c63.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
@@ -70,10 +70,10 @@ const AtomicPager = class {
         });
     }
     render() {
-        return (index.h(pagerGuard.PagerGuard, { key: '3af0226822faab1eb2ad43227ea9267cc926d3ce', ...this.searchStatusState, isAppLoaded: this.bindings.store.isAppLoaded() }, index.h(pagerNavigation.PagerNavigation, { key: '9bd99b645ed9201b4710f8976d00ba536711ce18', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: '4499842a1aa5f318018e308652c31ae95fdc165d', icon: this.previousButtonIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
+        return (index.h(pagerGuard.PagerGuard, { key: '0ac9491d55d2562640f4cedb017bf4541c2a850f', ...this.searchStatusState, isAppLoaded: this.bindings.store.isAppLoaded() }, index.h(pagerNavigation.PagerNavigation, { key: '28c8dbdfab1398f8cdeb8660baaf9858b31d2398', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: 'a1064a99750299a7cffdb40048d26d8411b364c3', icon: this.previousButtonIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
                 this.pager.previousPage();
                 this.focusOnFirstResultAndScrollToTop();
-            } }), index.h(pagerNavigation.PagerPageButtons, { key: 'a8b8031d758a11b66bb074a49b5533865bbf87d7' }, this.pagerState.currentPages.map((pageNumber) => {
+            } }), index.h(pagerNavigation.PagerPageButtons, { key: 'c773444d7143bc85b11d41959374571eb34cb00a' }, this.pagerState.currentPages.map((pageNumber) => {
             return (index.h(pagerNavigation.PagerPageButton, { isSelected: this.pager.isCurrentPage(pageNumber), ariaLabel: this.bindings.i18n.t('page-number', { pageNumber }), onChecked: () => {
                     this.pager.selectPage(pageNumber);
                     this.focusOnFirstResultAndScrollToTop();
@@ -83,7 +83,7 @@ const AtomicPager = class {
                         this.focusTarget.setTarget(el);
                     }
                 }, text: pageNumber.toLocaleString(this.bindings.i18n.language) }));
-        })), index.h(pagerNavigation.PagerNextButton, { key: 'f2c26e25bd04ad459c3cb87a479cf71e2ed5b7af', icon: this.nextButtonIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
+        })), index.h(pagerNavigation.PagerNextButton, { key: '980002d05eaa6206ca11f2bf96242e90047c81d1', icon: this.nextButtonIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
                 this.pager.nextPage();
                 this.focusOnFirstResultAndScrollToTop();
             } }))));

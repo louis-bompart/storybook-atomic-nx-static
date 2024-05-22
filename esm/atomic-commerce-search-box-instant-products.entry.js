@@ -2,11 +2,11 @@ import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { x as xA } from './headless.esm-3423086c.js';
 import { e as encodeForDomAttribute } from './string-utils-5f5a23a8.js';
 import { g as getPartialInstantItemElement, a as getPartialInstantItemShowAllElement, I as InstantItemShowAllButton } from './instant-item-b3531ed9.js';
-import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-1d4c0dac.js';
-import { P as ProductTemplateProvider } from './product-template-provider-fd9d14ea.js';
+import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-f37e2d0d.js';
+import { P as ProductTemplateProvider } from './product-template-provider-a23f2f6d.js';
 import './button-style-8b7877b4.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './template-provider-818c930d.js';
 
@@ -151,7 +151,7 @@ const AtomicCommerceSearchBoxInstantProducts = class {
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '66f6eed88fc35b2b84f2109912bb265b93722ca1', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '9e22a6a606f4bb867d64b8ba6f170210c638c9b8', element: this.host, error: this.error }));
         }
     }
     get host() { return getElement(this); }

@@ -2,10 +2,10 @@ import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { a as zj, f as fA } from './headless.esm-3423086c.js';
 import { S as SearchIcon } from './search-64cc84a9.js';
 import { g as getPartialSearchBoxSuggestionElement, Q as QuerySuggestionText, a as QuerySuggestionIcon, b as QuerySuggestionContainer } from './query-suggestions-c462ddd7.js';
-import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-1d4c0dac.js';
+import { d as dispatchSearchBoxSuggestionsEvent } from './suggestions-common-f37e2d0d.js';
 import { C as Clock } from './clock-add3e9a5.js';
 import { a as SafeStorage, S as StorageItems } from './local-storage-utils-e06a332f.js';
-import { o as once } from './utils-bc6a079b.js';
+import { o as once } from './utils-af246396.js';
 import { g as getPartialRecentQueryClearElement, R as RecentQueryClear, a as getPartialRecentQueryElement, b as RecentQueryText, c as RecentQueryIcon, d as RecentQueriesContainer } from './recent-queries-e2a43224.js';
 import './string-utils-5f5a23a8.js';
 import './event-utils-8de63ec3.js';
@@ -66,7 +66,7 @@ const AtomicCommerceSearchBoxQuerySuggestions = class {
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '08d9dfa760b2907bc60d2bf175e1c44a2c5a8778', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '2d1032c727dfd928bf0c4b182d03c05e3b53cb92', element: this.host, error: this.error }));
         }
     }
     get host() { return getElement(this); }
@@ -170,7 +170,7 @@ const AtomicCommerceSearchBoxRecentQueries = class {
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '019afb85dbf8f488c6773e3c7c32eb870fc4be86', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '57d2db4a5b30a56207d447c406197e6380845694', element: this.host, error: this.error }));
         }
     }
     get host() { return getElement(this); }

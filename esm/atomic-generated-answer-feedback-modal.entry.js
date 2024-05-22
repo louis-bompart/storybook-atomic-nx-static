@@ -1,8 +1,8 @@
 import { r as registerInstance, d as createEvent, h, g as getElement } from './index-c045ad7c.js';
 import { C as CloseIcon } from './close-ff816971.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { u as updateBreakpoints } from './replace-breakpoint-f5af14e2.js';
-import { r as randomID, o as once } from './utils-bc6a079b.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { u as updateBreakpoints } from './replace-breakpoint-8bfab33b.js';
+import { r as randomID, o as once } from './utils-af246396.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { I as IconButton } from './iconButton-79b234e4.js';
 import './event-utils-8de63ec3.js';
@@ -292,7 +292,7 @@ const AtomicGeneratedAnswerFeedbackModal = class {
     }
     render() {
         this.updateBreakpoints();
-        return (h("atomic-modal", { key: '17f926f2eb00dcbdcca635a0874cb62a5a9d56ee', fullscreen: false, isOpen: this.isOpen, close: () => this.close(), container: this.host, exportparts: "backdrop,container,header,header-wrapper,header-ruler,body,body-wrapper,footer,footer-wrapper,footer-wrapper" }, this.renderHeader(), this.renderBody(), this.renderFooter()));
+        return (h("atomic-modal", { key: '2ae04870cc12d1a3f074ecaed5bc7c68b418760a', fullscreen: false, isOpen: this.isOpen, close: () => this.close(), container: this.host, exportparts: "backdrop,container,header,header-wrapper,header-ruler,body,body-wrapper,footer,footer-wrapper,footer-wrapper" }, this.renderHeader(), this.renderBody(), this.renderFooter()));
     }
     get host() { return getElement(this); }
     static get watchers() { return {

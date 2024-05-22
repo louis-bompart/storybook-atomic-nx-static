@@ -51,7 +51,7 @@ const AtomicCommerceFacet = /*@__PURE__*/ proxyCustomElement(class AtomicCommerc
     }
     render() {
         const { hasError, firstSearchExecuted } = this.summary.state;
-        return (h(FacetGuard, { key: '0edfe3843989bb99ed3b35e924fe13da1ee11e12', enabled: true, hasError: hasError, firstSearchExecuted: firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.displayName, onClearFilters: () => {
+        return (h(FacetGuard, { key: '86a8d58dfee26e0ed814dcaf18c267317fffec7a', enabled: true, hasError: hasError, firstSearchExecuted: firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.displayName, onClearFilters: () => {
                 this.focusTargets.header.focusAfterSearch();
                 this.facet.deselectAll();
             }, numberOfActiveValues: this.activeValues.length, isCollapsed: this.isCollapsed, headingLevel: 0, onToggleCollapse: () => (this.isCollapsed = !this.isCollapsed), headerRef: (el) => this.focusTargets.header.setTarget(el) }), this.renderBody())) : (h(FacetPlaceholder, { numberOfValues: 8, isCollapsed: this.isCollapsed }))));

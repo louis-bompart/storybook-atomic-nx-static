@@ -1,5 +1,5 @@
 import { r as registerInstance, d as createEvent, h, H as Host, g as getElement } from './index-c045ad7c.js';
-import { q as isAncestorOf, u as getFocusedElement } from './utils-bc6a079b.js';
+import { q as isAncestorOf, u as getFocusedElement } from './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 
 const AtomicFocusDetector = class {
@@ -28,7 +28,7 @@ const AtomicFocusDetector = class {
         containsFocus ? this.focusEnter.emit() : this.focusExit.emit();
     }
     render() {
-        return h(Host, { key: 'ac90a651c69561667a1583662fb2b007f96a2084', style: { display: 'contents' } });
+        return h(Host, { key: '2233c1ff6ced6fbaed93a5dd71b4bf0ee6b186b5', style: { display: 'contents' } });
     }
     get host() { return getElement(this); }
 };

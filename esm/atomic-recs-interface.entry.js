@@ -1,13 +1,13 @@
 import { r as registerInstance, s as setNonce, h, g as getElement } from './index-c045ad7c.js';
 import { O as OP, g as gr, _ as _x, p as pP, b as bg, I as Ig } from './headless.esm-777998fe.js';
-import { i as instance, C as CommonAtomicInterfaceHelper, m as mismatchedInterfaceAndEnginePropError } from './interface-common-87b0ee01.js';
-import { A as ArrayProp } from './props-utils-36d102c2.js';
-import { g as getNextAnalyticsConfig, c as augmentAnalyticsConfigWithDocument, d as augmentAnalyticsConfigWithAtomicVersion, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-c970f610.js';
-import { c as createAtomicCommonStore } from './store-bf24650b.js';
+import { i as instance, C as CommonAtomicInterfaceHelper, m as mismatchedInterfaceAndEnginePropError } from './interface-common-ff17f213.js';
+import { A as ArrayProp } from './props-utils-26db487c.js';
+import { g as getNextAnalyticsConfig, c as augmentAnalyticsConfigWithDocument, d as augmentAnalyticsConfigWithAtomicVersion, a as augmentWithExternalMiddleware, b as augmentAnalyticsWithAtomicVersion } from './analytics-config-065b7c9c.js';
+import { c as createAtomicCommonStore } from './store-fb040773.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './headless.esm-88bad35d.js';
-import './dayjs.min-092a7cc9.js';
-import './utils-bc6a079b.js';
+import './dayjs.min-a2b8725e.js';
+import './utils-af246396.js';
 import './bueno.esm-9a075e67.js';
 
 function getAnalyticsConfig(recsConfig, enabled) {
@@ -242,7 +242,7 @@ const AtomicRecsInterface = class {
         }
     }
     render() {
-        return this.engine && h("slot", { key: 'e57f3ca4a12dff5519647992175d19c5e3e31eb6' });
+        return this.engine && h("slot", { key: 'f3683a76d3555fabc6e28f3eb1ee6c2091faa2f2' });
     }
     get host() { return getElement(this); }
     static get watchers() { return {

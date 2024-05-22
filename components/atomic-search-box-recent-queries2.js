@@ -108,7 +108,7 @@ const AtomicSearchBoxRecentQueries = /*@__PURE__*/ proxyCustomElement(class Atom
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: 'e3e8f148ef23dc520931455150df5ba295be136d', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '6ee4cd8d0395136d2b20800984a6312901ed2dd0', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

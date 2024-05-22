@@ -4,22 +4,22 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
 const fieldUtils = require('./field-utils-a715deca.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const propsUtils = require('./props-utils-d9a5cdae.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const propsUtils = require('./props-utils-e054c946.js');
 const arrowLeftRounded = require('./arrow-left-rounded-87aa2218.js');
 const button = require('./button-90bb3acf.js');
 const facetValueLabelHighlight = require('./facet-value-label-highlight-e1da136a.js');
 const facetValueLink = require('./facet-value-link-88928cce.js');
 const dependsOn = require('./depends-on-653d4ed1.js');
-const facetPlaceholder = require('./facet-placeholder-b6292ec6.js');
-const facetGuard = require('./facet-guard-e7592a70.js');
-const facetShowMoreLess = require('./facet-show-more-less-42ab87a0.js');
+const facetPlaceholder = require('./facet-placeholder-0c78ea0e.js');
+const facetGuard = require('./facet-guard-d99f208f.js');
+const facetShowMoreLess = require('./facet-show-more-less-d73a4da1.js');
 const facetValuesGroup = require('./facet-values-group-d3a702ab.js');
 const popoverType = require('./popover-type-555a9d8d.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./bueno.esm-344292d0.js');
 require('./ripple-dcc2ce08.js');
@@ -30,7 +30,7 @@ require('./arrow-top-rounded-e7a05d2f.js');
 require('./close-20739950.js');
 require('./heading-db5d34c0.js');
 require('./search-a4774f02.js');
-require('./plus-e4c10c13.js');
+require('./plus-75f587b5.js');
 require('./fieldset-group-6717d2e5.js');
 
 const CategoryFacetAllCategoryButton = ({ i18n, onClick }) => {
@@ -436,7 +436,7 @@ const AtomicCategoryFacet = class {
     }
     render() {
         const { bindings: { i18n }, label, facetState: { facetSearch, enabled, valuesAsTrees, parents }, searchStatusState: { hasError, firstSearchExecuted }, } = this;
-        return (index.h(facetGuard.FacetGuard, { key: '875ccf5e3f8f7692babcc871d1bbb61da9c670f4', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
+        return (index.h(facetGuard.FacetGuard, { key: '4cd1853005205b94ae4518f2659e77bf35139f0c', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (index.h(facetPlaceholder.FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
             this.renderSearchInput(),
             facetValueLabelHighlight.shouldDisplaySearchResults(facetSearch) ? (index.h(index.Fragment, null, facetSearch.values.length ? (index.h(facetValuesGroup.FacetValuesGroup, { i18n: i18n, label: label, query: facetSearch.query }, this.renderSearchResults())) : (index.h("div", { class: "mt-3" })), this.renderMatches())) : (index.h(index.Fragment, null, index.h(facetValuesGroup.FacetValuesGroup, { i18n: i18n, label: label }, this.hasParents ? (index.h(CategoryFacetParentAsTreeContainer, { isTopLevel: true, className: "mt-3" }, this.renderValuesTree(parents, true))) : (index.h(CategoryFacetChildrenAsTreeContainer, { className: "mt-3" }, this.renderChildren()))), this.renderShowMoreLess())),
         ])) : (index.h(facetPlaceholder.FacetPlaceholder, { isCollapsed: this.isCollapsed, numberOfValues: this.numberOfValues }))));

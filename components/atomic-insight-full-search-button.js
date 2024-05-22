@@ -32,7 +32,7 @@ const AtomicInsightFullSearchButton$1 = /*@__PURE__*/ proxyCustomElement(class A
         this.error = undefined;
     }
     render() {
-        return (h(IconButton, { key: '2a02ad68bda41e78b1727ce803674cb5e15922e0', partPrefix: "full-search", style: "outline-neutral", icon: ArrowFull, ariaLabel: this.bindings.i18n.t('full-search'), title: this.tooltip }));
+        return (h(IconButton, { key: '11794b54e9b9e2651cf173a0bc02beebe7a52a6c', partPrefix: "full-search", style: "outline-neutral", icon: ArrowFull, ariaLabel: this.bindings.i18n.t('full-search'), title: this.tooltip }));
     }
     static get style() { return AtomicInsightFullSearchButtonStyle0; }
 }, [1, "atomic-insight-full-search-button", {

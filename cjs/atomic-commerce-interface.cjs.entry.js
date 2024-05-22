@@ -4,16 +4,16 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const interfaceCommon = require('./interface-common-0728e71b.js');
+const interfaceCommon = require('./interface-common-38ac723a.js');
 const localStorageUtils = require('./local-storage-utils-f2621dfd.js');
-const replaceBreakpoint = require('./replace-breakpoint-7f1e4575.js');
-const store = require('./store-8f6b5c17.js');
-const searchLayout = require('./search-layout-bc93c145.js');
+const replaceBreakpoint = require('./replace-breakpoint-2f99fafc.js');
+const store = require('./store-3e7a313a.js');
+const searchLayout = require('./search-layout-18f370ef.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./headless.esm-1a66963a.js');
-require('./dayjs.min-7a187b98.js');
-require('./utils-93ea935e.js');
-require('./search-layout-9cb63ad6.js');
+require('./dayjs.min-f5fda39e.js');
+require('./utils-b609c39e.js');
+require('./search-layout-ac5a2e9f.js');
 require('./sections-4b4af2f8.js');
 
 function getAnalyticsConfig(commerceEngineConfig, enabled) {
@@ -309,7 +309,7 @@ const AtomicCommerceInterface = class {
         return this.i18nClone.addResourceBundle(lng, ns, resources, deep, overwrite);
     }
     render() {
-        return [index.h("slot", { key: '719ff015ec7279aabebb8eb92c1f72de73e681b8' })];
+        return [index.h("slot", { key: '58e7cb395a91c3cad3e2eafeaa0632c563adc0dd' })];
     }
     static get assetsDirs() { return ["lang"]; }
     get host() { return index.getElement(this); }

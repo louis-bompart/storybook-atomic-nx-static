@@ -1,8 +1,8 @@
 import { r as registerInstance, d as createEvent, h, H as Host } from './index-c045ad7c.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { L as LinkWithItemAnalytics } from './item-link-e997e301.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './xss-utils-3bfd8d0c.js';
 
@@ -34,7 +34,7 @@ const AtomicSmartSnippetSource = class {
         }
     }
     render() {
-        return (h(Host, { key: 'f39870d9fb73f730ca505be1b27aa853c053e89b' }, h(LinkWithItemAnalytics, { key: '9a60314204a2d523bc9e880aead3180c910f4a8b', title: this.source.clickUri, href: this.source.clickUri, className: "block truncate", part: "source-url", attributes: this.anchorAttributes, onSelect: () => this.selectSource.emit(), onBeginDelayedSelect: () => this.beginDelayedSelectSource.emit(), onCancelPendingSelect: () => this.cancelPendingSelectSource.emit() }, this.source.clickUri), h(LinkWithItemAnalytics, { key: 'ba85b4a8a8320074d0fb0649883b13230fd26170', title: this.source.title, href: this.source.clickUri, attributes: this.anchorAttributes, className: "block", part: "source-title", onSelect: () => this.selectSource.emit(), onBeginDelayedSelect: () => this.beginDelayedSelectSource.emit(), onCancelPendingSelect: () => this.cancelPendingSelectSource.emit() }, h("atomic-result-text", { field: "title", default: "no-title", key: this.source.uniqueId }))));
+        return (h(Host, { key: '1309a3bd9ff80367985a6a53b35356bcd06e9794' }, h(LinkWithItemAnalytics, { key: 'ba24fd24129377eb2ef2c42eff39a143a21be358', title: this.source.clickUri, href: this.source.clickUri, className: "block truncate", part: "source-url", attributes: this.anchorAttributes, onSelect: () => this.selectSource.emit(), onBeginDelayedSelect: () => this.beginDelayedSelectSource.emit(), onCancelPendingSelect: () => this.cancelPendingSelectSource.emit() }, this.source.clickUri), h(LinkWithItemAnalytics, { key: '5bb1717963b9055f5c4289fcf095913ee1cda9bb', title: this.source.title, href: this.source.clickUri, attributes: this.anchorAttributes, className: "block", part: "source-title", onSelect: () => this.selectSource.emit(), onBeginDelayedSelect: () => this.beginDelayedSelectSource.emit(), onCancelPendingSelect: () => this.cancelPendingSelectSource.emit() }, h("atomic-result-text", { field: "title", default: "no-title", key: this.source.uniqueId }))));
     }
 };
 __decorate([

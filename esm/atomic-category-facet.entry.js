@@ -1,21 +1,21 @@
 import { h, r as registerInstance, F as Fragment, g as getElement } from './index-c045ad7c.js';
 import { K as KO, E as EE, _ as _T } from './headless.esm-88bad35d.js';
-import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-0877196c.js';
+import { A as AriaLiveRegion, F as FocusTargetController } from './accessibility-utils-95c56e98.js';
 import { g as getFieldValueCaption, a as getFieldCaptions } from './field-utils-f0146383.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { A as ArrayProp, M as MapProp } from './props-utils-36d102c2.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { A as ArrayProp, M as MapProp } from './props-utils-26db487c.js';
 import { A as ArrowLeftIcon } from './arrow-left-rounded-27d1c97b.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { F as FacetValueLabelHighlight, s as shouldUpdateFacetSearchComponent, a as shouldDisplaySearchResults } from './facet-value-label-highlight-0c70483d.js';
 import { F as FacetValueLink } from './facet-value-link-dc9150b3.js';
 import { p as parseDependsOn } from './depends-on-180fcfb0.js';
-import { F as FacetHeader, a as FacetContainer, b as FacetPlaceholder } from './facet-placeholder-4514ff97.js';
-import { F as FacetGuard } from './facet-guard-efdb0537.js';
-import { a as announceFacetSearchResultsWithAriaLive, F as FacetSearchInput, b as FacetSearchMatches, c as FacetShowMoreLess } from './facet-show-more-less-46380518.js';
+import { F as FacetHeader, a as FacetContainer, b as FacetPlaceholder } from './facet-placeholder-46604a4b.js';
+import { F as FacetGuard } from './facet-guard-95a5755b.js';
+import { a as announceFacetSearchResultsWithAriaLive, F as FacetSearchInput, b as FacetSearchMatches, c as FacetShowMoreLess } from './facet-show-more-less-e765f457.js';
 import { F as FacetValuesGroup } from './facet-values-group-d2313a29.js';
 import { i as initializePopover } from './popover-type-4db2bb7d.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './bueno.esm-9a075e67.js';
 import './ripple-a09c16f2.js';
@@ -26,7 +26,7 @@ import './arrow-top-rounded-cf1dd47d.js';
 import './close-ff816971.js';
 import './heading-686c01b3.js';
 import './search-64cc84a9.js';
-import './plus-86088e85.js';
+import './plus-103269cf.js';
 import './fieldset-group-85a2cf46.js';
 
 const CategoryFacetAllCategoryButton = ({ i18n, onClick }) => {
@@ -432,7 +432,7 @@ const AtomicCategoryFacet = class {
     }
     render() {
         const { bindings: { i18n }, label, facetState: { facetSearch, enabled, valuesAsTrees, parents }, searchStatusState: { hasError, firstSearchExecuted }, } = this;
-        return (h(FacetGuard, { key: '875ccf5e3f8f7692babcc871d1bbb61da9c670f4', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
+        return (h(FacetGuard, { key: '4cd1853005205b94ae4518f2659e77bf35139f0c', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
             this.renderSearchInput(),
             shouldDisplaySearchResults(facetSearch) ? (h(Fragment, null, facetSearch.values.length ? (h(FacetValuesGroup, { i18n: i18n, label: label, query: facetSearch.query }, this.renderSearchResults())) : (h("div", { class: "mt-3" })), this.renderMatches())) : (h(Fragment, null, h(FacetValuesGroup, { i18n: i18n, label: label }, this.hasParents ? (h(CategoryFacetParentAsTreeContainer, { isTopLevel: true, className: "mt-3" }, this.renderValuesTree(parents, true))) : (h(CategoryFacetChildrenAsTreeContainer, { className: "mt-3" }, this.renderChildren()))), this.renderShowMoreLess())),
         ])) : (h(FacetPlaceholder, { isCollapsed: this.isCollapsed, numberOfValues: this.numberOfValues }))));

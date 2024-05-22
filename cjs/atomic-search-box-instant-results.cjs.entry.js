@@ -7,11 +7,11 @@ const headless_esm = require('./headless.esm-1a66963a.js');
 const stringUtils = require('./string-utils-bdf08f8c.js');
 const itemTemplateProvider = require('./item-template-provider-41ec4218.js');
 const instantItem = require('./instant-item-c997c272.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
 require('./template-provider-d0180cd1.js');
 require('./button-style-dc30784f.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
 const AtomicSearchBoxInstantResults = class {
@@ -159,7 +159,7 @@ const AtomicSearchBoxInstantResults = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '130c4d2a0963dc0a637b77ca63b2ca78feed7059', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '2aa28f637287f77b33d238a9b2b1ff248e06f37d', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

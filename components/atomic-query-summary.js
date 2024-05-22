@@ -41,7 +41,7 @@ const AtomicQuerySummary$1 = /*@__PURE__*/ proxyCustomElement(class AtomicQueryS
             isLoading,
         });
         this.ariaMessage = ariaLiveMessage;
-        return (h(QuerySummaryGuard, { key: 'cf24bd5a2a5d9a6bc3a06832501812cbe216fd31', firstSearchExecuted: firstSearchExecuted, hasResults: hasResults, hasError: hasError }, h(QuerySummaryContainer, { key: 'e1010c993fc9392245f7a5aa2ddb0beada4b08ac' }, h(LocalizedString, { key: i18nKey, bindings: this.bindings, params: highlights, count: total }), h("span", { key: 'ed6f87507a5bec1b89b94e427639983adc335803', class: "hidden", part: "duration" }, "\u00A0", h(LocalizedString, { key: "in-seconds", bindings: this.bindings, params: {
+        return (h(QuerySummaryGuard, { key: '8c137203473835868078d1ea2ec91667d45d11b0', firstSearchExecuted: firstSearchExecuted, hasResults: hasResults, hasError: hasError }, h(QuerySummaryContainer, { key: 'e756d2de756b7e32c2bdb8a36565e8e2368f9a83' }, h(LocalizedString, { key: i18nKey, bindings: this.bindings, params: highlights, count: total }), h("span", { key: 'bde05a534130357b39812cac3192b61cd1f287fd', class: "hidden", part: "duration" }, "\u00A0", h(LocalizedString, { key: "in-seconds", bindings: this.bindings, params: {
                 count: durationInSeconds.toLocaleString(),
             } })))));
     }

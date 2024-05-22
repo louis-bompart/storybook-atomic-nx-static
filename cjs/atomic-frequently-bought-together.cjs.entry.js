@@ -79,7 +79,7 @@ const AtomicProductRecommendations = class {
         this.state = this.frequentlyBoughtTogether.state;
     }
     render() {
-        return (index.h("div", { key: 'e07cbe6e7a04b44d19c229d38bb4e63323e59be5' }, "FREQUENTLY BOUGHT TOGETHER:", index.h("ul", { key: 'e63b0493ea3250561387732ba07a1ad253f83480' }, this.state.recommendations.map((p) => (index.h("li", null, p.ec_name))))));
+        return (index.h("div", { key: 'e6d6b54c75f4c22bc4695c36a2b1ca61ff305548' }, "FREQUENTLY BOUGHT TOGETHER:", index.h("ul", { key: 'dcafc685b0c2c1e08d2980d2ae787a197c7fe2df' }, this.state.recommendations.map((p) => (index.h("li", null, p.ec_name))))));
     }
 };
 

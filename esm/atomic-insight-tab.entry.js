@@ -1,7 +1,7 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { V as VP } from './headless.esm-8f8571fe.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { d as dispatchTabLoaded } from './tab-common-a23ae70b.js';
 import './event-utils-8de63ec3.js';

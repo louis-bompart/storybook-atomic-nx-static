@@ -43,7 +43,7 @@ const AtomicResultLink = /*@__PURE__*/ proxyCustomElement(class AtomicResultLink
         const href = isUndefined(this.hrefTemplate)
             ? this.result.clickUri
             : buildStringTemplateFromResult(this.hrefTemplate, this.result, this.bindings);
-        return (h(LinkWithItemAnalytics, { key: '5bc5a6f54a53f4ae76888c923c4945a150b6bb37', href: href, onSelect: () => this.interactiveResult.select(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
+        return (h(LinkWithItemAnalytics, { key: 'ecf5fbca79d03c3a0483857f741299b367b98779', href: href, onSelect: () => this.interactiveResult.select(), onBeginDelayedSelect: () => this.interactiveResult.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveResult.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-result-text", { field: "title", default: "no-title" }))));
     }
     get host() { return this; }
     static get style() { return AtomicResultLinkStyle0; }

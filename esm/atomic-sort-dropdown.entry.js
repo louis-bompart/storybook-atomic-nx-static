@@ -1,8 +1,8 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { S as Schema, b as StringValue } from './bueno.esm-9a075e67.js';
 import { K as KO, I as jk, N as xq } from './headless.esm-88bad35d.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { S as SortContainer, a as SortLabel, b as SortSelect, c as SortOption, d as SortGuard } from './select-cf1f9dcb.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
@@ -68,8 +68,8 @@ const AtomicSortDropdown = class {
         const { hasError, hasResults, firstSearchExecuted } = this.searchStatusState;
         const { bindings: { i18n }, id, } = this;
         return [
-            h(SortGuard, { key: 'd5c9cb47becaf629d3efedc29ef58e870a25946d', firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: hasResults }, h(SortContainer, { key: '12ce9d86f1d869a63633f7ca89d2a41b2ba8065a' }, h(SortLabel, { key: '340621d440d179ae91264bbff3158b032816fde6', i18n: i18n, id: id }), h(SortSelect, { key: '64e2e3c9d9aaec73bde05511113dcfaca68494e4', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.options.map(({ label, criteria, expression }) => (h(SortOption, { i18n: i18n, label: label, selected: this.sort.isSortedBy(criteria), value: expression })))))),
-            h("slot", { key: 'a5952f018aeb57376baef65405e9cce46344a01b' }),
+            h(SortGuard, { key: 'ed5a6f40568263029529b515c23cf961e24fd3b3', firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: hasResults }, h(SortContainer, { key: '92da6fb672d8998fd64af0bd50812b525b8e5e01' }, h(SortLabel, { key: 'b106c338bb041fdf3231f8fd03abca76d9233776', i18n: i18n, id: id }), h(SortSelect, { key: 'ea50cac6e40dfbf58d36c2c7f0d4f99e509c52b7', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.options.map(({ label, criteria, expression }) => (h(SortOption, { i18n: i18n, label: label, selected: this.sort.isSortedBy(criteria), value: expression })))))),
+            h("slot", { key: 'b07a64d2164fa45f65eafee704eab30fa26dc005' }),
         ];
     }
     get host() { return getElement(this); }

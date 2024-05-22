@@ -3,9 +3,9 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const replaceBreakpoint = require('./replace-breakpoint-7f1e4575.js');
-const utils = require('./utils-93ea935e.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const replaceBreakpoint = require('./replace-breakpoint-2f99fafc.js');
+const utils = require('./utils-b609c39e.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
@@ -41,7 +41,7 @@ const AtomicIPXEmbedded = class {
     }
     render() {
         this.updateBreakpoints();
-        return (index.h(index.Host, { key: 'a7aee7e402bcced6227e15090ea32a10c33a5886' }, index.h("div", { key: '6d330cfab983dff93541dd9668ace8a58603ad05', part: "backdrop" }, index.h("atomic-ipx-body", { key: '82f096a4662cc1356a644f455ead7c5461c4f702', displayFooterSlot: this.hasFooterSlotElements }, index.h("slot", { key: 'c3fc910a6783f294e1097eb6ffb90c953b456ee2', name: "header", slot: "header" }), index.h("slot", { key: '2152f918411b32617b49dc5c349da5207a1d1610', name: "body", slot: "body" }), index.h("slot", { key: '9c1f6574564ab2719c5d023816a6409690a1acaa', name: "footer", slot: "footer" })))));
+        return (index.h(index.Host, { key: '7427ccb84b5b166fd5a81b8f444f5ec626b21610' }, index.h("div", { key: '327aa591434d4cf96715840205f9cd63cf94a4a1', part: "backdrop" }, index.h("atomic-ipx-body", { key: '90b17d605a246f45e4ee1b9343c57a0dabe22ea6', displayFooterSlot: this.hasFooterSlotElements }, index.h("slot", { key: 'bf625a934d8d70409bf46a74a34cfce11df84f1f', name: "header", slot: "header" }), index.h("slot", { key: '94447b7d81012d3c3e224a41baaef0b3cccca548', name: "body", slot: "body" }), index.h("slot", { key: '34450a242b8bc809bae2b0682db81fba850dcae6', name: "footer", slot: "footer" })))));
     }
     get host() { return index.getElement(this); }
 };

@@ -2,11 +2,11 @@ import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { V as VA } from './headless.esm-3423086c.js';
 import { c as commonjsGlobal } from './_commonjsHelpers-c9e3b764.js';
 import { g as getFieldValueCaption } from './field-utils-f0146383.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { P as ProductContext } from './product-template-decorators-a99fefcf.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { P as ProductContext } from './product-template-decorators-1c948806.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
-import './item-decorators-79369ad9.js';
+import './utils-af246396.js';
+import './item-decorators-d183824b.js';
 
 var lodash = {exports: {}};
 

@@ -1,0 +1,1 @@
+import{N as i}from"./atomic-breadbox.new.stories-CUAu_TQj.js";import"./index-Bqoxw6Vv.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-DuucGJVn.js";import"../sb-preview/runtime.js";const r=class{constructor(t){i(this,t),this.section=void 0,this.minWidth=void 0,this.maxWidth=void 0}};export{r as atomic_layout_section};

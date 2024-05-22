@@ -42,7 +42,7 @@ const AtomicProductLink$1 = /*@__PURE__*/ proxyCustomElement(class AtomicProduct
         const href = isUndefined(this.hrefTemplate)
             ? this.product.clickUri
             : 'test';
-        return (h(LinkWithItemAnalytics, { key: '3289e0c09ed40187cb73ed617f1699c279735769', href: href, onSelect: () => this.interactiveProduct.select(), onBeginDelayedSelect: () => this.interactiveProduct.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveProduct.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-product-text", { field: "ec_name", default: "no-title" }))));
+        return (h(LinkWithItemAnalytics, { key: 'be39eca91f097077018583daf1ca7f0302e84010', href: href, onSelect: () => this.interactiveProduct.select(), onBeginDelayedSelect: () => this.interactiveProduct.beginDelayedSelect(), onCancelPendingSelect: () => this.interactiveProduct.cancelPendingSelect(), attributes: this.linkAttributes, stopPropagation: this.stopPropagation }, this.hasDefaultSlot ? (h("slot", null)) : (h("atomic-product-text", { field: "ec_name", default: "no-title" }))));
     }
     get host() { return this; }
     static get style() { return AtomicProductLinkStyle0; }

@@ -108,7 +108,7 @@ const AtomicCommerceSearchBoxRecentQueries = /*@__PURE__*/ proxyCustomElement(cl
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '019afb85dbf8f488c6773e3c7c32eb870fc4be86', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '57d2db4a5b30a56207d447c406197e6380845694', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

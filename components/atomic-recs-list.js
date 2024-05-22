@@ -266,7 +266,7 @@ const AtomicRecsList$1 = /*@__PURE__*/ proxyCustomElement(class AtomicRecsList e
         }))));
     }
     render() {
-        return (h(Fragment, { key: '0ac5de53eede1fd02383f2f5cb0a4be1544a6ba1' }, this.renderHeading(), this.shouldRenderPagination ? (h(Carousel, { bindings: this.bindings, currentPage: this.currentPage, nextPage: () => this.nextPage(), previousPage: () => this.previousPage(), numberOfPages: this.numberOfPages }, this.renderListOfRecommendations())) : (this.renderListOfRecommendations())));
+        return (h(Fragment, { key: 'fd66b07dd3977ac306881db5ef378917caad0632' }, this.renderHeading(), this.shouldRenderPagination ? (h(Carousel, { bindings: this.bindings, currentPage: this.currentPage, nextPage: () => this.nextPage(), previousPage: () => this.previousPage(), numberOfPages: this.numberOfPages }, this.renderListOfRecommendations())) : (this.renderListOfRecommendations())));
     }
     get host() { return this; }
     static get watchers() { return {

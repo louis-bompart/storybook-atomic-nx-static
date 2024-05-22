@@ -1,7 +1,7 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -20,7 +20,7 @@ const AtomicIPXTabs = class {
         this.error = undefined;
     }
     render() {
-        return (h("tab-bar", { key: 'd88ac185c99c249b618ef2fc3896e4b7463bb0a3' }, h("slot", { key: 'b123a76ef8ea47b8a85e9774fd2379f72c7b87cf' })));
+        return (h("tab-bar", { key: '83d9713eeee47db572c500caaa2f5074057dd48c' }, h("slot", { key: '68d35c695335f00dbaee54afbee43bf74c0f2294' })));
     }
 };
 __decorate([

@@ -6,11 +6,11 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
 const stringUtils = require('./string-utils-bdf08f8c.js');
 const instantItem = require('./instant-item-c997c272.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
-const productTemplateProvider = require('./product-template-provider-a4d817de.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
+const productTemplateProvider = require('./product-template-provider-5668b4a9.js');
 require('./button-style-dc30784f.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./template-provider-d0180cd1.js');
 
@@ -155,7 +155,7 @@ const AtomicCommerceSearchBoxInstantProducts = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: '66f6eed88fc35b2b84f2109912bb265b93722ca1', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '9e22a6a606f4bb867d64b8ba6f170210c638c9b8', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

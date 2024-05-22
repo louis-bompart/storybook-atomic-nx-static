@@ -18,7 +18,7 @@ const AtomicInsightHistoryToggle$1 = /*@__PURE__*/ proxyCustomElement(class Atom
         this.tooltip = '';
     }
     render() {
-        return (h(IconButton, { key: 'ec70ed047d0f164968c166993dc6d65972986225', partPrefix: "insight-history-toggle", style: "outline-neutral", icon: Clock, ariaLabel: "history", onClick: this.clickCallback, title: this.tooltip }));
+        return (h(IconButton, { key: 'bb865b943368bb32adbba63804a130d473d1c6f8', partPrefix: "insight-history-toggle", style: "outline-neutral", icon: Clock, ariaLabel: "history", onClick: this.clickCallback, title: this.tooltip }));
     }
     static get style() { return AtomicInsightHistoryToggleStyle0; }
 }, [1, "atomic-insight-history-toggle", {

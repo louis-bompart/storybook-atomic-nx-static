@@ -6,11 +6,11 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-12566d73.js');
 const _commonjsHelpers = require('./_commonjsHelpers-0192c5b3.js');
 const fieldUtils = require('./field-utils-a715deca.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const productTemplateDecorators = require('./product-template-decorators-1ba94a89.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const productTemplateDecorators = require('./product-template-decorators-7a6b2044.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
-require('./item-decorators-1f104375.js');
+require('./utils-b609c39e.js');
+require('./item-decorators-7bbc4b3f.js');
 
 var lodash = {exports: {}};
 

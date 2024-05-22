@@ -2,9 +2,9 @@ import { r as registerInstance, d as createEvent, h } from './index-c045ad7c.js'
 import { I as IP, X as Xw } from './headless.esm-8f8571fe.js';
 import { A as ArrowLeftIcon } from './arrow-left-rounded-27d1c97b.js';
 import { A as ArrowRightIcon } from './arrow-right-rounded-bdbe0f8b.js';
-import { F as FocusTargetController } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { F as FocusTargetController } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { d as PagerNextButton, b as PagerPageButtons, c as PagerPageButton, a as PagerPreviousButton, P as PagerNavigation } from './pager-navigation-5eccea6e.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
@@ -58,10 +58,10 @@ const AtomicInsightPager = class {
         this.scrollToTopEvent.emit();
     }
     render() {
-        return (h(PagerNavigation, { key: '14b816e417c095561309e47c1caec14be6bd741b', label: this.bindings.i18n.t('pagination') }, h(PagerPreviousButton, { key: 'f4fdce3713e9fad3f4ea0ae257972ad686b8f9f9', icon: ArrowLeftIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
+        return (h(PagerNavigation, { key: '4497a71eb9e3737583b8c6424b82daaf704a9ed8', label: this.bindings.i18n.t('pagination') }, h(PagerPreviousButton, { key: '365e7e3961c39497e06a860265e16a7c81eb5d20', icon: ArrowLeftIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
                 this.pager.previousPage();
                 this.focusOnFirstResultAndScrollToTop();
-            } }), h(PagerPageButtons, { key: '4bd907079bdc25ee97d9af58aade87963c11e004' }, this.pagerState.currentPages.map((pageNumber) => {
+            } }), h(PagerPageButtons, { key: 'ade0559de46c66ee45aea8ac758c1d3f483bd562' }, this.pagerState.currentPages.map((pageNumber) => {
             return (h(PagerPageButton, { isSelected: this.pager.isCurrentPage(pageNumber), ariaLabel: this.bindings.i18n.t('page-number', { pageNumber }), onChecked: () => {
                     this.pager.selectPage(pageNumber);
                     this.focusOnFirstResultAndScrollToTop();
@@ -71,7 +71,7 @@ const AtomicInsightPager = class {
                         this.focusTarget.setTarget(el);
                     }
                 }, text: pageNumber.toLocaleString(this.bindings.i18n.language) }));
-        })), h(PagerNextButton, { key: '6250721b871954eedcc574a2ffab0c5531bd68ef', icon: ArrowRightIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
+        })), h(PagerNextButton, { key: 'a16db42696af4e02f16fa7d6b2af8457600849be', icon: ArrowRightIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
                 this.pager.nextPage();
                 this.focusOnFirstResultAndScrollToTop();
             } })));

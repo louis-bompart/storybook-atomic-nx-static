@@ -1,7 +1,7 @@
 import { r as registerInstance, d as createEvent, h, H as Host, g as getElement } from './index-c045ad7c.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
-import { u as updateBreakpoints } from './replace-breakpoint-f5af14e2.js';
-import { o as once, r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
+import { u as updateBreakpoints } from './replace-breakpoint-8bfab33b.js';
+import { o as once, r as randomID } from './utils-af246396.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
 
@@ -64,8 +64,8 @@ const AtomicIPXModal = class {
     }
     render() {
         this.updateBreakpoints();
-        const Body = () => (h("atomic-ipx-body", { key: 'c152f3ba0c1d65b4f08678d6903e5a63afb8a75d', isOpen: this.isOpen, displayFooterSlot: this.hasFooterSlotElements }, h("slot", { key: '06c3840e9bbaef62d1ef2b1e3beeb7093bfe07bc', name: "header", slot: "header" }), h("slot", { key: 'e241553f6d2e3e01fbe1cbc0db1041af2bdcc9df', name: "body", slot: "body" }), h("slot", { key: 'fe3ce53c5ec3624837d827934cb533029363d62c', name: "footer", slot: "footer" })));
-        return (h(Host, { key: '411188d7f39eb70c7118587510af3198d45cf0e1', class: this.getClasses().join(' '), part: "atomic-ipx-modal" }, h("div", { key: 'cfc1fae9c9824aa0f1d58b5cc687d74543b11e59', part: "backdrop" }, h(Body, { key: '3c0cf9cc956baafefc73ab16fe18484bb1a22c8a' }))));
+        const Body = () => (h("atomic-ipx-body", { key: '6008d42efcd84f67a611463f9e1987b17fa3d622', isOpen: this.isOpen, displayFooterSlot: this.hasFooterSlotElements }, h("slot", { key: 'dd08515f0d7dc69b0c3eba15536edb25c057ac86', name: "header", slot: "header" }), h("slot", { key: 'fa9698ce2c53ec27ed3f5ce39077324bccaf8a5f', name: "body", slot: "body" }), h("slot", { key: '8631fa69a373ca59a65a9b7f08617771317250db', name: "footer", slot: "footer" })));
+        return (h(Host, { key: '0ba79039be00fb5ad9e9702abf8c31f8053035a0', class: this.getClasses().join(' '), part: "atomic-ipx-modal" }, h("div", { key: 'aae76cfcc682fad924df3c6df252871105c708c6', part: "backdrop" }, h(Body, { key: '050547e9f0a4bae31b287023632cb762a44390c1' }))));
     }
     get host() { return getElement(this); }
     static get watchers() { return {

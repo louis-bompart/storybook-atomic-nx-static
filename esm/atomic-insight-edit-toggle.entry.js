@@ -26,7 +26,7 @@ const AtomicInsightEditToggle = class {
         this.tooltip = '';
     }
     render() {
-        return (h(IconButton, { key: '37b7c6291cbce1f25e337b8a55c0fa3ddf050bfe', partPrefix: "insight-edit-toggle", style: "outline-neutral", icon: EditIcon, ariaLabel: "Edit", onClick: this.clickCallback, title: this.tooltip }));
+        return (h(IconButton, { key: 'd02f99922869797fec992a8d13a3ae4b4063d94a', partPrefix: "insight-edit-toggle", style: "outline-neutral", icon: EditIcon, ariaLabel: "Edit", onClick: this.clickCallback, title: this.tooltip }));
     }
 };
 AtomicInsightEditToggle.style = AtomicInsightEditToggleStyle0;

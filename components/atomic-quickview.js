@@ -109,7 +109,7 @@ const AtomicQuickview$1 = /*@__PURE__*/ proxyCustomElement(class AtomicQuickview
         this.addQuickviewModalIfNeeded();
         this.updateModalContent();
         if (this.quickviewState.resultHasPreview) {
-            return (h(Button, { key: '813114c76cf9056f503cf47dceaefc88de8f5e82', part: "button", title: this.bindings.i18n.t('quickview'), style: "outline-primary", class: "p-2", onClick: (event) => this.onClick(event), ref: this.focusTarget.setTarget }, h("atomic-icon", { key: '374f6aa7b2b81267293f39f2d555dab403a588a2', part: "icon", class: "w-5 flex justify-center", icon: QuickviewIcon })));
+            return (h(Button, { key: '3762571f3dd020c7ea07a8d100baba28752ff494', part: "button", title: this.bindings.i18n.t('quickview'), style: "outline-primary", class: "p-2", onClick: (event) => this.onClick(event), ref: this.focusTarget.setTarget }, h("atomic-icon", { key: '24986e12d207e89bd9c98a18561cf4725424730a', part: "icon", class: "w-5 flex justify-center", icon: QuickviewIcon })));
         }
     }
     static get style() { return AtomicQuickviewStyle0; }

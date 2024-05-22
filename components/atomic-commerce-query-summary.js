@@ -48,7 +48,7 @@ const AtomicQuerySummary = /*@__PURE__*/ proxyCustomElement(class AtomicQuerySum
             isLoading: false,
         });
         this.ariaMessage = ariaLiveMessage;
-        return (h(QuerySummaryGuard, { key: '681e8ec85cf11c02d185ce32ababf1ac2ba475b0', firstSearchExecuted: firstSearchExecuted, hasResults: hasProducts, hasError: hasError }, h(QuerySummaryContainer, { key: '2fc1a0b2ec00ced2cc8e0f6d87d90d584f43e726' }, h(LocalizedString, { key: i18nKey, bindings: this.bindings, params: highlights, count: lastProduct }))));
+        return (h(QuerySummaryGuard, { key: 'b26a90e11738886d4172a55f70c3e6218d703df2', firstSearchExecuted: firstSearchExecuted, hasResults: hasProducts, hasError: hasError }, h(QuerySummaryContainer, { key: 'd4154a52bb3dac5acb18fea5d21d837beeaaea2b' }, h(LocalizedString, { key: i18nKey, bindings: this.bindings, params: highlights, count: lastProduct }))));
     }
     isSearch(state) {
         return 'query' in state;

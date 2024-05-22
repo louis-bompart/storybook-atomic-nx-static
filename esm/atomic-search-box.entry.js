@@ -1,18 +1,18 @@
 import { h, r as registerInstance, d as createEvent, H as Host, g as getElement } from './index-c045ad7c.js';
 import { a as isNullOrUndefined } from './bueno.esm-9a075e67.js';
 import { p as iO, q as jm } from './headless.esm-88bad35d.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
 import { i as isMacOS, h as hasKeyboard } from './device-utils-265d1d2c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { S as StorageItems, a as SafeStorage } from './local-storage-utils-e06a332f.js';
-import { u as updateBreakpoints } from './replace-breakpoint-f5af14e2.js';
-import { o as once, r as randomID } from './utils-bc6a079b.js';
-import { S as SearchTextArea, a as SuggestionManager, b as SimpleSearchSuggestion, B as ButtonSearchSuggestion, c as SearchBoxWrapper } from './search-suggestion-8b51beec.js';
+import { u as updateBreakpoints } from './replace-breakpoint-8bfab33b.js';
+import { o as once, r as randomID } from './utils-af246396.js';
+import { S as SearchTextArea, a as SuggestionManager, b as SimpleSearchSuggestion, B as ButtonSearchSuggestion, c as SearchBoxWrapper } from './search-suggestion-b428bcd1.js';
 import { C as ClearIcon } from './clear-cacdca9b.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { S as SearchIcon } from './search-64cc84a9.js';
-import { T as TextAreaSubmitButton } from './text-area-submit-button-8f633b6e.js';
-import { e as elementHasQuery } from './suggestions-common-1d4c0dac.js';
+import { T as TextAreaSubmitButton } from './text-area-submit-button-edb27c51.js';
+import { e as elementHasQuery } from './suggestions-common-f37e2d0d.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './debounce-utils-a2be2932.js';
@@ -447,12 +447,12 @@ const AtomicSearchBox = class {
         const searchLabel = this.getSearchInputLabel(this.minimumQueryLength);
         const Submit = this.textarea ? TextAreaSubmitButton : SubmitButton;
         const isDisabled = this.isSearchDisabledForEndUser(this.searchBoxState.value);
-        return (h(Host, { key: 'c0abe46a93c61b3ba47d88c4b2ec065902883c74' }, this.textarea ? this.renderAbsolutePositionSpacer() : null, [
-            h(SearchBoxWrapper, { key: 'c5eafafd92bbb17ca1d790b44bfd14382f6d537a', disabled: isDisabled, textArea: this.textarea }, h("atomic-focus-detector", { key: '587e33154283bceea2eabf72123ba2237d04a480', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), h(Submit, { key: 'f7c095ced57870450fc433a1cccd2feb54d30efa', bindings: this.bindings, disabled: isDisabled, onClick: () => {
+        return (h(Host, { key: '5f12eafd3d768aabd35dda7744f838f11b1e57ef' }, this.textarea ? this.renderAbsolutePositionSpacer() : null, [
+            h(SearchBoxWrapper, { key: '00ca64ee5b8494c8b004d71101586887f0aa0c38', disabled: isDisabled, textArea: this.textarea }, h("atomic-focus-detector", { key: '49fd6b8549f4a6bde99d43528fa137afbf5fd4cf', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), h(Submit, { key: '35049fc03296f4770341220e404b4f87b1f5287e', bindings: this.bindings, disabled: isDisabled, onClick: () => {
                     this.searchBox.submit();
                     this.suggestionManager.clearSuggestions();
                 }, title: searchLabel }), this.renderSuggestions())),
-            !this.suggestionManager.suggestions.length && (h("slot", { key: 'd79df495d4e74657f986cfad0f688325d1b2e84f' }, h("atomic-search-box-recent-queries", { key: '9ce499d13f0d4789f49c0f40793bbaf443c22c4c' }), h("atomic-search-box-query-suggestions", { key: 'f0fa251673a9f60ea2e5d8e6de82caa1edc9c45c' }))),
+            !this.suggestionManager.suggestions.length && (h("slot", { key: '88a3709b2276f9f5d9babe46bf702d1ec86b4f4c' }, h("atomic-search-box-recent-queries", { key: 'ed1d5819017976341ba6b964325fc24293740451' }), h("atomic-search-box-query-suggestions", { key: '92e2acf78ea6f65a9a35326120fc7e54f0b836b1' }))),
         ]));
     }
     get host() { return getElement(this); }

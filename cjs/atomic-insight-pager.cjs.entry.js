@@ -6,9 +6,9 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
 const arrowLeftRounded = require('./arrow-left-rounded-87aa2218.js');
 const arrowRightRounded = require('./arrow-right-rounded-709d83f1.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const utils = require('./utils-93ea935e.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const utils = require('./utils-b609c39e.js');
 const pagerNavigation = require('./pager-navigation-47e4c5a7.js');
 require('./event-utils-9bfcf3c5.js');
 require('./_commonjsHelpers-0192c5b3.js');
@@ -62,10 +62,10 @@ const AtomicInsightPager = class {
         this.scrollToTopEvent.emit();
     }
     render() {
-        return (index.h(pagerNavigation.PagerNavigation, { key: '14b816e417c095561309e47c1caec14be6bd741b', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: 'f4fdce3713e9fad3f4ea0ae257972ad686b8f9f9', icon: arrowLeftRounded.ArrowLeftIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
+        return (index.h(pagerNavigation.PagerNavigation, { key: '4497a71eb9e3737583b8c6424b82daaf704a9ed8', label: this.bindings.i18n.t('pagination') }, index.h(pagerNavigation.PagerPreviousButton, { key: '365e7e3961c39497e06a860265e16a7c81eb5d20', icon: arrowLeftRounded.ArrowLeftIcon, disabled: !this.pagerState.hasPreviousPage, ariaLabel: this.bindings.i18n.t('previous'), onClick: () => {
                 this.pager.previousPage();
                 this.focusOnFirstResultAndScrollToTop();
-            } }), index.h(pagerNavigation.PagerPageButtons, { key: '4bd907079bdc25ee97d9af58aade87963c11e004' }, this.pagerState.currentPages.map((pageNumber) => {
+            } }), index.h(pagerNavigation.PagerPageButtons, { key: 'ade0559de46c66ee45aea8ac758c1d3f483bd562' }, this.pagerState.currentPages.map((pageNumber) => {
             return (index.h(pagerNavigation.PagerPageButton, { isSelected: this.pager.isCurrentPage(pageNumber), ariaLabel: this.bindings.i18n.t('page-number', { pageNumber }), onChecked: () => {
                     this.pager.selectPage(pageNumber);
                     this.focusOnFirstResultAndScrollToTop();
@@ -75,7 +75,7 @@ const AtomicInsightPager = class {
                         this.focusTarget.setTarget(el);
                     }
                 }, text: pageNumber.toLocaleString(this.bindings.i18n.language) }));
-        })), index.h(pagerNavigation.PagerNextButton, { key: '6250721b871954eedcc574a2ffab0c5531bd68ef', icon: arrowRightRounded.ArrowRightIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
+        })), index.h(pagerNavigation.PagerNextButton, { key: 'a16db42696af4e02f16fa7d6b2af8457600849be', icon: arrowRightRounded.ArrowRightIcon, disabled: !this.pagerState.hasNextPage, ariaLabel: this.bindings.i18n.t('next'), onClick: () => {
                 this.pager.nextPage();
                 this.focusOnFirstResultAndScrollToTop();
             } })));

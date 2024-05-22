@@ -70,7 +70,7 @@ const AtomicIPXButton = /*@__PURE__*/ proxyCustomElement(class AtomicIPXButton e
         if (this.isModalOpen && !this.recommendationsLoaded) {
             this.getRecommendations();
         }
-        return (h(Fragment, { key: '19a9e7257b049d6fb59449d28950823625de0f53' }, h("style", { key: 'bdc5a77f333ffd12ff350ecae70153df6c85cdd0' }, `
+        return (h(Fragment, { key: '63c4ac818c18919dbc8e8406b5e12d10501e3662' }, h("style", { key: 'd23a7c3fe476dd8fada49ad1757d51111feddf57' }, `
               [part=${displayedIcon}] {
                 transform: translateY(0rem);
               }
@@ -87,7 +87,7 @@ const AtomicIPXButton = /*@__PURE__*/ proxyCustomElement(class AtomicIPXButton e
                 [part=${hiddenIcon}] {
                   transform: translateY(0rem);
                 }
-              }`), h("div", { key: 'de043c6978ecaeacda1859338cf14c8f6e182142', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
+              }`), h("div", { key: 'c02f4bbede4df1b0c0ce9d6fc7582da838cdd895', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
     }
     get ipxModal() {
         return this.bindings.interfaceElement.querySelector('atomic-ipx-modal');

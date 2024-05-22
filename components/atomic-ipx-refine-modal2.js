@@ -63,7 +63,7 @@ const AtomicIPXRefineModal = /*@__PURE__*/ proxyCustomElement(class AtomicIPXRef
         return (h("aside", { slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderHeader(), h("slot", { name: "facets" })));
     }
     render() {
-        return (h(Host, { key: 'cc887fc0a8fbb219593fbdd1f59ba355372ee405' }, h(RefineModalCommon, { key: '0832f45852c0db96c3a09a6c835004bc8fbda0ec', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, boundary: "element", scope: this.bindings.interfaceElement }, this.renderBody())));
+        return (h(Host, { key: '1c471ffc1d60838be5c928783930cf60c1998ffb' }, h(RefineModalCommon, { key: '503b828c5fad48b549a5433557c96551e355b45a', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, boundary: "element", scope: this.bindings.interfaceElement }, this.renderBody())));
     }
     componentDidLoad() {
         this.host.style.display = '';

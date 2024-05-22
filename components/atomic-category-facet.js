@@ -423,7 +423,7 @@ const AtomicCategoryFacet$1 = /*@__PURE__*/ proxyCustomElement(class AtomicCateg
     }
     render() {
         const { bindings: { i18n }, label, facetState: { facetSearch, enabled, valuesAsTrees, parents }, searchStatusState: { hasError, firstSearchExecuted }, } = this;
-        return (h(FacetGuard, { key: '875ccf5e3f8f7692babcc871d1bbb61da9c670f4', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
+        return (h(FacetGuard, { key: '4cd1853005205b94ae4518f2659e77bf35139f0c', enabled: enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: valuesAsTrees.length > 0 }, firstSearchExecuted ? (h(FacetContainer, null, this.renderHeader(), !this.isCollapsed && [
             this.renderSearchInput(),
             shouldDisplaySearchResults(facetSearch) ? (h(Fragment, null, facetSearch.values.length ? (h(FacetValuesGroup, { i18n: i18n, label: label, query: facetSearch.query }, this.renderSearchResults())) : (h("div", { class: "mt-3" })), this.renderMatches())) : (h(Fragment, null, h(FacetValuesGroup, { i18n: i18n, label: label }, this.hasParents ? (h(CategoryFacetParentAsTreeContainer, { isTopLevel: true, className: "mt-3" }, this.renderValuesTree(parents, true))) : (h(CategoryFacetChildrenAsTreeContainer, { className: "mt-3" }, this.renderChildren()))), this.renderShowMoreLess())),
         ])) : (h(FacetPlaceholder, { isCollapsed: this.isCollapsed, numberOfValues: this.numberOfValues }))));

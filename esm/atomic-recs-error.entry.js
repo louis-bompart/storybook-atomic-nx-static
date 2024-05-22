@@ -1,11 +1,11 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { a as isNullOrUndefined } from './bueno.esm-9a075e67.js';
 import { F as Fh } from './headless.esm-777998fe.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { g as getAriaMessageFromErrorType, Q as QueryErrorContainer, a as QueryErrorIcon, b as QueryErrorTitle, c as QueryErrorDescription, d as QueryErrorShowMore, e as QueryErrorLink, f as QueryErrorDetails, h as QueryErrorGuard } from './title-7811934f.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { g as getAriaMessageFromErrorType, Q as QueryErrorContainer, a as QueryErrorIcon, b as QueryErrorTitle, c as QueryErrorDescription, d as QueryErrorShowMore, e as QueryErrorLink, f as QueryErrorDetails, h as QueryErrorGuard } from './title-7dc8bc7f.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
@@ -42,7 +42,7 @@ const AtomicRecsError = class {
         if (hasError) {
             this.ariaMessage = getAriaMessageFromErrorType(i18n, organizationId, platformUrl, error === null || error === void 0 ? void 0 : error.type);
         }
-        return (h(QueryErrorGuard, { key: '3b6ca428904e8be5d4ac73f28781c9ff55a17bc5', hasError: hasError }, h(QueryErrorContainer, { key: '757cc9c6b5e1badb5d6a7dec836dbba148368d0a' }, h(QueryErrorIcon, { key: 'b8355554d461b8cd4154c3c65ff429e749accdff', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorTitle, { key: 'bf1666f5b4381fae6f077034f75372cdcf9d0c53', i18n: i18n, organizationId: organizationId }), h(QueryErrorDescription, { key: 'c325dcc960d8a55ac3bab06bc86d447ca77a3b4c', i18n: i18n, organizationId: organizationId, url: platformUrl }), h(QueryErrorShowMore, { key: '6e90aa17d1fa04a2c6b026e2192b5949578d9da4', link: h(QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), h(QueryErrorDetails, { key: '15c8b0aabd8cc8b264e89ad47f7b55c847861015', error: error, show: this.showMoreInfo }))));
+        return (h(QueryErrorGuard, { key: '38027a1b99b1bbd4f66de05229ecd9142c37fbd6', hasError: hasError }, h(QueryErrorContainer, { key: 'bd50d815400515813f669bd1d781e30a38d8b9c9' }, h(QueryErrorIcon, { key: '3d15bb59692cbee9977d9374fb1a669e79ff86de', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorTitle, { key: 'c2b7570c7beb1160c4453236ea6172c4f7c0492c', i18n: i18n, organizationId: organizationId }), h(QueryErrorDescription, { key: '6f1126f8fdbb9f83979ff3adad8e932df417f37d', i18n: i18n, organizationId: organizationId, url: platformUrl }), h(QueryErrorShowMore, { key: '5e9adb8c1f98a2d8764f17ab501d826daf1bf100', link: h(QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), h(QueryErrorDetails, { key: '704f94ddd187f8e223cbb320fcf6d667246d8d19', error: error, show: this.showMoreInfo }))));
     }
 };
 __decorate([

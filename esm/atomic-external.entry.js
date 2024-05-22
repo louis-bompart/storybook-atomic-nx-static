@@ -1,7 +1,7 @@
 import { r as registerInstance } from './index-c045ad7c.js';
 import { b as buildCustomEvent } from './event-utils-8de63ec3.js';
-import { a as initializeEventName } from './initialization-utils-24b58382.js';
-import './utils-bc6a079b.js';
+import { a as initializeEventName } from './initialization-utils-2f872ed1.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 
 const AtomicExternal = class {

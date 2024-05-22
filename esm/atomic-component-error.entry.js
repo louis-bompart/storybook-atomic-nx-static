@@ -13,7 +13,7 @@ const AtomicComponentError = class {
         console.error(this.error, this.element);
     }
     render() {
-        return (h("div", { key: '50045a4555d6ea9e6abd5543c9e00091a3f889ac', class: "text-error" }, h("p", { key: 'ed1b278278311dd1cff8f79f632f9f98909367ff' }, h("b", { key: '0bc08e9c24055a75ea07d82797c97e25928fe64e' }, this.element.nodeName.toLowerCase(), " component error")), h("p", { key: '87acbdd1a5a84065952b51cb8503dbb2dd7de6cc' }, "Look at the developer console for more information.")));
+        return (h("div", { key: 'b68fef257f4cb726c3cf25fe969ff67a39cb6a48', class: "text-error" }, h("p", { key: '447fb2d293b5938233d3ce4fe278c6ea48dd309a' }, h("b", { key: 'f975e8026bf92c11a30aaa9bbf4706b84ee56b80' }, this.element.nodeName.toLowerCase(), " component error")), h("p", { key: 'e05ecc1f5ec3aed6daffd29a936e155b207f5ebe' }, "Look at the developer console for more information.")));
     }
 };
 AtomicComponentError.style = AtomicComponentErrorStyle0;

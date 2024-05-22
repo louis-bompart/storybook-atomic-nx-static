@@ -1,16 +1,16 @@
 import { h, F as Fragment, r as registerInstance, d as createEvent } from './index-c045ad7c.js';
 import { w as wk } from './headless.esm-88bad35d.js';
 import { C as CloseIcon } from './close-ff816971.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { B as Button } from './button-a9fb1e13.js';
 import { I as IconButton } from './iconButton-79b234e4.js';
 import { L as LinkWithItemAnalytics } from './item-link-e997e301.js';
 import { A as ArrowBottomIcon } from './arrow-bottom-rounded-043572da.js';
 import { A as ArrowUp } from './arrow-top-rounded-cf1dd47d.js';
-import { C as Checkbox } from './checkbox-12877bf3.js';
+import { C as Checkbox } from './checkbox-e9153b9d.js';
 import { F as FieldsetGroup } from './fieldset-group-85a2cf46.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
@@ -579,7 +579,7 @@ const AtomicQuickviewModal = class {
         });
     }
     render() {
-        return (h("atomic-modal", { key: '9fd4c61af38a0fa77f6805923467f179e758a1c2', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
+        return (h("atomic-modal", { key: 'dc672f39c3b07e8e2ab16ee30fa4ca197853b3eb', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
     }
     static get watchers() { return {
         "highlightKeywords": ["watchHighlightKeywords"]

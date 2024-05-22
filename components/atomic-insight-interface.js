@@ -252,7 +252,7 @@ const AtomicInsightInterface$1 = /*@__PURE__*/ proxyCustomElement(class AtomicIn
         this.initialized = true;
     }
     render() {
-        return (this.engine && (h("host", { key: 'c08a40d8cabe2cc6daf8fb58c54498f3c7d08984' }, h("slot", { key: '861c8094e0c8c5fd0b67d49b0771edb70646e2ad', name: "full-search" }), h("slot", { key: '3deb2cba39a5d6be5a0974d00a2dd056891ac947' }))));
+        return (this.engine && (h("host", { key: '10a0bbbff93fd5150c6909577f965083611d8bc8' }, h("slot", { key: 'bb6d26f97933db26fa8f7d7f82f6bbed39d2f7bf', name: "full-search" }), h("slot", { key: '234c5c29ec01811fb41ce58c903927b352420be1' }))));
     }
     get host() { return this; }
     static get watchers() { return {

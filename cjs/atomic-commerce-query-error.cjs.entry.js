@@ -5,11 +5,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const bueno_esm = require('./bueno.esm-344292d0.js');
 const headless_esm = require('./headless.esm-12566d73.js');
-const accessibilityUtils = require('./accessibility-utils-8ec8aa46.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
-const title = require('./title-a64dce92.js');
+const accessibilityUtils = require('./accessibility-utils-d00e9462.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
+const title = require('./title-e29a493c.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./button-90bb3acf.js');
 require('./ripple-dcc2ce08.js');
@@ -52,7 +52,7 @@ const AtomicQueryError = class {
         if (hasError) {
             this.ariaMessage = title.getAriaMessageFromErrorType(i18n, organizationId, actualPlatformUrl, error === null || error === void 0 ? void 0 : error.type);
         }
-        return (index.h(title.QueryErrorGuard, { key: '49bbf0dca4eaf5ef7e9824872cd6a17995df85f8', hasError: hasError }, index.h(title.QueryErrorContainer, { key: '9e673997534fed3366c81e53192d4bd42c2606d9' }, index.h(title.QueryErrorIcon, { key: 'f297e3820148444bafa133f6811984d19455de1b', errorType: error === null || error === void 0 ? void 0 : error.type }), index.h(title.QueryErrorTitle, { key: 'c552a186c4d0d575f3ad74bf1d748b3438adda37', errorType: error === null || error === void 0 ? void 0 : error.type, i18n: i18n, organizationId: organizationId }), index.h(title.QueryErrorDescription, { key: 'ed979489668db72a876c4452a538b8e387e3de00', i18n: i18n, organizationId: organizationId, url: (organizationEndpoints === null || organizationEndpoints === void 0 ? void 0 : organizationEndpoints.platform) || platformUrl || '', errorType: error === null || error === void 0 ? void 0 : error.type }), index.h(title.QueryErrorShowMore, { key: '347de356214c7186e2277cb9c6dc6088d2dceca1', link: index.h(title.QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), index.h(title.QueryErrorDetails, { key: '92852e84e6319255571c4c8fd05bd47b339e7714', error: error, show: this.showMoreInfo }))));
+        return (index.h(title.QueryErrorGuard, { key: '9e127bd020f7fcd7fa69d032a32d446ffd29c1fa', hasError: hasError }, index.h(title.QueryErrorContainer, { key: 'e17b210543ea97045694cfd37b93146e75469659' }, index.h(title.QueryErrorIcon, { key: 'db696e9f973e493f89afa8b88a3198b8260f3995', errorType: error === null || error === void 0 ? void 0 : error.type }), index.h(title.QueryErrorTitle, { key: 'e115feb7427bd92ea1500b2dba45b0fe4e99541a', errorType: error === null || error === void 0 ? void 0 : error.type, i18n: i18n, organizationId: organizationId }), index.h(title.QueryErrorDescription, { key: '340e1e9477556144372c054da60efc23098c988b', i18n: i18n, organizationId: organizationId, url: (organizationEndpoints === null || organizationEndpoints === void 0 ? void 0 : organizationEndpoints.platform) || platformUrl || '', errorType: error === null || error === void 0 ? void 0 : error.type }), index.h(title.QueryErrorShowMore, { key: '54949742c19ae9f776e4940d51f86c9f86ad045b', link: index.h(title.QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), index.h(title.QueryErrorDetails, { key: 'e25385e6fe81f9bede92c4a8bc11ceaafb5fc731', error: error, show: this.showMoreInfo }))));
     }
 };
 __decorate([

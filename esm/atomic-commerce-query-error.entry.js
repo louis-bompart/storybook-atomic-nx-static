@@ -1,11 +1,11 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { a as isNullOrUndefined } from './bueno.esm-9a075e67.js';
 import { z as zF, Z as ZF } from './headless.esm-3423086c.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { g as getAriaMessageFromErrorType, Q as QueryErrorContainer, a as QueryErrorIcon, b as QueryErrorTitle, c as QueryErrorDescription, d as QueryErrorShowMore, e as QueryErrorLink, f as QueryErrorDetails, h as QueryErrorGuard } from './title-7811934f.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { g as getAriaMessageFromErrorType, Q as QueryErrorContainer, a as QueryErrorIcon, b as QueryErrorTitle, c as QueryErrorDescription, d as QueryErrorShowMore, e as QueryErrorLink, f as QueryErrorDetails, h as QueryErrorGuard } from './title-7dc8bc7f.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
@@ -48,7 +48,7 @@ const AtomicQueryError = class {
         if (hasError) {
             this.ariaMessage = getAriaMessageFromErrorType(i18n, organizationId, actualPlatformUrl, error === null || error === void 0 ? void 0 : error.type);
         }
-        return (h(QueryErrorGuard, { key: '49bbf0dca4eaf5ef7e9824872cd6a17995df85f8', hasError: hasError }, h(QueryErrorContainer, { key: '9e673997534fed3366c81e53192d4bd42c2606d9' }, h(QueryErrorIcon, { key: 'f297e3820148444bafa133f6811984d19455de1b', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorTitle, { key: 'c552a186c4d0d575f3ad74bf1d748b3438adda37', errorType: error === null || error === void 0 ? void 0 : error.type, i18n: i18n, organizationId: organizationId }), h(QueryErrorDescription, { key: 'ed979489668db72a876c4452a538b8e387e3de00', i18n: i18n, organizationId: organizationId, url: (organizationEndpoints === null || organizationEndpoints === void 0 ? void 0 : organizationEndpoints.platform) || platformUrl || '', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorShowMore, { key: '347de356214c7186e2277cb9c6dc6088d2dceca1', link: h(QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), h(QueryErrorDetails, { key: '92852e84e6319255571c4c8fd05bd47b339e7714', error: error, show: this.showMoreInfo }))));
+        return (h(QueryErrorGuard, { key: '9e127bd020f7fcd7fa69d032a32d446ffd29c1fa', hasError: hasError }, h(QueryErrorContainer, { key: 'e17b210543ea97045694cfd37b93146e75469659' }, h(QueryErrorIcon, { key: 'db696e9f973e493f89afa8b88a3198b8260f3995', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorTitle, { key: 'e115feb7427bd92ea1500b2dba45b0fe4e99541a', errorType: error === null || error === void 0 ? void 0 : error.type, i18n: i18n, organizationId: organizationId }), h(QueryErrorDescription, { key: '340e1e9477556144372c054da60efc23098c988b', i18n: i18n, organizationId: organizationId, url: (organizationEndpoints === null || organizationEndpoints === void 0 ? void 0 : organizationEndpoints.platform) || platformUrl || '', errorType: error === null || error === void 0 ? void 0 : error.type }), h(QueryErrorShowMore, { key: '54949742c19ae9f776e4940d51f86c9f86ad045b', link: h(QueryErrorLink, { i18n: i18n, errorType: error === null || error === void 0 ? void 0 : error.type }), onShowMore: () => (this.showMoreInfo = !this.showMoreInfo), i18n: i18n }), h(QueryErrorDetails, { key: 'e25385e6fe81f9bede92c4a8bc11ceaafb5fc731', error: error, show: this.showMoreInfo }))));
     }
 };
 __decorate([

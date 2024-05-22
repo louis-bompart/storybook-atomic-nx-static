@@ -1,15 +1,15 @@
 import { r as registerInstance, d as createEvent, h, H as Host, g as getElement } from './index-c045ad7c.js';
 import { a as isNullOrUndefined } from './bueno.esm-9a075e67.js';
 import { b as bA, y as yu } from './headless.esm-3423086c.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
 import { i as isMacOS, h as hasKeyboard } from './device-utils-265d1d2c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { S as StorageItems, a as SafeStorage } from './local-storage-utils-e06a332f.js';
-import { u as updateBreakpoints } from './replace-breakpoint-f5af14e2.js';
-import { o as once, r as randomID } from './utils-bc6a079b.js';
-import { S as SearchTextArea, a as SuggestionManager, b as SimpleSearchSuggestion, B as ButtonSearchSuggestion, c as SearchBoxWrapper } from './search-suggestion-8b51beec.js';
-import { T as TextAreaSubmitButton } from './text-area-submit-button-8f633b6e.js';
-import { e as elementHasQuery } from './suggestions-common-1d4c0dac.js';
+import { u as updateBreakpoints } from './replace-breakpoint-8bfab33b.js';
+import { o as once, r as randomID } from './utils-af246396.js';
+import { S as SearchTextArea, a as SuggestionManager, b as SimpleSearchSuggestion, B as ButtonSearchSuggestion, c as SearchBoxWrapper } from './search-suggestion-b428bcd1.js';
+import { T as TextAreaSubmitButton } from './text-area-submit-button-edb27c51.js';
+import { e as elementHasQuery } from './suggestions-common-f37e2d0d.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
@@ -378,12 +378,12 @@ const AtomicCommerceSearchBox = class {
         const searchLabel = this.getSearchInputLabel(this.minimumQueryLength);
         const Submit = TextAreaSubmitButton;
         const isDisabled = this.isSearchDisabledForEndUser(this.searchBoxState.value);
-        return (h(Host, { key: '14097c07e9aaeee0593cda910922a30af8d8db28' }, this.renderAbsolutePositionSpacer(), [
-            h(SearchBoxWrapper, { key: '0e65e80f158f27931ec25f0fc3248390b469f88c', disabled: isDisabled, textArea: true }, h("atomic-focus-detector", { key: 'c682182530cfa3d773f831bfc1f7177a640965c4', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), h(Submit, { key: '9788f3c98d244fed5e33fd96b4265cf3b16c6eaf', bindings: this.bindings, disabled: isDisabled, onClick: () => {
+        return (h(Host, { key: '06a75e21d24cefaf344436ee2d041ac1797632ee' }, this.renderAbsolutePositionSpacer(), [
+            h(SearchBoxWrapper, { key: '83d28453c38a7294eedae40b815041ea289725e7', disabled: isDisabled, textArea: true }, h("atomic-focus-detector", { key: '7f493c85352af6b75ce601ebd65b27121126027d', style: { display: 'contents' }, onFocusExit: () => this.suggestionManager.clearSuggestions() }, this.renderTextBox(searchLabel), h(Submit, { key: '5c947f9c7e2da078a9b7d60642d22695645d489c', bindings: this.bindings, disabled: isDisabled, onClick: () => {
                     this.searchBox.submit();
                     this.suggestionManager.clearSuggestions();
                 }, title: searchLabel }), this.renderSuggestions())),
-            !this.suggestionManager.suggestions.length && (h("slot", { key: '35d7b92714621796e628be41196e831af4a15115' }, h("atomic-commerce-search-box-recent-queries", { key: 'b0847410677bee3a3bb1a7257a731b20c4e70e6e' }), h("atomic-commerce-search-box-query-suggestions", { key: '25fb28dd07bcc976591f011d2eea6f36942b5a23' }))),
+            !this.suggestionManager.suggestions.length && (h("slot", { key: '36a75e582dc246cb22371b4ef47a90f0631e2d52' }, h("atomic-commerce-search-box-recent-queries", { key: '4a7ed086e7beeac723a3ce517dfcecf4c92a1768' }), h("atomic-commerce-search-box-query-suggestions", { key: '7213ce38bf556c857b57491d5c695f01c1d5f627' }))),
         ]));
     }
     get host() { return getElement(this); }

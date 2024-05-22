@@ -6,10 +6,10 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
 const search = require('./search-a4774f02.js');
 const querySuggestions = require('./query-suggestions-de42b077.js');
-const suggestionsCommon = require('./suggestions-common-cd742c1b.js');
+const suggestionsCommon = require('./suggestions-common-38a9ab4f.js');
 const clock = require('./clock-f03ff827.js');
 const localStorageUtils = require('./local-storage-utils-f2621dfd.js');
-const utils = require('./utils-93ea935e.js');
+const utils = require('./utils-b609c39e.js');
 const recentQueries = require('./recent-queries-627208b4.js');
 require('./string-utils-bdf08f8c.js');
 require('./event-utils-9bfcf3c5.js');
@@ -69,7 +69,7 @@ const AtomicSearchBoxQuerySuggestions = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: 'd49f09374cfe7ddb9d66591b7fc1732a8b38a53c', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '4ec61e56d2f712e9fdee38cb448c4d8cbcda5972', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }
@@ -173,7 +173,7 @@ const AtomicSearchBoxRecentQueries = class {
     }
     render() {
         if (this.error) {
-            return (index.h("atomic-component-error", { key: 'e3e8f148ef23dc520931455150df5ba295be136d', element: this.host, error: this.error }));
+            return (index.h("atomic-component-error", { key: '6ee4cd8d0395136d2b20800984a6312901ed2dd0', element: this.host, error: this.error }));
         }
     }
     get host() { return index.getElement(this); }

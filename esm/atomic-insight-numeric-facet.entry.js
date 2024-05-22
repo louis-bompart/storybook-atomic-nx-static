@@ -1,15 +1,15 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { S as Schema, b as StringValue } from './bueno.esm-9a075e67.js';
 import { j as jw, Z as Zd, G as Gw, M as MP, I as IP, K as Kz } from './headless.esm-8f8571fe.js';
-import { F as FocusTargetController } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { M as MapProp } from './props-utils-36d102c2.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { F as FocusTargetController } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { M as MapProp } from './props-utils-26db487c.js';
+import { r as randomID } from './utils-af246396.js';
 import { p as parseDependsOn } from './depends-on-180fcfb0.js';
 import { b as shouldDisplayInputForFacetRange } from './facet-common-0693d706.js';
-import { a as FacetContainer, F as FacetHeader, b as FacetPlaceholder } from './facet-placeholder-4514ff97.js';
-import { F as FacetGuard } from './facet-guard-efdb0537.js';
-import { f as formatHumanReadable, N as NumericFacetValueLink, a as NumericFacetValuesContainer } from './values-container-170fc40d.js';
+import { a as FacetContainer, F as FacetHeader, b as FacetPlaceholder } from './facet-placeholder-46604a4b.js';
+import { F as FacetGuard } from './facet-guard-95a5755b.js';
+import { f as formatHumanReadable, N as NumericFacetValueLink, a as NumericFacetValuesContainer } from './values-container-a2ef14ce.js';
 import { a as defaultNumberFormatter } from './format-common-291c0e41.js';
 import { i as initializePopover } from './popover-type-4db2bb7d.js';
 import './event-utils-8de63ec3.js';
@@ -21,8 +21,8 @@ import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
 import './heading-686c01b3.js';
-import './facet-value-checkbox-7e6a54e2.js';
-import './checkbox-12877bf3.js';
+import './facet-value-checkbox-f072af9c.js';
+import './checkbox-e9153b9d.js';
 import './clear-cacdca9b.js';
 import './facet-value-label-highlight-0c70483d.js';
 import './string-utils-5f5a23a8.js';
@@ -252,7 +252,7 @@ const AtomicInsightNumericFacet = class {
     }
     render() {
         const { searchStatusState: { firstSearchExecuted, hasError }, bindings: { i18n }, label, numberOfSelectedValues, isCollapsed, headingLevel, focusTarget, withInput, filter, } = this;
-        return (h(FacetGuard, { key: '91a43a4440220e20a436efd9f461cdcec6810cf7', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: i18n, label: label, onClearFilters: () => {
+        return (h(FacetGuard, { key: '51dab34b356466854f02cf7711c0143ec74e999b', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: i18n, label: label, onClearFilters: () => {
                 var _a, _b, _c;
                 focusTarget.focusAfterSearch();
                 if ((_a = this.filterState) === null || _a === void 0 ? void 0 : _a.range) {

@@ -2,10 +2,10 @@ import { r as registerInstance, h, F as Fragment, g as getElement } from './inde
 import { O as OP } from './headless.esm-777998fe.js';
 import { C as CloseIcon } from './close-ff816971.js';
 import { S as SearchIcon } from './search-64cc84a9.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { B as Button } from './button-a9fb1e13.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
@@ -71,7 +71,7 @@ const AtomicIPXButton = class {
         if (this.isModalOpen && !this.recommendationsLoaded) {
             this.getRecommendations();
         }
-        return (h(Fragment, { key: '19a9e7257b049d6fb59449d28950823625de0f53' }, h("style", { key: 'bdc5a77f333ffd12ff350ecae70153df6c85cdd0' }, `
+        return (h(Fragment, { key: '63c4ac818c18919dbc8e8406b5e12d10501e3662' }, h("style", { key: 'd23a7c3fe476dd8fada49ad1757d51111feddf57' }, `
               [part=${displayedIcon}] {
                 transform: translateY(0rem);
               }
@@ -88,7 +88,7 @@ const AtomicIPXButton = class {
                 [part=${hiddenIcon}] {
                   transform: translateY(0rem);
                 }
-              }`), h("div", { key: 'de043c6978ecaeacda1859338cf14c8f6e182142', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
+              }`), h("div", { key: 'c02f4bbede4df1b0c0ce9d6fc7582da838cdd895', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
     }
     get ipxModal() {
         return this.bindings.interfaceElement.querySelector('atomic-ipx-modal');

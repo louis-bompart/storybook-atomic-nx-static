@@ -62,7 +62,7 @@ const AtomicCommerceSearchBoxQuerySuggestions = /*@__PURE__*/ proxyCustomElement
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '08d9dfa760b2907bc60d2bf175e1c44a2c5a8778', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '2d1032c727dfd928bf0c4b182d03c05e3b53cb92', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

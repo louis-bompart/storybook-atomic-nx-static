@@ -191,7 +191,7 @@ const AtomicFacet$1 = /*@__PURE__*/ proxyCustomElement(class AtomicFacet extends
         return true;
     }
     render() {
-        return (h(FacetGuard, { key: 'ae3a86211ff65819f4c23689a02176a629ca1d7e', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.definedLabel, onClearFilters: () => {
+        return (h(FacetGuard, { key: '976dd9c7eb1f5a48ecb3d49cde0aed3929de86b7', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.definedLabel, onClearFilters: () => {
                 this.focusTargets.header.focusAfterSearch();
                 this.facet.deselectAll();
             }, numberOfActiveValues: this.activeValues.length, isCollapsed: this.isCollapsed, headingLevel: this.headingLevel, onToggleCollapse: () => (this.isCollapsed = !this.isCollapsed), headerRef: (el) => this.focusTargets.header.setTarget(el) }), this.renderBody())) : (h(FacetPlaceholder, { numberOfValues: this.numberOfValues, isCollapsed: this.isCollapsed }))));

@@ -3,7 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
-const utils = require('./utils-93ea935e.js');
+const utils = require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
 const AtomicFocusDetector = class {
@@ -32,7 +32,7 @@ const AtomicFocusDetector = class {
         containsFocus ? this.focusEnter.emit() : this.focusExit.emit();
     }
     render() {
-        return index.h(index.Host, { key: 'ac90a651c69561667a1583662fb2b007f96a2084', style: { display: 'contents' } });
+        return index.h(index.Host, { key: '2233c1ff6ced6fbaed93a5dd71b4bf0ee6b186b5', style: { display: 'contents' } });
     }
     get host() { return index.getElement(this); }
 };

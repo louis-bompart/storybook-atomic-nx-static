@@ -22,7 +22,7 @@ const AtomicInsightHistoryToggle = class {
         this.tooltip = '';
     }
     render() {
-        return (index.h(iconButton.IconButton, { key: 'ec70ed047d0f164968c166993dc6d65972986225', partPrefix: "insight-history-toggle", style: "outline-neutral", icon: clock.Clock, ariaLabel: "history", onClick: this.clickCallback, title: this.tooltip }));
+        return (index.h(iconButton.IconButton, { key: 'bb865b943368bb32adbba63804a130d473d1c6f8', partPrefix: "insight-history-toggle", style: "outline-neutral", icon: clock.Clock, ariaLabel: "history", onClick: this.clickCallback, title: this.tooltip }));
     }
 };
 AtomicInsightHistoryToggle.style = AtomicInsightHistoryToggleStyle0;

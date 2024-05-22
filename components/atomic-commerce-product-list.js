@@ -127,7 +127,7 @@ const AtomicCommerceProductList$1 = /*@__PURE__*/ proxyCustomElement(class Atomi
     }
     render() {
         const listClasses = this.computeListDisplayClasses();
-        return (h(DisplayWrapper, { key: '2a352a5cb060b163b5075b51c60174b7c99ab30f', display: this.display, listClasses: listClasses }, h(ResultsPlaceholdersGuard, { key: 'b64a5d508ef6a27befe5cbefd4fe149518c9c097', density: this.density, display: this.display, imageSize: this.imageSize, displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.productState.products.length }), h(ItemDisplayGuard, { key: '3cae245af7e4b3114d28cdab3b29d6ad98f730d4', firstRequestExecuted: !!this.searchState.responseId, hasItems: this.productState.products.length > 0 }, this.display === 'table'
+        return (h(DisplayWrapper, { key: 'dcebaf4279dd04b4ba5032a81d6a6c30ab9717a8', display: this.display, listClasses: listClasses }, h(ResultsPlaceholdersGuard, { key: '1b2d2ce4e5848daeb7bcda650d0b5354d190a8c4', density: this.density, display: this.display, imageSize: this.imageSize, displayPlaceholders: !this.bindings.store.isAppLoaded(), numberOfPlaceholders: this.productState.products.length }), h(ItemDisplayGuard, { key: '69183f020229b2003703ca28f2f664384edd4329', firstRequestExecuted: !!this.searchState.responseId, hasItems: this.productState.products.length > 0 }, this.display === 'table'
             ? this.renderAsTable()
             : this.display === 'grid'
                 ? this.renderAsGrid()

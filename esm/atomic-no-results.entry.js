@@ -1,11 +1,11 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { K as KO, e as JI, a as Fk } from './headless.esm-88bad35d.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { B as Button } from './button-a9fb1e13.js';
-import { N as NoResultsCommon } from './no-results-common-c803897c.js';
+import { N as NoResultsCommon } from './no-results-common-8100b672.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
@@ -49,7 +49,7 @@ const AtomicNoResults = class {
         return (h(Button, { style: "primary", part: "cancel-button", text: this.bindings.i18n.t('cancel-last-action'), onClick: () => this.history.backOnNoResults(), class: "font-bold px-2.5 py-3 my-3" }));
     }
     render() {
-        return (h(NoResultsCommon, { key: 'a7b8f9f924e8458672de17c1020ba76a2be555f0', bindings: this.bindings, querySummaryState: this.querySummaryState, searchStatusState: this.searchStatusState, setAriaLive: (msg) => (this.ariaMessage = msg) }, this.enableCancelLastAction && this.renderCancel()));
+        return (h(NoResultsCommon, { key: '7abdeb5f3816fd3a0fe63b2826b42ea1f7da887b', bindings: this.bindings, querySummaryState: this.querySummaryState, searchStatusState: this.searchStatusState, setAriaLive: (msg) => (this.ariaMessage = msg) }, this.enableCancelLastAction && this.renderCancel()));
     }
 };
 __decorate([

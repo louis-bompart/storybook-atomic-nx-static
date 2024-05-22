@@ -52,7 +52,7 @@ const AtomicAriaLive = /*@__PURE__*/ proxyCustomElement(class AtomicAriaLive ext
         this.messagesQueue.clear();
     }
     render() {
-        return (h(Host, { key: '752711bb10cf768942f13cbb41f3af6b21f752cc', style: {
+        return (h(Host, { key: '23956133a83eabc70062eda40fc758b79ca95ef5', style: {
                 position: 'absolute',
                 display: 'block',
                 height: '0',

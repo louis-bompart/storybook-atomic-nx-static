@@ -1,0 +1,2 @@
+import{b as n}from"./p-9c2e8d1b.js";function r(n){return`only screen and (min-width: ${n})`}function t(r,t){return n(r,t,"atomic-search-layout","atomic-search-interface")}export{t as b,r as m};
+//# sourceMappingURL=p-48afdf4f.js.map

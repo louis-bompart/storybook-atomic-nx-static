@@ -1,15 +1,15 @@
 import { r as registerInstance, s as setNonce, h, g as getElement } from './index-c045ad7c.js';
 import { M as Mt, N as No, S as Sv, z as zF, Z as ZF } from './headless.esm-3423086c.js';
-import { i as instance, C as CommonAtomicInterfaceHelper } from './interface-common-87b0ee01.js';
+import { i as instance, C as CommonAtomicInterfaceHelper } from './interface-common-ff17f213.js';
 import { S as StorageItems, a as SafeStorage } from './local-storage-utils-e06a332f.js';
-import { D as DEFAULT_MOBILE_BREAKPOINT } from './replace-breakpoint-f5af14e2.js';
-import { c as createAtomicCommonStore } from './store-bf24650b.js';
-import { m as makeDesktopQuery } from './search-layout-5ea8b10d.js';
+import { D as DEFAULT_MOBILE_BREAKPOINT } from './replace-breakpoint-8bfab33b.js';
+import { c as createAtomicCommonStore } from './store-fb040773.js';
+import { m as makeDesktopQuery } from './search-layout-7e0cd352.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './headless.esm-88bad35d.js';
-import './dayjs.min-092a7cc9.js';
-import './utils-bc6a079b.js';
-import './search-layout-40980b1f.js';
+import './dayjs.min-a2b8725e.js';
+import './utils-af246396.js';
+import './search-layout-a5d30198.js';
 import './sections-ae00b53a.js';
 
 function getAnalyticsConfig(commerceEngineConfig, enabled) {
@@ -305,7 +305,7 @@ const AtomicCommerceInterface = class {
         return this.i18nClone.addResourceBundle(lng, ns, resources, deep, overwrite);
     }
     render() {
-        return [h("slot", { key: '719ff015ec7279aabebb8eb92c1f72de73e681b8' })];
+        return [h("slot", { key: '58e7cb395a91c3cad3e2eafeaa0632c563adc0dd' })];
     }
     static get assetsDirs() { return ["lang"]; }
     get host() { return getElement(this); }

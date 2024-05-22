@@ -96,7 +96,7 @@ const AtomicInsightResultAction$1 = /*@__PURE__*/ proxyCustomElement(class Atomi
         }
     }
     render() {
-        return (h(IconButton, { key: 'deecc551bc5fc5cf60ca5649a09e28f0e4937d87', partPrefix: "result-action", style: "outline-neutral", icon: this.getIcon(), title: this.tooltip, onClick: () => this.onClick() }));
+        return (h(IconButton, { key: 'fdd07580d5f645d9e1098fa52cba40677f75c151', partPrefix: "result-action", style: "outline-neutral", icon: this.getIcon(), title: this.tooltip, onClick: () => this.onClick() }));
     }
     static get style() { return AtomicInsightResultActionStyle0; }
 }, [0, "atomic-insight-result-action", {

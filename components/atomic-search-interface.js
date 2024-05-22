@@ -477,8 +477,8 @@ const AtomicSearchInterface$1 = /*@__PURE__*/ proxyCustomElement(class AtomicSea
     }
     render() {
         return [
-            this.engine && this.enableRelevanceInspector && (h("atomic-relevance-inspector", { key: '56851c3fa89f41f4b37e31c59700e68b26b99092', open: this.relevanceInspectorIsOpen, bindings: this.bindings })),
-            h("slot", { key: 'c24381af5f467e7feda748eed4c4cd555d5505e1' }),
+            this.engine && this.enableRelevanceInspector && (h("atomic-relevance-inspector", { key: '6f466951e81572643d79f629ab90cef8c9ff748c', open: this.relevanceInspectorIsOpen, bindings: this.bindings })),
+            h("slot", { key: 'a6584a21b461249703a7f15fcc59ed140776d285' }),
         ];
     }
     static get assetsDirs() { return ["lang"]; }

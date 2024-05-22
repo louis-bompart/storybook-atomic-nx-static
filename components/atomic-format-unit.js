@@ -36,7 +36,7 @@ const AtomicFormatUnit$1 = /*@__PURE__*/ proxyCustomElement(class AtomicFormatUn
     }
     render() {
         if (this.error) {
-            return (h("atomic-component-error", { key: '2c4cb7c4e8b66529f88eac6d12fe19b567b154ec', element: this.host, error: this.error }));
+            return (h("atomic-component-error", { key: '99a7094efb0f649e48bfcff7d5761d4d81d8e7a9', element: this.host, error: this.error }));
         }
     }
     get host() { return this; }

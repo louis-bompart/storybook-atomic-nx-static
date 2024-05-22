@@ -89,7 +89,7 @@ const AtomicSmartSnippetAnswer = /*@__PURE__*/ proxyCustomElement(class AtomicSm
             }), ref: (element) => element && this.bindAnalyticsToLinks(element), part: "answer", class: "margin" })));
     }
     render() {
-        return (h(Host, { key: '9823f18ed5fb92de82194e6dd5256ae5eb261c84' }, this.renderStyle(), this.renderContent()));
+        return (h(Host, { key: '10c4e5165fdd0480414625884d6beb3a7b565531' }, this.renderStyle(), this.renderContent()));
     }
     get host() { return this; }
     static get style() { return AtomicSmartSnippetAnswerStyle0; }

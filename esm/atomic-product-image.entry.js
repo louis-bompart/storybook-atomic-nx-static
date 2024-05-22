@@ -1,16 +1,16 @@
 import { h, F as Fragment, r as registerInstance, g as getElement } from './index-c045ad7c.js';
 import { V as VA } from './headless.esm-3423086c.js';
-import { I as InitializeBindings } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings } from './initialization-utils-2f872ed1.js';
 import { f as filterProtocol } from './xss-utils-3bfd8d0c.js';
-import { A as Arrow } from './arrow-right-a143f35a.js';
+import { A as Arrow } from './arrow-right-6b97b365.js';
 import { B as Button } from './button-a9fb1e13.js';
-import { P as ProductContext } from './product-template-decorators-a99fefcf.js';
+import { P as ProductContext } from './product-template-decorators-1c948806.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './ripple-a09c16f2.js';
 import './button-style-8b7877b4.js';
-import './item-decorators-79369ad9.js';
+import './item-decorators-d183824b.js';
 
 /* eslint-disable @cspell/spellchecker */
 const CarouselIndicator = ({ numberOfImages, currentImage: currentImage, navigateToImage: navigateToImage, maxImagesBeforeAndAfter = 2, }) => {

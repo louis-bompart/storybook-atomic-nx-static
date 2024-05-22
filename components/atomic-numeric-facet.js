@@ -240,7 +240,7 @@ const AtomicNumericFacet$1 = /*@__PURE__*/ proxyCustomElement(class AtomicNumeri
     }
     render() {
         const { searchStatusState: { firstSearchExecuted, hasError }, bindings: { i18n }, } = this;
-        return (h(FacetGuard, { key: '81b2041548b541c50346f5ccfbe2db28d0b4cf1b', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: i18n, label: this.label, onClearFilters: () => {
+        return (h(FacetGuard, { key: 'e0d0d4c21bf2961c8f3734436ed07957176f41c7', enabled: this.enabled, firstSearchExecuted: firstSearchExecuted, hasError: hasError, hasResults: this.shouldRenderFacet }, firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: i18n, label: this.label, onClearFilters: () => {
                 var _a, _b, _c;
                 this.focusTarget.focusAfterSearch();
                 if ((_a = this.filterState) === null || _a === void 0 ? void 0 : _a.range) {

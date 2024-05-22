@@ -4,17 +4,17 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-cf228ce3.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const button = require('./button-90bb3acf.js');
-const refineModalCommon = require('./refine-modal-common-19489dba.js');
+const refineModalCommon = require('./refine-modal-common-7e4b7ad1.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./ripple-dcc2ce08.js');
 require('./button-style-dc30784f.js');
 require('./close-20739950.js');
 require('./popover-type-555a9d8d.js');
-require('./store-8f6b5c17.js');
+require('./store-3e7a313a.js');
 
 function rectEquals(r1, r2) {
     return (r1.x === r2.x &&
@@ -88,12 +88,12 @@ const AtomicInsightRefineModal = class {
         return (index.h("aside", { slot: "body", class: "flex flex-col w-full adjust-for-scroll-bar" }, this.renderHeader(), index.h("slot", { name: "facets" })));
     }
     render() {
-        return (index.h(index.Host, { key: '489cb35e2a0ee8fd5ed17a31ee318f33213bf5c4' }, this.interfaceDimensions && (index.h("style", { key: 'b860a8e44831c802120367a91a58d4867a738a7e' }, `atomic-modal::part(backdrop) {
+        return (index.h(index.Host, { key: 'd8b158772da65a959c04c9db9ba89d4c7d4c8b7d' }, this.interfaceDimensions && (index.h("style", { key: '1c1b859144956a6deeaf0b3e37a578d774e145b6' }, `atomic-modal::part(backdrop) {
             top: ${this.interfaceDimensions.top}px;
             left: ${this.interfaceDimensions.left}px;
             width: ${this.interfaceDimensions.width}px;
             height: ${this.interfaceDimensions.height}px;
-            }`)), index.h(refineModalCommon.RefineModalCommon, { key: 'ff0d09c41f1a46e3275e61a120d17fc6a2b64d10', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, scope: this.bindings.interfaceElement }, this.renderBody())));
+            }`)), index.h(refineModalCommon.RefineModalCommon, { key: 'f0797879d94467a86664c670650ca783cb1c5a04', bindings: this.bindings, host: this.host, isOpen: this.isOpen, onClose: () => (this.isOpen = false), querySummaryState: this.querySummaryState, title: this.bindings.i18n.t('filters'), openButton: this.openButton, scope: this.bindings.interfaceElement }, this.renderBody())));
     }
     componentDidLoad() {
         this.host.style.display = '';

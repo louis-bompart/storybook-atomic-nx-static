@@ -6,10 +6,10 @@ const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-30732e14.js');
 const close = require('./close-20739950.js');
 const search = require('./search-a4774f02.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const button = require('./button-90bb3acf.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./ripple-dcc2ce08.js');
 require('./button-style-dc30784f.js');
@@ -75,7 +75,7 @@ const AtomicIPXButton = class {
         if (this.isModalOpen && !this.recommendationsLoaded) {
             this.getRecommendations();
         }
-        return (index.h(index.Fragment, { key: '19a9e7257b049d6fb59449d28950823625de0f53' }, index.h("style", { key: 'bdc5a77f333ffd12ff350ecae70153df6c85cdd0' }, `
+        return (index.h(index.Fragment, { key: '63c4ac818c18919dbc8e8406b5e12d10501e3662' }, index.h("style", { key: 'd23a7c3fe476dd8fada49ad1757d51111feddf57' }, `
               [part=${displayedIcon}] {
                 transform: translateY(0rem);
               }
@@ -92,7 +92,7 @@ const AtomicIPXButton = class {
                 [part=${hiddenIcon}] {
                   transform: translateY(0rem);
                 }
-              }`), index.h("div", { key: 'de043c6978ecaeacda1859338cf14c8f6e182142', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
+              }`), index.h("div", { key: 'c02f4bbede4df1b0c0ce9d6fc7582da838cdd895', class: "flex flex-col items-center", part: "container" }, this.renderIPXButton())));
     }
     get ipxModal() {
         return this.bindings.interfaceElement.querySelector('atomic-ipx-modal');

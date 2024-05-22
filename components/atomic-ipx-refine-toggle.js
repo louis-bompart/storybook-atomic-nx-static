@@ -66,7 +66,7 @@ const AtomicIPXRefineToggle = /*@__PURE__*/ proxyCustomElement(class AtomicIPXRe
         this.modalRef.collapseFacetsAfter = this.collapseFacetsAfter;
     }
     render() {
-        return (h(IconButton, { key: '9d80c7c48bf71094db96a116434290d977dd0295', partPrefix: "ipx-refine-toggle", class: "icon-button", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
+        return (h(IconButton, { key: '4f89a7a5f9c39b3407a7499286a7c88eded9da23', partPrefix: "ipx-refine-toggle", class: "icon-button", style: "outline-neutral", title: this.bindings.i18n.t('filters'), icon: FilterIcon, disabled: !this.searchStatusState.hasResults && !this.numberOfBreadcrumbs, ariaLabel: this.bindings.i18n.t('sort'), onClick: () => {
                 this.bindings.store.waitUntilAppLoaded(() => {
                     this.enableModal();
                 });

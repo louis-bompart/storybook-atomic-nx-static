@@ -5,10 +5,10 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const bueno_esm = require('./bueno.esm-344292d0.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const facetCommon = require('./facet-common-c74c5abf.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -73,7 +73,7 @@ const AtomicFacetManager = class {
         this.bindings.i18n.off('languageChanged', this.sortFacets);
     }
     render() {
-        return index.h("slot", { key: 'f161d247456b228c51511788ba95f2d841258a43' });
+        return index.h("slot", { key: '819e77edd04efd80dcd32fc46525388d9ca71045' });
     }
     get host() { return index.getElement(this); }
 };

@@ -1,10 +1,10 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { I as IP, n as nP } from './headless.esm-8f8571fe.js';
-import { A as AriaLiveRegion } from './accessibility-utils-0877196c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { N as NoResultsCommon } from './no-results-common-c803897c.js';
+import { A as AriaLiveRegion } from './accessibility-utils-95c56e98.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { N as NoResultsCommon } from './no-results-common-8100b672.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './jsx-utils-1624ef6d.js';
 
@@ -33,7 +33,7 @@ const AtomicInsightNoResults = class {
         this.querySummary = nP(this.bindings.engine);
     }
     render() {
-        return (h("div", { key: '3772f14c1fadcde54408c460563fce77a95b429c', class: "p-3 text-center" }, h(NoResultsCommon, { key: '991e2d122a58bc88361be07a7c4b2734b1f45bff', bindings: this.bindings, searchStatusState: this.searchStatusState, querySummaryState: this.querySummaryState, setAriaLive: (msg) => (this.ariaMessage = msg) })));
+        return (h("div", { key: '0ac37ea8343d55ef25b5071968202484eb3f9028', class: "p-3 text-center" }, h(NoResultsCommon, { key: '87bdf84257a75eb826aace915f00b5d662bd0a5b', bindings: this.bindings, searchStatusState: this.searchStatusState, querySummaryState: this.querySummaryState, setAriaLive: (msg) => (this.ariaMessage = msg) })));
     }
 };
 __decorate([

@@ -139,7 +139,7 @@ const AtomicInsightFacet$1 = /*@__PURE__*/ proxyCustomElement(class AtomicInsigh
         (_a = this.facetConditionsManager) === null || _a === void 0 ? void 0 : _a.stopWatching();
     }
     render() {
-        return (h(FacetGuard, { key: '00223e3bbc4da9c2b7bad71feca273f3d4136836', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.label, onClearFilters: () => {
+        return (h(FacetGuard, { key: 'f90315cf2cc4144dffebfb2f36a240a200d3a086', enabled: this.facetState.enabled, hasError: this.searchStatusState.hasError, firstSearchExecuted: this.searchStatusState.firstSearchExecuted, hasResults: this.facetState.values.length > 0 }, this.searchStatusState.firstSearchExecuted ? (h(FacetContainer, null, h(FacetHeader, { i18n: this.bindings.i18n, label: this.label, onClearFilters: () => {
                 this.focusTargets.header.focusAfterSearch();
                 this.facet.deselectAll();
             }, numberOfActiveValues: this.activeValues.length, isCollapsed: this.isCollapsed, headingLevel: this.headingLevel, onToggleCollapse: () => (this.isCollapsed = !this.isCollapsed), headerRef: (el) => this.focusTargets.header.setTarget(el) }), h(FacetSearchInputGuard, { canShowMoreValues: this.facetState.canShowMoreValues, numberOfDisplayedValues: this.facetState.values.length, withSearch: this.withSearch }, h(FacetSearchInput, { i18n: this.bindings.i18n, label: this.label, onChange: (value) => {

@@ -1,7 +1,7 @@
 import { r as registerInstance, h, g as getElement } from './index-c045ad7c.js';
 import { z as zF, Z as ZF } from './headless.esm-3423086c.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
-import { r as randomID } from './utils-bc6a079b.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
+import { r as randomID } from './utils-af246396.js';
 import { S as SortContainer, a as SortLabel, b as SortSelect, c as SortOption, d as SortGuard } from './select-cf1f9dcb.js';
 import './event-utils-8de63ec3.js';
 import './_commonjsHelpers-c9e3b764.js';
@@ -56,7 +56,7 @@ const AtomicCommerceSortDropdown = class {
     render() {
         const { error, responseId, products } = this.searchOrListingState;
         const { bindings: { i18n }, id, } = this;
-        return (h(SortGuard, { key: '78fe44dd964f5e035e8d5956241076abefa65913', firstSearchExecuted: responseId !== '', hasError: error !== null, hasResults: products.length > 0 && this.sortState.availableSorts.length > 1 }, h(SortContainer, { key: '95b793ac8d3583c0b81e211b02885d2c22d55de8' }, h(SortLabel, { key: '8e50c667657d37f17622c190398cf3cfaf31980a', i18n: i18n, id: id }), h(SortSelect, { key: '3696965f1fb598a46655dc05eae8dad71889b850', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.sortState.availableSorts.map((availableSort) => {
+        return (h(SortGuard, { key: '21149fdb2ba7512b5ff2dc70a45206ed66830f65', firstSearchExecuted: responseId !== '', hasError: error !== null, hasResults: products.length > 0 && this.sortState.availableSorts.length > 1 }, h(SortContainer, { key: 'ee436666c4fc9f8350d6f14bd47c157020cd34f9' }, h(SortLabel, { key: '0e1cad007405f96c78dd85b80a36456b7fca6b58', i18n: i18n, id: id }), h(SortSelect, { key: '08fc471b5594a8d026a0942d1170a9f3fa800d6f', i18n: i18n, id: id, onSelect: (evt) => this.select(evt) }, this.sortState.availableSorts.map((availableSort) => {
             const label = this.getLabel(availableSort);
             return (h(SortOption, { i18n: i18n, label: label, selected: this.sort.isSortedBy(availableSort), value: label }));
         })))));

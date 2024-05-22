@@ -1,9 +1,9 @@
 import { r as registerInstance, h } from './index-c045ad7c.js';
 import { a as Fk, b as bk } from './headless.esm-88bad35d.js';
-import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-24b58382.js';
+import { I as InitializeBindings, B as BindStateToController } from './initialization-utils-2f872ed1.js';
 import { L as LoadMoreContainer, a as LoadMoreSummary, b as LoadMoreProgressBar, c as LoadMoreButton, d as LoadMoreGuard } from './summary-0f4d70df.js';
 import './event-utils-8de63ec3.js';
-import './utils-bc6a079b.js';
+import './utils-af246396.js';
 import './_commonjsHelpers-c9e3b764.js';
 import './button-a9fb1e13.js';
 import './ripple-a09c16f2.js';
@@ -45,7 +45,7 @@ const AtomicLoadMoreResults = class {
     render() {
         const { lastResult: from, total: to } = this.querySummaryState;
         const { i18n } = this.bindings;
-        return (h(LoadMoreGuard, { key: 'f0ce4d173476afe085e197123bffa5edceda8afc', hasResults: this.querySummaryState.hasResults, isLoaded: this.bindings.store.isAppLoaded() }, h(LoadMoreContainer, { key: '060cff41cf7fc99e0ecd68e444df11d05e4a83e9' }, h(LoadMoreSummary, { key: '4cb34909cfd112e8042af260bc69d5df7230c8bd', from: from, to: to, i18n: i18n }), h(LoadMoreProgressBar, { key: '5f2c82a9ee597eba445ae0c7e59c03c4bd774eed', from: from, to: to }), h(LoadMoreButton, { key: '98b56e702bbcb1f9b72202dff9e328f47450c04f', i18n: i18n, moreAvailable: this.resultListState.moreResultsAvailable, onClick: () => this.onClick() }))));
+        return (h(LoadMoreGuard, { key: '6499d13462a74eeb98819c31bc557ee3ed143a15', hasResults: this.querySummaryState.hasResults, isLoaded: this.bindings.store.isAppLoaded() }, h(LoadMoreContainer, { key: '16e4aff90de4dadc0f471687093c8c3c4caf8168' }, h(LoadMoreSummary, { key: 'fd4a8f441dfa88b2a88b45abe44c779c6176b2cd', from: from, to: to, i18n: i18n }), h(LoadMoreProgressBar, { key: '6fa5bd0efe2a1919bc3909036ed5bbc49aa0a95a', from: from, to: to }), h(LoadMoreButton, { key: '66214f5be41d5a07a7d9e071829d1070cb45c276', i18n: i18n, moreAvailable: this.resultListState.moreResultsAvailable, onClick: () => this.onClick() }))));
     }
 };
 __decorate([

@@ -5,16 +5,16 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const index = require('./index-c930d4b4.js');
 const headless_esm = require('./headless.esm-1a66963a.js');
 const close = require('./close-20739950.js');
-const initializationUtils = require('./initialization-utils-88a3fba7.js');
+const initializationUtils = require('./initialization-utils-f21f2efb.js');
 const button = require('./button-90bb3acf.js');
 const iconButton = require('./iconButton-d8c00ac4.js');
 const itemLink = require('./item-link-96e6faf5.js');
 const arrowBottomRounded = require('./arrow-bottom-rounded-705a1b2c.js');
 const arrowTopRounded = require('./arrow-top-rounded-e7a05d2f.js');
-const checkbox = require('./checkbox-c1f481a7.js');
+const checkbox = require('./checkbox-d6f828cf.js');
 const fieldsetGroup = require('./fieldset-group-6717d2e5.js');
 require('./event-utils-9bfcf3c5.js');
-require('./utils-93ea935e.js');
+require('./utils-b609c39e.js');
 require('./_commonjsHelpers-0192c5b3.js');
 require('./ripple-dcc2ce08.js');
 require('./button-style-dc30784f.js');
@@ -583,7 +583,7 @@ const AtomicQuickviewModal = class {
         });
     }
     render() {
-        return (index.h("atomic-modal", { key: '9fd4c61af38a0fa77f6805923467f179e758a1c2', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
+        return (index.h("atomic-modal", { key: 'dc672f39c3b07e8e2ab16ee30fa4ca197853b3eb', fullscreen: this.bindings.store.isMobile(), class: 'atomic-quickview-modal', isOpen: this.isOpen, close: () => this.onClose() }, this.renderHeader(), this.renderBody(), this.renderFooter()));
     }
     static get watchers() { return {
         "highlightKeywords": ["watchHighlightKeywords"]
