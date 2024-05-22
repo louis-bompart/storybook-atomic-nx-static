@@ -1,0 +1,2 @@
+import{S as e}from"./p-e12016d2.js";import{T as r}from"./p-a2fc549d.js";function t(e){return e.result||e}class s extends r{constructor(r){super(r,(()=>e(r.bindings.engine)))}getTemplateContent(e){return super.getTemplateContent(t(e))}}export{s as I,t as e};
+//# sourceMappingURL=p-5ff0fe21.js.map

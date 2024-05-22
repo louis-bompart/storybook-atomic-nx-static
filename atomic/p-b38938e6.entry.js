@@ -1,0 +1,2 @@
+import{r as e,h as t,g as o}from"./p-00525453.js";const r=class{constructor(t){e(this,t);this.label=undefined;this.expression=undefined}render(){const e="atomic-sort-dropdown";if(!this.host.closest(e)){const o=new Error(`The "${this.host.nodeName.toLowerCase()}" component has to be used inside an ${e} element.`);return t("atomic-component-error",{key:"b5b1efef9975af7505fdda9aa6c4d72a714de779",element:this.host,error:o})}}get host(){return o(this)}};export{r as atomic_sort_expression};
+//# sourceMappingURL=p-b38938e6.entry.js.map

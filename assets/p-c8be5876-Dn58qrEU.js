@@ -1,0 +1,1 @@
+import{g as o,L as e}from"./atomic-breadbox.new.stories-D03zBEda.js";import{r as t}from"./p-6fadd170-Cg3VAl32.js";const n=(r,s)=>r.hasError||!r.isAppLoaded||!r.hasResults?o(t,null):o(e,null,...s);export{n as t};

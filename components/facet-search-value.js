@@ -1,0 +1,57 @@
+import { h, Fragment } from '@stencil/core/internal/client';
+import { g as getFieldValueCaption } from './field-utils.js';
+import { F as FacetValueBox } from './facet-value-box.js';
+import { F as FacetValueCheckbox } from './facet-value-checkbox.js';
+import { F as FacetValueLabelHighlight } from './facet-value-label-highlight.js';
+import { F as FacetValueLink } from './facet-value-link.js';
+
+const MIN_VALUES_WHERE_FACET_SEARCH_IMPROVES_UX = 9;
+const FacetSearchInputGuard = ({ withSearch, canShowMoreValues, numberOfDisplayedValues }, children) => {
+    if (!withSearch) {
+        return;
+    }
+    // Hide the input if there are no more values to load from the index and there are less than 8 values to display.
+    // 8 is an arbitrary number, discussed with UX as a good compromise: A list long enough where it's worth searching.
+    if (!canShowMoreValues &&
+        numberOfDisplayedValues < MIN_VALUES_WHERE_FACET_SEARCH_IMPROVES_UX) {
+        return;
+    }
+    return h(Fragment, null, children);
+};
+
+const FacetValue = ({ facetSearchQuery, displayValuesAs, enableExclusion, facetCount, facetState, facetValue, field, i18n, onExclude, onSelect, setRef, }) => {
+    const displayValue = getFieldValueCaption(field, facetValue, i18n);
+    const isSelected = facetState === 'selected';
+    const isExcluded = facetState === 'excluded';
+    const triStateProps = enableExclusion
+        ? {
+            onExclude,
+            state: facetState,
+        }
+        : {};
+    switch (displayValuesAs) {
+        case 'checkbox':
+            return (h(FacetValueCheckbox, { ...triStateProps, displayValue: displayValue, numberOfResults: facetCount, isSelected: isSelected, i18n: i18n, onClick: onSelect, searchQuery: facetSearchQuery, buttonRef: (element) => {
+                    setRef && setRef(element);
+                } },
+                h(FacetValueLabelHighlight, { displayValue: displayValue, isSelected: isSelected, isExcluded: isExcluded, searchQuery: facetSearchQuery })));
+        case 'link':
+            return (h(FacetValueLink, { displayValue: displayValue, numberOfResults: facetCount, isSelected: isSelected, i18n: i18n, onClick: onSelect, searchQuery: facetSearchQuery, buttonRef: (element) => {
+                    setRef && setRef(element);
+                } },
+                h(FacetValueLabelHighlight, { displayValue: displayValue, isSelected: isSelected, searchQuery: facetSearchQuery })));
+        case 'box':
+            return (h(FacetValueBox, { displayValue: displayValue, numberOfResults: facetCount, isSelected: isSelected, i18n: i18n, onClick: onSelect, searchQuery: facetSearchQuery, buttonRef: (element) => {
+                    setRef && setRef(element);
+                } },
+                h(FacetValueLabelHighlight, { displayValue: displayValue, isSelected: isSelected, searchQuery: facetSearchQuery })));
+    }
+};
+
+const FacetSearchValue = (props) => {
+    return h(FacetValue, { ...props, facetState: "idle" });
+};
+
+export { FacetSearchInputGuard as F, FacetSearchValue as a, FacetValue as b };
+
+//# sourceMappingURL=facet-search-value.js.map

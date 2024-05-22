@@ -1,0 +1,2 @@
+const v=`<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">\n  <path d="M496 208H304V16h-96v192H16v96h192v192h96V304h192"/>\n</svg>\n`;export{v as P};
+//# sourceMappingURL=p-7b2fbb08.js.map
