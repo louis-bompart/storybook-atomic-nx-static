@@ -1,0 +1,1 @@
+import{g as r,L as l}from"./preview-C4e5QyPH.js";import{r as n}from"./p-107c3d7f-C4HwDtxk.js";const i=({hasError:e,enabled:t,firstSearchExecuted:s,hasResults:o},a)=>e||!t||s&&!o?r(n,null):r(l,null,a);export{i as t};

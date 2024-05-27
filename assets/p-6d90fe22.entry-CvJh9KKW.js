@@ -1,0 +1,1 @@
+import{N as t,O as s}from"./preview-C4e5QyPH.js";import"./iframe-DZOcfrC1.js";import"../sb-preview/runtime.js";import"./chunk-GKNNPQCW-BkHQSocK.js";const a=class{constructor(e){t(this,e),this.endInclusive=!1,this.label=void 0,this.start=void 0,this.end=void 0,this.endInclusive=!1}get host(){return s(this)}};export{a as atomic_numeric_range};

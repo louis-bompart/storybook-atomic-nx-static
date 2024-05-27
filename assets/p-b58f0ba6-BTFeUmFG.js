@@ -1,0 +1,1 @@
+import{g as a}from"./preview-C4e5QyPH.js";import{e as n}from"./p-d6cf11b8-pLKh-GCK.js";const i=(e,r)=>{if(!e.label)return r;const l=e.i18n.t(e.label),t=e.query===void 0?e.i18n.t("facet-values",{label:l}):e.i18n.t("facet-search-results",{query:e.query,label:l});return a(n,{label:t},r)};export{i as s};
