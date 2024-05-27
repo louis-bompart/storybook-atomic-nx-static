@@ -1,0 +1,1 @@
+import{g as e,L as u}from"./preview-Cp9OdNlu.js";const n=({hasError:r,hasItems:t,firstRequestExecuted:s,hasTemplate:a,templateHasError:l},o)=>{if(!(r||s&&!t||!a))return e(u,null,l&&e("slot",null),...o)};export{n as e};

@@ -1,0 +1,1 @@
+import{N as o}from"./preview-Cp9OdNlu.js";import"./iframe-vvwA9ouH.js";import"../sb-preview/runtime.js";import"./chunk-GKNNPQCW-BkHQSocK.js";const m=class{constructor(t){o(this,t),this.label=void 0}};export{m as atomic_table_element};

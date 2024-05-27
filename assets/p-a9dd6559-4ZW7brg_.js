@@ -1,0 +1,1 @@
+import{g as m,L as u}from"./preview-Cp9OdNlu.js";const b=({bindings:e,key:a,params:n,count:c})=>{const t="",o="",i=s=>`${t}${o}${s}${t}`,r=s=>n[s.slice(1)],p=Object.fromEntries(Object.keys(n).map(s=>[s,i(s)])),l=e.i18n.t(a,{interpolation:{escapeValue:!1},count:c,...p});return m(u,null,l.split(t).map(s=>s.startsWith(o)?r(s):s))};export{b as o};

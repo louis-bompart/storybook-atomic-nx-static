@@ -1,0 +1,1 @@
+import{s as n}from"./p-9c2e8d1b-CXbMmRlS.js";function o(r){return`only screen and (min-width: ${r})`}function c(r,t){return n(r,t,"atomic-search-layout","atomic-search-interface")}export{o as r,c as t};
