@@ -1,0 +1,3 @@
+import{r as a}from"./index-B-ZmIc0D.js";import{w as s}from"./result-wrapper-qW4bQRUT.js";import{w as n}from"./search-interface-wrapper-BHYthar9.js";import"./index-Bqoxw6Vv.js";const{decorator:c,engineConfig:m}=s(),{decorator:d,play:i}=n(m),D={component:"atomic-result-date",title:"Atomic/ResultList/ResultDate",id:"atomic-result-date",render:a,decorators:[c,d],parameters:{controls:{expanded:!0,hideNoControlsWarning:!0}},play:i},e={name:"atomic-result-date"};var r,t,o;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  name: 'atomic-result-date'
+}`,...(o=(t=e.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};const g=["Default"];export{e as Default,g as __namedExportsOrder,D as default};

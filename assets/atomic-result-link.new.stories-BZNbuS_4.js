@@ -1,0 +1,3 @@
+import{r as a}from"./index-B-ZmIc0D.js";import{w as n}from"./result-wrapper-qW4bQRUT.js";import{w as s}from"./search-interface-wrapper-BHYthar9.js";import"./index-Bqoxw6Vv.js";const{decorator:c,engineConfig:i}=n(),{decorator:m,play:l}=s(i),g={component:"atomic-result-icon",title:"Atomic/ResultList/ResultLink",id:"atomic-result-link",render:a,decorators:[c,m],parameters:{controls:{expanded:!0,hideNoControlsWarning:!0}},play:l},r={name:"atomic-result-icon"};var e,o,t;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  name: 'atomic-result-icon'
+}`,...(t=(o=r.parameters)==null?void 0:o.docs)==null?void 0:t.source}}};const w=["Default"];export{r as Default,w as __namedExportsOrder,g as default};

@@ -1,0 +1,3 @@
+import{r as a}from"./index-B-ZmIc0D.js";import{w as n}from"./search-interface-wrapper-BHYthar9.js";import"./index-Bqoxw6Vv.js";const{decorator:c,play:m}=n({search:{preprocessSearchResponseMiddleware:r=>(r.body.results=[],r)}}),l={title:"Atomic/NoResults",id:"atomic-no-results",component:"atomic-no-results",render:a,decorators:[c],parameters:{controls:{expanded:!0,hideNoControlsWarning:!0}},play:m},e={name:"atomic-no-results"};var o,t,s;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  name: 'atomic-no-results'
+}`,...(s=(t=e.parameters)==null?void 0:t.docs)==null?void 0:s.source}}};const u=["Default"];export{e as Default,u as __namedExportsOrder,l as default};

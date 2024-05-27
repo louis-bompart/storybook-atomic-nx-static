@@ -1,0 +1,3 @@
+import{r as t}from"./index-B-ZmIc0D.js";import{w as c}from"./search-interface-wrapper-BHYthar9.js";import"./index-Bqoxw6Vv.js";const{decorator:s,play:n}=c(),i={component:"atomic-search-box",title:"Atomic/Searchbox",id:"atomic-search-box",render:t,decorators:[s],parameters:{controls:{expanded:!0,hideNoControlsWarning:!0}},play:n},r={name:"atomic-search-box"};var e,o,a;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  name: 'atomic-search-box'
+}`,...(a=(o=r.parameters)==null?void 0:o.docs)==null?void 0:a.source}}};const l=["Default"];export{r as Default,l as __namedExportsOrder,i as default};

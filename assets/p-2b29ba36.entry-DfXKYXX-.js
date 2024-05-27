@@ -1,1 +1,0 @@
-import{N as o}from"./atomic-breadbox.new.stories-D5_t4T0B.js";import"./index-Bqoxw6Vv.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-0V_eukm8.js";import"../sb-preview/runtime.js";const a=class{constructor(t){o(this,t),this.label=void 0}};export{a as atomic_table_element};

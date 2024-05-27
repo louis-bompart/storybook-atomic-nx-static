@@ -1,0 +1,3 @@
+import{r as a}from"./index-B-ZmIc0D.js";import{w as s}from"./search-interface-wrapper-BHYthar9.js";import"./index-Bqoxw6Vv.js";const{decorator:n,play:c}=s(),p={component:"atomic-result-list",title:"Atomic/ResultList",id:"atomic-result-list",render:a,decorators:[n],parameters:{controls:{expanded:!0,hideNoControlsWarning:!0}},play:c},e={name:"atomic-result-list"};var r,t,o;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  name: 'atomic-result-list'
+}`,...(o=(t=e.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};const d=["Default"];export{e as Default,d as __namedExportsOrder,p as default};
